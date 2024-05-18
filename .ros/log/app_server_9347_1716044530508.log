@@ -15230,4 +15230,160 @@
 [INFO] [1716049547.755272891] [cyberdog_grpc]: SetHeartBeat error code:14
 [INFO] [1716049548.254966556] [cyberdog_grpc]: SetHeartBeat error code:14
 [INFO] [1716049548.755057213] [cyberdog_grpc]: SetHeartBeat error code:14
-[INFO] [1716049549.186914832] 
+[INFO] [1716049549.186914832] [cyberdog_grpc Cyberdog_app]: Wifi ssid: Cyberdog. signal strength: 88.
+[INFO] [1716049549.255191453] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049549.754875870] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049550.255110431] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049550.754995232] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049551.254931840] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049551.754963809] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049552.188024181] [cyberdog_grpc Cyberdog_app]: Wifi ssid: Cyberdog. signal strength: 88.
+[INFO] [1716049552.254957378] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049552.755105955] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049553.254945219] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049553.754893860] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049554.254912485] [cyberdog_grpc]: SetHeartBeat error code:14
+[WARN] [1716049554.461497357] [cyberdog_grpc Cyberdog_app]: Map frame doesn't exist
+[INFO] [1716049554.754883269] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049555.187886905] [cyberdog_grpc Cyberdog_app]: Wifi ssid: Cyberdog. signal strength: 86.
+[INFO] [1716049555.254959814] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049555.755023911] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049556.254870408] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049556.755024360] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049557.255176745] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049557.754918186] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049558.191179326] [cyberdog_grpc Cyberdog_app]: Wifi ssid: Cyberdog. signal strength: 86.
+[INFO] [1716049558.254938475] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049558.755067659] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049559.254946924] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049559.755265869] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049560.255090221] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049560.755346094] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049561.184408545] [cyberdog_grpc Cyberdog_app]: Wifi ssid: Cyberdog. signal strength: 88.
+[INFO] [1716049561.254893135] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049561.755056528] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049562.254917712] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049562.755341329] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049563.187966565] [cyberdog_grpc Cyberdog_app]: Wifi ssid: Cyberdog. signal strength: 88.
+[INFO] [1716049563.257659026] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049563.754860115] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049564.255139795] [cyberdog_grpc]: SetHeartBeat error code:14
+[WARN] [1716049564.500478403] [cyberdog_grpc Cyberdog_app]: Map frame doesn't exist
+[INFO] [1716049564.755193588] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049565.255059061] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049565.754970069] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049566.191628490] [cyberdog_grpc Cyberdog_app]: Wifi ssid: Cyberdog. signal strength: 87.
+[INFO] [1716049566.254894454] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049566.755102935] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049567.254864792] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049567.755030488] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049568.254939193] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049568.755013594] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049569.184596397] [cyberdog_grpc Cyberdog_app]: Wifi ssid: Cyberdog. signal strength: 87.
+[INFO] [1716049569.257449403] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049569.754938459] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049570.258034877] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049570.757414557] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049571.184948464] [cyberdog_grpc Cyberdog_app]: Wifi ssid: Cyberdog. signal strength: 87.
+[INFO] [1716049571.254984221] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049571.754957982] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049572.255172895] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049572.754959488] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049573.185195795] [cyberdog_grpc Cyberdog_app]: Wifi ssid: Cyberdog. signal strength: 85.
+[INFO] [1716049573.254865344] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049573.754945409] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049574.255638434] [cyberdog_grpc]: SetHeartBeat error code:14
+[WARN] [1716049574.538189017] [cyberdog_grpc Cyberdog_app]: Map frame doesn't exist
+[INFO] [1716049574.754916195] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049575.254886403] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049575.755100100] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049576.189928472] [cyberdog_grpc Cyberdog_app]: Wifi ssid: Cyberdog. signal strength: 85.
+[INFO] [1716049576.255028389] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049576.755169830] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049577.254922854] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049577.754880071] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049578.254960552] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049578.754970280] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049579.191244413] [cyberdog_grpc Cyberdog_app]: Wifi ssid: Cyberdog. signal strength: 87.
+[INFO] [1716049579.254944361] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049579.754979882] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049580.254912267] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049580.754868811] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049581.255342252] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049581.755247437] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049582.186302080] [cyberdog_grpc Cyberdog_app]: Wifi ssid: Cyberdog. signal strength: 87.
+[INFO] [1716049582.254920109] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049582.754792270] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049583.254903887] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049583.756002288] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049584.187528803] [cyberdog_grpc Cyberdog_app]: Wifi ssid: Cyberdog. signal strength: 88.
+[INFO] [1716049584.254929936] [cyberdog_grpc]: SetHeartBeat error code:14
+[WARN] [1716049584.587275793] [cyberdog_grpc Cyberdog_app]: Map frame doesn't exist
+[INFO] [1716049584.755265361] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049585.255074706] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049585.755054899] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049586.254932563] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049586.754793076] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049587.185202759] [cyberdog_grpc Cyberdog_app]: Wifi ssid: Cyberdog. signal strength: 88.
+[INFO] [1716049587.257758357] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049587.754945813] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049588.254952214] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049588.754872343] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049589.187838699] [cyberdog_grpc Cyberdog_app]: Wifi ssid: Cyberdog. signal strength: 86.
+[INFO] [1716049589.254850808] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049589.754915064] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049590.261811834] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049590.754960570] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049591.191900910] [cyberdog_grpc Cyberdog_app]: Wifi ssid: Cyberdog. signal strength: 86.
+[INFO] [1716049591.254929403] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049591.754903419] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049592.254933916] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049592.754889853] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049593.254911261] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049593.755273982] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049594.188674130] [cyberdog_grpc Cyberdog_app]: Wifi ssid: Cyberdog. signal strength: 86.
+[INFO] [1716049594.254900383] [cyberdog_grpc]: SetHeartBeat error code:14
+[WARN] [1716049594.630515752] [cyberdog_grpc Cyberdog_app]: Map frame doesn't exist
+[INFO] [1716049594.754976768] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049595.255153184] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049595.754946817] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049596.189229461] [cyberdog_grpc Cyberdog_app]: Wifi ssid: Cyberdog. signal strength: 85.
+[INFO] [1716049596.254879682] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049596.754851171] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049597.254964547] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049597.755434756] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049598.193390105] [cyberdog_grpc Cyberdog_app]: Wifi ssid: Cyberdog. signal strength: 85.
+[INFO] [1716049598.255234949] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049598.755092230] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049599.255107494] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049599.754892967] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049600.254886600] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049600.754829576] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049601.195049054] [cyberdog_grpc Cyberdog_app]: Wifi ssid: Cyberdog. signal strength: 86.
+[INFO] [1716049601.254813833] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049601.755002122] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049602.254963467] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049602.754931595] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049603.195440577] [cyberdog_grpc Cyberdog_app]: Wifi ssid: Cyberdog. signal strength: 86.
+[INFO] [1716049603.255076812] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049603.755058125] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049604.254918030] [cyberdog_grpc]: SetHeartBeat error code:14
+[WARN] [1716049604.690037282] [cyberdog_grpc Cyberdog_app]: Map frame doesn't exist
+[INFO] [1716049604.755065134] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049605.255239535] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049605.755000272] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049606.184511075] [cyberdog_grpc Cyberdog_app]: Wifi ssid: Cyberdog. signal strength: 86.
+[INFO] [1716049606.254973168] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049606.754962257] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049607.254883410] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049607.754914515] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049608.186844166] [cyberdog_grpc Cyberdog_app]: Wifi ssid: Cyberdog. signal strength: 90.
+[INFO] [1716049608.254914579] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049608.754859988] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049609.255214485] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049609.754932886] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049610.194095914] [cyberdog_grpc Cyberdog_app]: Wifi ssid: Cyberdog. signal strength: 90.
+[INFO] [1716049610.254971286] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049610.754917175] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [1716049611.254952152] [cyberdog_grpc]: SetHeartBeat error code:14
+[INFO] [171604

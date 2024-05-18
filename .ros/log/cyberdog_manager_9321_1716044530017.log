@@ -2069,3 +2069,23 @@
 [INFO] [1716049546.224932531] [cyberdog_manager]: success to call audio active state services.
 [INFO] [1716049546.228156852] [cyberdog_manager]: success to call get low power switch state services.
 [INFO] [1716049546.230014772] [cyberdog_manager]: [stop:back to end upload device info-------------------]
+[INFO] [1716049554.936802505] [cyberdog_manager]: Battery Capacity Info:56
+[INFO] [1716049562.014627874] [cyberdog_manager]: [cyberdog_manager:] touch_info-->> Enter BMS callback.the batt_soc is 56.
+[INFO] [1716049576.230762400] [cyberdog_manager]: [start:back to end upload device info-------------------]
+[INFO] [1716049576.271937800] [cyberdog_manager]: success to call volumeget services.
+[INFO] [1716049576.316158097] [cyberdog_manager]: success to call audio execute services.
+[INFO] [1716049576.321560562] [cyberdog_manager]: success to call voice control services.
+[INFO] [1716049576.328462611] [cyberdog_manager]: success to call motor temper services.
+[INFO] [1716049576.334059732] [cyberdog_manager]: success to call audio active state services.
+[INFO] [1716049576.337138293] [cyberdog_manager]: success to call get low power switch state services.
+[INFO] [1716049576.337895957] [cyberdog_manager]: [stop:back to end upload device info-------------------]
+[INFO] [1716049585.235701006] [cyberdog_manager]: Battery Capacity Info:57
+[INFO] [1716049592.308980262] [cyberdog_manager]: [cyberdog_manager:] touch_info-->> Enter BMS callback.the batt_soc is 57.
+[INFO] [1716049606.338294625] [cyberdog_manager]: [start:back to end upload device info-------------------]
+[INFO] [1716049606.365382758] [cyberdog_manager]: success to call volumeget services.
+[INFO] [1716049606.421302513] [cyberdog_manager]: success to call audio execute services.
+[INFO] [1716049606.427386610] [cyberdog_manager]: success to call voice control services.
+[INFO] [1716049606.433084179] [cyberdog_manager]: success to call motor temper services.
+[INFO] [1716049606.439599188] [cyberdog_manager]: success to call audio active state services.
+[INFO] [1716049606.445989749] [cyberdog_manager]: success to call get low power switch state services.
+[INFO] [1716049606.447717366] [cyberdog_manager]: [stop:back to end upload device info-------------------]

@@ -1,0 +1,12 @@
+[INFO] [1716044585.716360467] [az2.robot_state_publisher]: got segment base_link
+[INFO] [1716044585.716890619] [az2.robot_state_publisher]: got segment camera_link
+[INFO] [1716044585.717100095] [az2.robot_state_publisher]: got segment head_tof
+[INFO] [1716044585.717258913] [az2.robot_state_publisher]: got segment head_uwb
+[INFO] [1716044585.717568742] [az2.robot_state_publisher]: got segment laser_frame
+[INFO] [1716044585.717735433] [az2.robot_state_publisher]: got segment left_head
+[INFO] [1716044585.717908748] [az2.robot_state_publisher]: got segment left_rear
+[INFO] [1716044585.718067630] [az2.robot_state_publisher]: got segment rear_tof
+[INFO] [1716044585.718289938] [az2.robot_state_publisher]: got segment rear_uwb
+[INFO] [1716044585.718483445] [az2.robot_state_publisher]: got segment right_head
+[INFO] [1716044585.718691640] [az2.robot_state_publisher]: got segment right_rear
+[INFO] [1716044585.718841915] [az2.robot_state_publisher]: got segment uwb

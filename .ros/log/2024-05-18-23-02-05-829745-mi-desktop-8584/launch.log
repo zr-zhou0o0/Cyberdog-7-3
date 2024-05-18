@@ -1,0 +1,1213 @@
+1716044525.8504162 [INFO] [launch]: All log files can be found below /home/mi/.ros/log/2024-05-18-23-02-05-829745-mi-desktop-8584
+1716044525.8521309 [INFO] [launch]: Default logging verbosity is set to INFO
+1716044525.9263852 [INFO] [launch.user]: mi 正在初始化 launch ...
+1716044525.9276500 [INFO] [launch.user]: 正在加载 launch 文件:/opt/ros2/cyberdog/share/cyberdog_bringup/launch/base.launch.py
+1716044528.7558036 [INFO] [launch.user]: mi 正在初始化 base launch ...
+1716044528.8312428 [INFO] [launch.user]: 正在加载 launch 文件:/opt/ros2/cyberdog/share/navigation_bringup/launch/navigation.launch.py
+1716044528.8968463 [INFO] [launch.user]: navigation sleep ...
+1716044530.8137920 [INFO] [cyberdog_vp_engine-12]: process started with pid [9357]
+1716044530.8508613 [INFO] [stereo_camera-20]: process started with pid [9442]
+1716044531.0177612 [INFO] [connector-1]: process started with pid [9314]
+1716044531.0768325 [INFO] [cyberdog_audio-2]: process started with pid [9315]
+1716044531.0932901 [INFO] [device_manager-3]: process started with pid [9316]
+1716044531.1085055 [INFO] [sensor_manager-4]: process started with pid [9317]
+1716044531.1273417 [INFO] [motion_manager-5]: process started with pid [9318]
+1716044531.1344302 [INFO] [realsense2_actuator_node-6]: process started with pid [9320]
+1716044531.1377790 [INFO] [cyberdog_manager-7]: process started with pid [9321]
+1716044531.1836507 [INFO] [odom_out_publisher-8]: process started with pid [9324]
+1716044531.2022088 [INFO] [motor_bridge-9]: process started with pid [9339]
+1716044531.2127810 [INFO] [app_server-10]: process started with pid [9347]
+1716044531.2228851 [INFO] [bes_transmit_waiter-11]: process started with pid [9355]
+1716044531.2236140 [INFO] [cyberdog_face-13]: process started with pid [9358]
+1716044531.2241657 [INFO] [cyberdog_action-14]: process started with pid [9363]
+1716044531.2394247 [INFO] [cyberdog_interactive-15]: process started with pid [9385]
+1716044531.2614324 [INFO] [cyberdog_train-16]: process started with pid [9396]
+1716044531.2621796 [INFO] [cyberdog_ai_sports-17]: process started with pid [9422]
+1716044531.3033502 [INFO] [camera_server-18]: process started with pid [9426]
+1716044531.3156495 [INFO] [vision_manager-19]: process started with pid [9433]
+1716044536.6003289 [vision_manager-19] [INFO] [1716044536.267574816] [vision_manager cyberdog_model]: cyberdog_model Constructor
+1716044536.6104171 [vision_manager-19] [INFO] [1716044536.268132064] [vision_manager cyberdog_model]: is_specified_version: 0
+1716044536.6178725 [vision_manager-19] [INFO] [1716044536.268261536] [vision_manager cyberdog_model]: specified_version: 0.0
+1716044536.6223633 [vision_manager-19] [INFO] [1716044536.268368256] [vision_manager cyberdog_model]: module_name: auto_track
+1716044536.6231039 [vision_manager-19] [INFO] [1716044536.268466016] [vision_manager cyberdog_model]: model_dir: /SDCARD/vision/auto_track/
+1716044536.6292527 [vision_manager-19] [INFO] [1716044536.268581536] [vision_manager cyberdog_model]: temp_download_path: /SDCARD/vision/auto_track/temp/
+1716044536.6324618 [vision_manager-19] [INFO] [1716044536.269624032] [vision_manager cyberdog_model]: cyberdog_model Constructor
+1716044536.6331482 [vision_manager-19] [INFO] [1716044536.269785920] [vision_manager cyberdog_model]: is_specified_version: 0
+1716044536.6335468 [vision_manager-19] [INFO] [1716044536.269893152] [vision_manager cyberdog_model]: specified_version: 0.0
+1716044536.6339324 [vision_manager-19] [INFO] [1716044536.270001120] [vision_manager cyberdog_model]: module_name: body_gesture
+1716044536.6342666 [vision_manager-19] [INFO] [1716044536.270106624] [vision_manager cyberdog_model]: model_dir: /SDCARD/vision/body_gesture/
+1716044536.6345837 [vision_manager-19] [INFO] [1716044536.270219296] [vision_manager cyberdog_model]: temp_download_path: /SDCARD/vision/body_gesture/temp/
+1716044536.6520088 [vision_manager-19] [INFO] [1716044536.271189888] [vision_manager cyberdog_model]: cyberdog_model Constructor
+1716044536.6526964 [vision_manager-19] [INFO] [1716044536.271341120] [vision_manager cyberdog_model]: is_specified_version: 0
+1716044536.6565111 [vision_manager-19] [INFO] [1716044536.271448352] [vision_manager cyberdog_model]: specified_version: 0.0
+1716044536.6571026 [vision_manager-19] [INFO] [1716044536.271549792] [vision_manager cyberdog_model]: module_name: face_recognition/age
+1716044536.6575127 [vision_manager-19] [INFO] [1716044536.271650784] [vision_manager cyberdog_model]: model_dir: /SDCARD/vision/face_recognition/age/
+1716044536.6579332 [vision_manager-19] [INFO] [1716044536.271760768] [vision_manager cyberdog_model]: temp_download_path: /SDCARD/vision/face_recognition/age/temp/
+1716044537.0358906 [vision_manager-19] [INFO] [1716044536.405002400] [vision_manager cyberdog_model]: cyberdog_model Constructor
+1716044537.0604069 [vision_manager-19] [INFO] [1716044536.405252288] [vision_manager cyberdog_model]: is_specified_version: 0
+1716044537.0614333 [vision_manager-19] [INFO] [1716044536.405370656] [vision_manager cyberdog_model]: specified_version: 0.0
+1716044537.0813878 [vision_manager-19] [INFO] [1716044536.405471520] [vision_manager cyberdog_model]: module_name: face_recognition/detect
+1716044537.1030517 [vision_manager-19] [INFO] [1716044536.405577344] [vision_manager cyberdog_model]: model_dir: /SDCARD/vision/face_recognition/detect/
+1716044537.1073606 [vision_manager-19] [INFO] [1716044536.405684480] [vision_manager cyberdog_model]: temp_download_path: /SDCARD/vision/face_recognition/detect/temp/
+1716044537.1243627 [vision_manager-19] [INFO] [1716044536.406718336] [vision_manager cyberdog_model]: cyberdog_model Constructor
+1716044537.1260340 [vision_manager-19] [INFO] [1716044536.406873568] [vision_manager cyberdog_model]: is_specified_version: 0
+1716044537.1280017 [vision_manager-19] [INFO] [1716044536.406989600] [vision_manager cyberdog_model]: specified_version: 0.0
+1716044537.1306446 [vision_manager-19] [INFO] [1716044536.407090080] [vision_manager cyberdog_model]: module_name: face_recognition/emotion
+1716044537.1311901 [vision_manager-19] [INFO] [1716044536.407197632] [vision_manager cyberdog_model]: model_dir: /SDCARD/vision/face_recognition/emotion/
+1716044537.1320529 [vision_manager-19] [INFO] [1716044536.407304096] [vision_manager cyberdog_model]: temp_download_path: /SDCARD/vision/face_recognition/emotion/temp/
+1716044537.1324368 [vision_manager-19] [INFO] [1716044536.489095360] [vision_manager cyberdog_model]: cyberdog_model Constructor
+1716044537.1340790 [vision_manager-19] [INFO] [1716044536.492353312] [vision_manager cyberdog_model]: is_specified_version: 0
+1716044537.1350222 [vision_manager-19] [INFO] [1716044536.492485824] [vision_manager cyberdog_model]: specified_version: 0.0
+1716044537.1354311 [vision_manager-19] [INFO] [1716044536.492588352] [vision_manager cyberdog_model]: module_name: face_recognition/feature
+1716044537.1358702 [vision_manager-19] [INFO] [1716044536.492694688] [vision_manager cyberdog_model]: model_dir: /SDCARD/vision/face_recognition/feature/
+1716044537.1378350 [vision_manager-19] [INFO] [1716044536.502619840] [vision_manager cyberdog_model]: temp_download_path: /SDCARD/vision/face_recognition/feature/temp/
+1716044537.1407170 [vision_manager-19] [INFO] [1716044536.562854560] [vision_manager cyberdog_model]: cyberdog_model Constructor
+1716044537.1417556 [vision_manager-19] [INFO] [1716044536.570577472] [vision_manager cyberdog_model]: is_specified_version: 0
+1716044537.1429212 [vision_manager-19] [INFO] [1716044536.588156512] [vision_manager cyberdog_model]: specified_version: 0.0
+1716044537.1436675 [vision_manager-19] [INFO] [1716044536.588321760] [vision_manager cyberdog_model]: module_name: face_recognition/landmark
+1716044537.1449337 [vision_manager-19] [INFO] [1716044536.588438720] [vision_manager cyberdog_model]: model_dir: /SDCARD/vision/face_recognition/landmark/
+1716044537.1458330 [vision_manager-19] [INFO] [1716044536.588551392] [vision_manager cyberdog_model]: temp_download_path: /SDCARD/vision/face_recognition/landmark/temp/
+1716044537.1514230 [vision_manager-19] [INFO] [1716044536.590782656] [vision_manager cyberdog_model]: cyberdog_model Constructor
+1716044537.1570337 [vision_manager-19] [INFO] [1716044536.590991264] [vision_manager cyberdog_model]: is_specified_version: 0
+1716044537.1590991 [vision_manager-19] [INFO] [1716044536.591111808] [vision_manager cyberdog_model]: specified_version: 0.0
+1716044537.1595213 [vision_manager-19] [INFO] [1716044536.591249280] [vision_manager cyberdog_model]: module_name: keypoints_detection
+1716044537.1598668 [vision_manager-19] [INFO] [1716044536.591358336] [vision_manager cyberdog_model]: model_dir: /SDCARD/vision/keypoints_detection/
+1716044537.1602545 [vision_manager-19] [INFO] [1716044536.591471712] [vision_manager cyberdog_model]: temp_download_path: /SDCARD/vision/keypoints_detection/temp/
+1716044537.1894493 [vision_manager-19] [INFO] [1716044536.748985824] [vision_manager cyberdog_model]: cyberdog_model Constructor
+1716044537.1899970 [vision_manager-19] [INFO] [1716044536.749254976] [vision_manager cyberdog_model]: is_specified_version: 0
+1716044537.1903539 [vision_manager-19] [INFO] [1716044536.749373120] [vision_manager cyberdog_model]: specified_version: 0.0
+1716044537.1973221 [vision_manager-19] [INFO] [1716044536.749487232] [vision_manager cyberdog_model]: module_name: person_reid
+1716044537.1989224 [vision_manager-19] [INFO] [1716044536.749606432] [vision_manager cyberdog_model]: model_dir: /SDCARD/vision/person_reid/
+1716044537.1999822 [vision_manager-19] [INFO] [1716044536.749723136] [vision_manager cyberdog_model]: temp_download_path: /SDCARD/vision/person_reid/temp/
+1716044537.2081494 [vision_manager-19] [INFO] [1716044537.136502112] [az2.vision_manager]: Vision manager constructor complated.
+1716044537.8340149 [camera_server-18] [INFO] [1716044537.677609632] [MainCameraNode]: CameraServerNode: Creating node camera_server.
+1716044538.6329608 [camera_server-18] [INFO] [1716044538.600213248] [uninitialized WebRTCManager]: WebRTCManager has been created
+1716044538.6338444 [camera_server-18] [INFO] [1716044538.601157120] [CameraContext]: initialize: initialize
+1716044538.6347668 [camera_server-18] [INFO] [1716044538.601598560] [MainCameraNode]: on_configure: camera_server Configuring
+1716044538.6374717 [camera_server-18] [INFO] [1716044538.622291776] [CameraContext]: createSession: createSession
+1716044538.6385024 [camera_server-18] [INFO] [1716044538.622560000] [MainCameraNode]: on_activate: camera_server Activating
+1716044540.6328793 [INFO] [launch.user]: navigation launch nav2_base
+1716044542.1729038 [INFO] [controller_server-21]: process started with pid [10275]
+1716044542.1744421 [INFO] [planner_server-22]: process started with pid [10279]
+1716044542.1757021 [INFO] [bt_navigator_pose-23]: process started with pid [10283]
+1716044542.1767311 [INFO] [recoveries_server-24]: process started with pid [10287]
+1716044542.1897454 [vision_manager-19] [INFO] [1716044540.804781728] [az2.vision_manager]: Received signal to download model. 
+1716044542.1909044 [vision_manager-19] [INFO] [1716044540.806358176] [az2.vision_manager]: Internet is ready, begin to download model.
+1716044542.1913280 [vision_manager-19] [INFO] [1716044540.806586720] [vision_manager cyberdog_model]: update models fuc begin
+1716044542.1916897 [vision_manager-19] [INFO] [1716044540.806698336] [vision_manager cyberdog_model]: init fuc
+1716044542.1921613 [vision_manager-19] [INFO] [1716044541.367710720] [vision_manager cyberdog_model]: auto_track has 2 versions in fsd
+1716044542.1927786 [vision_manager-19] [INFO] [1716044541.368005056] [vision_manager cyberdog_model]: read model version in toml file
+1716044542.1931207 [vision_manager-19] [INFO] [1716044541.368151616] [vision_manager cyberdog_model]: Get_Model_Version func 
+1716044542.1934595 [vision_manager-19] [INFO] [1716044541.371704032] [vision_manager cyberdog_model]: read key value from toml successfully
+1716044542.1938014 [vision_manager-19] [INFO] [1716044541.371987424] [vision_manager cyberdog_model]: the model version in toml file is 1.1 
+1716044542.1941581 [vision_manager-19] [INFO] [1716044541.372172032] [vision_manager cyberdog_model]: temp toml path /SDCARD/vision/auto_track/temp/version.toml do not exist!
+1716044542.1946483 [vision_manager-19] [INFO] [1716044541.372295552] [vision_manager cyberdog_model]: obj: 1.0/
+1716044542.1951146 [vision_manager-19] [INFO] [1716044541.372412896] [vision_manager cyberdog_model]: obj: 1.1/
+1716044542.1954212 [vision_manager-19] [INFO] [1716044541.372515040] [vision_manager cyberdog_model]: ftp_newest_version  is 1.1
+1716044542.1957381 [vision_manager-19] [INFO] [1716044541.372618464] [vision_manager cyberdog_model]: nx_version  is 1.1
+1716044542.1961415 [vision_manager-19] [INFO] [1716044541.372715936] [vision_manager cyberdog_model]: nx model version is the newest version
+1716044542.1964500 [vision_manager-19] [INFO] [1716044541.372819232] [vision_manager cyberdog_model]: DownloadModels fuc
+1716044542.1968613 [vision_manager-19] [INFO] [1716044541.372924960] [vision_manager cyberdog_model]: do not need download
+1716044542.1971722 [vision_manager-19] [ERROR] [1716044541.373026496] [vision_manager cyberdog_model]: download failed or do not need download
+1716044542.1975541 [vision_manager-19] [ERROR] [1716044541.373173056] [az2.vision_manager]: Download model from Fds fail. 
+1716044542.1978450 [vision_manager-19] [INFO] [1716044541.374023264] [vision_manager cyberdog_model]: update models fuc begin
+1716044542.1981461 [vision_manager-19] [INFO] [1716044541.374182240] [vision_manager cyberdog_model]: init fuc
+1716044542.1984429 [vision_manager-19] [INFO] [1716044541.729870208] [vision_manager cyberdog_model]: body_gesture has 2 versions in fsd
+1716044542.1989264 [vision_manager-19] [INFO] [1716044541.730128672] [vision_manager cyberdog_model]: read model version in toml file
+1716044542.1994960 [vision_manager-19] [INFO] [1716044541.730295232] [vision_manager cyberdog_model]: Get_Model_Version func 
+1716044542.1998141 [vision_manager-19] [INFO] [1716044541.735690880] [vision_manager cyberdog_model]: read key value from toml successfully
+1716044542.2006679 [vision_manager-19] [INFO] [1716044541.736017152] [vision_manager cyberdog_model]: the model version in toml file is 1.1 
+1716044542.2010152 [vision_manager-19] [INFO] [1716044541.736226592] [vision_manager cyberdog_model]: temp toml path /SDCARD/vision/body_gesture/temp/version.toml do not exist!
+1716044542.2013416 [vision_manager-19] [INFO] [1716044541.736355776] [vision_manager cyberdog_model]: obj: 1.0/
+1716044542.2016504 [vision_manager-19] [INFO] [1716044541.736460160] [vision_manager cyberdog_model]: obj: 1.1/
+1716044542.2019479 [vision_manager-19] [INFO] [1716044541.736562976] [vision_manager cyberdog_model]: ftp_newest_version  is 1.1
+1716044542.2024386 [vision_manager-19] [INFO] [1716044541.736663360] [vision_manager cyberdog_model]: nx_version  is 1.1
+1716044542.2028861 [vision_manager-19] [INFO] [1716044541.736795968] [vision_manager cyberdog_model]: nx model version is the newest version
+1716044542.2033198 [vision_manager-19] [INFO] [1716044541.736909536] [vision_manager cyberdog_model]: DownloadModels fuc
+1716044542.2046809 [vision_manager-19] [INFO] [1716044541.737028832] [vision_manager cyberdog_model]: do not need download
+1716044542.2050769 [vision_manager-19] [ERROR] [1716044541.737128480] [vision_manager cyberdog_model]: download failed or do not need download
+1716044542.2054274 [vision_manager-19] [ERROR] [1716044541.737236768] [az2.vision_manager]: Download model from Fds fail. 
+1716044542.2057648 [vision_manager-19] [INFO] [1716044541.737479456] [vision_manager cyberdog_model]: update models fuc begin
+1716044542.2062147 [vision_manager-19] [INFO] [1716044541.737578048] [vision_manager cyberdog_model]: init fuc
+1716044542.2066360 [vision_manager-19] [INFO] [1716044541.882621792] [vision_manager cyberdog_model]: face_recognition/age has 2 versions in fsd
+1716044542.2070665 [vision_manager-19] [INFO] [1716044541.883202368] [vision_manager cyberdog_model]: read model version in toml file
+1716044542.2076297 [vision_manager-19] [INFO] [1716044541.883404160] [vision_manager cyberdog_model]: Get_Model_Version func 
+1716044542.2079973 [vision_manager-19] [INFO] [1716044541.887438144] [vision_manager cyberdog_model]: read key value from toml successfully
+1716044542.2083907 [vision_manager-19] [INFO] [1716044541.887663328] [vision_manager cyberdog_model]: the model version in toml file is 1.1 
+1716044542.2087691 [vision_manager-19] [INFO] [1716044541.888122752] [vision_manager cyberdog_model]: temp toml path /SDCARD/vision/face_recognition/age/temp/version.toml do not exist!
+1716044542.2090812 [vision_manager-19] [INFO] [1716044541.888307424] [vision_manager cyberdog_model]: obj: 1.0/
+1716044542.2094975 [vision_manager-19] [INFO] [1716044541.888432064] [vision_manager cyberdog_model]: obj: 1.1/
+1716044542.2098458 [vision_manager-19] [INFO] [1716044541.888567648] [vision_manager cyberdog_model]: ftp_newest_version  is 1.1
+1716044542.2101800 [vision_manager-19] [INFO] [1716044541.889095328] [vision_manager cyberdog_model]: nx_version  is 1.1
+1716044542.2105067 [vision_manager-19] [INFO] [1716044541.889228992] [vision_manager cyberdog_model]: nx model version is the newest version
+1716044542.2109017 [vision_manager-19] [INFO] [1716044541.889402368] [vision_manager cyberdog_model]: DownloadModels fuc
+1716044542.2111990 [vision_manager-19] [INFO] [1716044541.889528832] [vision_manager cyberdog_model]: do not need download
+1716044542.2115250 [vision_manager-19] [ERROR] [1716044541.889629376] [vision_manager cyberdog_model]: download failed or do not need download
+1716044542.2118311 [vision_manager-19] [ERROR] [1716044541.889738656] [az2.vision_manager]: Download model from Fds fail. 
+1716044542.2121818 [vision_manager-19] [INFO] [1716044541.891086816] [vision_manager cyberdog_model]: update models fuc begin
+1716044542.2125607 [vision_manager-19] [INFO] [1716044541.891242400] [vision_manager cyberdog_model]: init fuc
+1716044542.4326837 [vision_manager-19] [INFO] [1716044542.423686656] [vision_manager cyberdog_model]: face_recognition/detect has 2 versions in fsd
+1716044542.4350967 [vision_manager-19] [INFO] [1716044542.424005696] [vision_manager cyberdog_model]: read model version in toml file
+1716044542.4363964 [vision_manager-19] [INFO] [1716044542.424238752] [vision_manager cyberdog_model]: Get_Model_Version func 
+1716044542.4407413 [vision_manager-19] [INFO] [1716044542.434454432] [vision_manager cyberdog_model]: read key value from toml successfully
+1716044542.4413083 [vision_manager-19] [INFO] [1716044542.434776480] [vision_manager cyberdog_model]: the model version in toml file is 1.1 
+1716044542.4417508 [vision_manager-19] [INFO] [1716044542.434973984] [vision_manager cyberdog_model]: temp toml path /SDCARD/vision/face_recognition/detect/temp/version.toml do not exist!
+1716044542.4421360 [vision_manager-19] [INFO] [1716044542.435118112] [vision_manager cyberdog_model]: obj: 1.0/
+1716044542.4424818 [vision_manager-19] [INFO] [1716044542.435233088] [vision_manager cyberdog_model]: obj: 1.1/
+1716044542.4605572 [vision_manager-19] [INFO] [1716044542.435434912] [vision_manager cyberdog_model]: ftp_newest_version  is 1.1
+1716044542.4611464 [vision_manager-19] [INFO] [1716044542.435545920] [vision_manager cyberdog_model]: nx_version  is 1.1
+1716044542.4615843 [vision_manager-19] [INFO] [1716044542.435645664] [vision_manager cyberdog_model]: nx model version is the newest version
+1716044542.4619651 [vision_manager-19] [INFO] [1716044542.435747904] [vision_manager cyberdog_model]: DownloadModels fuc
+1716044542.4623199 [vision_manager-19] [INFO] [1716044542.436068576] [vision_manager cyberdog_model]: do not need download
+1716044542.4749498 [vision_manager-19] [ERROR] [1716044542.444895200] [vision_manager cyberdog_model]: download failed or do not need download
+1716044542.4757178 [vision_manager-19] [ERROR] [1716044542.445088768] [az2.vision_manager]: Download model from Fds fail. 
+1716044542.4764388 [vision_manager-19] [INFO] [1716044542.445387136] [vision_manager cyberdog_model]: update models fuc begin
+1716044542.4770195 [vision_manager-19] [INFO] [1716044542.445502976] [vision_manager cyberdog_model]: init fuc
+1716044542.5978158 [vision_manager-19] [INFO] [1716044542.591706336] [vision_manager cyberdog_model]: face_recognition/emotion has 1 versions in fsd
+1716044542.6605699 [vision_manager-19] [INFO] [1716044542.599703040] [vision_manager cyberdog_model]: read model version in toml file
+1716044542.6968071 [vision_manager-19] [INFO] [1716044542.607780480] [vision_manager cyberdog_model]: Get_Model_Version func 
+1716044542.7272623 [vision_manager-19] [INFO] [1716044542.612539744] [vision_manager cyberdog_model]: read key value from toml successfully
+1716044542.9434011 [vision_manager-19] [INFO] [1716044542.702544928] [vision_manager cyberdog_model]: the model version in toml file is 1.1 
+1716044542.9470320 [vision_manager-19] [INFO] [1716044542.702774592] [vision_manager cyberdog_model]: temp toml path /SDCARD/vision/face_recognition/emotion/temp/version.toml do not exist!
+1716044542.9569440 [vision_manager-19] [INFO] [1716044542.702932672] [vision_manager cyberdog_model]: obj: 1.1/
+1716044542.9633682 [vision_manager-19] [INFO] [1716044542.703070784] [vision_manager cyberdog_model]: ftp_newest_version  is 1.1
+1716044542.9706547 [vision_manager-19] [INFO] [1716044542.703218752] [vision_manager cyberdog_model]: nx_version  is 1.1
+1716044542.9710875 [vision_manager-19] [INFO] [1716044542.703326272] [vision_manager cyberdog_model]: nx model version is the newest version
+1716044542.9714153 [vision_manager-19] [INFO] [1716044542.703434016] [vision_manager cyberdog_model]: DownloadModels fuc
+1716044542.9717197 [vision_manager-19] [INFO] [1716044542.703536896] [vision_manager cyberdog_model]: do not need download
+1716044542.9720795 [vision_manager-19] [ERROR] [1716044542.703633856] [vision_manager cyberdog_model]: download failed or do not need download
+1716044542.9724076 [vision_manager-19] [ERROR] [1716044542.703747104] [az2.vision_manager]: Download model from Fds fail. 
+1716044542.9727163 [vision_manager-19] [INFO] [1716044542.704018304] [vision_manager cyberdog_model]: update models fuc begin
+1716044542.9730132 [vision_manager-19] [INFO] [1716044542.704702176] [vision_manager cyberdog_model]: init fuc
+1716044543.5712185 [vision_manager-19] [INFO] [1716044542.984532448] [vision_manager cyberdog_model]: face_recognition/feature has 2 versions in fsd
+1716044543.5926559 [vision_manager-19] [INFO] [1716044542.984797120] [vision_manager cyberdog_model]: read model version in toml file
+1716044543.5933318 [vision_manager-19] [INFO] [1716044542.984976224] [vision_manager cyberdog_model]: Get_Model_Version func 
+1716044543.6091051 [vision_manager-19] [INFO] [1716044542.990365248] [vision_manager cyberdog_model]: read key value from toml successfully
+1716044543.6264150 [vision_manager-19] [INFO] [1716044542.991157856] [vision_manager cyberdog_model]: the model version in toml file is 1.1 
+1716044543.6349900 [vision_manager-19] [INFO] [1716044542.991371488] [vision_manager cyberdog_model]: temp toml path /SDCARD/vision/face_recognition/feature/temp/version.toml do not exist!
+1716044543.6496532 [vision_manager-19] [INFO] [1716044542.991514848] [vision_manager cyberdog_model]: obj: 1.1/
+1716044543.6501110 [vision_manager-19] [INFO] [1716044543.001625568] [vision_manager cyberdog_model]: obj: 1/
+1716044543.6564178 [vision_manager-19] [INFO] [1716044543.001779840] [vision_manager cyberdog_model]: ftp_newest_version  is 1.1
+1716044543.6779106 [vision_manager-19] [INFO] [1716044543.001890784] [vision_manager cyberdog_model]: nx_version  is 1.1
+1716044543.6923411 [vision_manager-19] [INFO] [1716044543.001992192] [vision_manager cyberdog_model]: nx model version is the newest version
+1716044543.6929255 [vision_manager-19] [INFO] [1716044543.002101536] [vision_manager cyberdog_model]: DownloadModels fuc
+1716044543.6933205 [vision_manager-19] [INFO] [1716044543.002218880] [vision_manager cyberdog_model]: do not need download
+1716044543.6936777 [vision_manager-19] [ERROR] [1716044543.002342336] [vision_manager cyberdog_model]: download failed or do not need download
+1716044543.6939995 [vision_manager-19] [ERROR] [1716044543.002453248] [az2.vision_manager]: Download model from Fds fail. 
+1716044543.6943595 [vision_manager-19] [INFO] [1716044543.007173408] [vision_manager cyberdog_model]: update models fuc begin
+1716044543.6947346 [vision_manager-19] [INFO] [1716044543.007311488] [vision_manager cyberdog_model]: init fuc
+1716044544.0221908 [vision_manager-19] [INFO] [1716044543.598609376] [vision_manager cyberdog_model]: face_recognition/landmark has 1 versions in fsd
+1716044544.0404227 [vision_manager-19] [INFO] [1716044543.640939488] [vision_manager cyberdog_model]: read model version in toml file
+1716044544.0440309 [vision_manager-19] [INFO] [1716044543.641160768] [vision_manager cyberdog_model]: Get_Model_Version func 
+1716044544.0522413 [vision_manager-19] [INFO] [1716044543.695616704] [vision_manager cyberdog_model]: read key value from toml successfully
+1716044544.0542362 [vision_manager-19] [INFO] [1716044543.695876768] [vision_manager cyberdog_model]: the model version in toml file is 1.1 
+1716044544.0553896 [vision_manager-19] [INFO] [1716044543.699817440] [vision_manager cyberdog_model]: temp toml path /SDCARD/vision/face_recognition/landmark/temp/version.toml do not exist!
+1716044544.0566485 [vision_manager-19] [INFO] [1716044543.705061120] [vision_manager cyberdog_model]: obj: 1.1/
+1716044544.0579362 [vision_manager-19] [INFO] [1716044543.705682016] [vision_manager cyberdog_model]: ftp_newest_version  is 1.1
+1716044544.0603285 [vision_manager-19] [INFO] [1716044543.710771200] [vision_manager cyberdog_model]: nx_version  is 1.1
+1716044544.0636399 [vision_manager-19] [INFO] [1716044543.710968640] [vision_manager cyberdog_model]: nx model version is the newest version
+1716044544.0647967 [vision_manager-19] [INFO] [1716044543.711110016] [vision_manager cyberdog_model]: DownloadModels fuc
+1716044544.0689247 [vision_manager-19] [INFO] [1716044543.711216000] [vision_manager cyberdog_model]: do not need download
+1716044544.0753956 [vision_manager-19] [ERROR] [1716044543.711312448] [vision_manager cyberdog_model]: download failed or do not need download
+1716044544.0794353 [vision_manager-19] [ERROR] [1716044543.711969312] [az2.vision_manager]: Download model from Fds fail. 
+1716044544.0820093 [vision_manager-19] [INFO] [1716044543.712319712] [vision_manager cyberdog_model]: update models fuc begin
+1716044544.0833397 [vision_manager-19] [INFO] [1716044543.712441088] [vision_manager cyberdog_model]: init fuc
+1716044544.1724219 [vision_manager-19] [INFO] [1716044544.097132320] [vision_manager cyberdog_model]: keypoints_detection has 2 versions in fsd
+1716044544.1735952 [vision_manager-19] [INFO] [1716044544.097382208] [vision_manager cyberdog_model]: read model version in toml file
+1716044544.1748695 [vision_manager-19] [INFO] [1716044544.097549536] [vision_manager cyberdog_model]: Get_Model_Version func 
+1716044544.1779139 [vision_manager-19] [INFO] [1716044544.134989280] [vision_manager cyberdog_model]: read key value from toml successfully
+1716044544.1814280 [vision_manager-19] [INFO] [1716044544.135251936] [vision_manager cyberdog_model]: the model version in toml file is 1.1 
+1716044544.1824496 [vision_manager-19] [INFO] [1716044544.147703616] [vision_manager cyberdog_model]: temp toml path /SDCARD/vision/keypoints_detection/temp/version.toml do not exist!
+1716044544.1832929 [vision_manager-19] [INFO] [1716044544.147942848] [vision_manager cyberdog_model]: obj: 1.0/
+1716044544.1843922 [vision_manager-19] [INFO] [1716044544.148077024] [vision_manager cyberdog_model]: obj: 1.1/
+1716044544.1851304 [vision_manager-19] [INFO] [1716044544.148187712] [vision_manager cyberdog_model]: ftp_newest_version  is 1.1
+1716044544.1858814 [vision_manager-19] [INFO] [1716044544.148292224] [vision_manager cyberdog_model]: nx_version  is 1.1
+1716044544.1866074 [vision_manager-19] [INFO] [1716044544.148389088] [vision_manager cyberdog_model]: nx model version is the newest version
+1716044544.1873391 [vision_manager-19] [INFO] [1716044544.148503072] [vision_manager cyberdog_model]: DownloadModels fuc
+1716044544.1902952 [vision_manager-19] [INFO] [1716044544.158958304] [vision_manager cyberdog_model]: do not need download
+1716044544.1921318 [vision_manager-19] [ERROR] [1716044544.159168960] [vision_manager cyberdog_model]: download failed or do not need download
+1716044544.1937220 [vision_manager-19] [ERROR] [1716044544.159291424] [az2.vision_manager]: Download model from Fds fail. 
+1716044544.1944990 [vision_manager-19] [INFO] [1716044544.159526240] [vision_manager cyberdog_model]: update models fuc begin
+1716044544.1951723 [vision_manager-19] [INFO] [1716044544.159627584] [vision_manager cyberdog_model]: init fuc
+1716044545.1884403 [vision_manager-19] [INFO] [1716044544.847987072] [vision_manager cyberdog_model]: person_reid has 2 versions in fsd
+1716044545.2056932 [vision_manager-19] [INFO] [1716044544.848223712] [vision_manager cyberdog_model]: read model version in toml file
+1716044545.2075806 [vision_manager-19] [INFO] [1716044544.848400992] [vision_manager cyberdog_model]: Get_Model_Version func 
+1716044545.2140400 [vision_manager-19] [INFO] [1716044544.868113728] [vision_manager cyberdog_model]: read key value from toml successfully
+1716044545.2157662 [vision_manager-19] [INFO] [1716044544.868413952] [vision_manager cyberdog_model]: the model version in toml file is 1.1 
+1716044545.2162535 [vision_manager-19] [INFO] [1716044544.869654976] [vision_manager cyberdog_model]: temp toml path /SDCARD/vision/person_reid/temp/version.toml do not exist!
+1716044545.2165771 [vision_manager-19] [INFO] [1716044544.869870784] [vision_manager cyberdog_model]: obj: 1.0/
+1716044545.2431281 [vision_manager-19] [INFO] [1716044544.869992416] [vision_manager cyberdog_model]: obj: 1.1/
+1716044545.2436910 [vision_manager-19] [INFO] [1716044544.870178272] [vision_manager cyberdog_model]: ftp_newest_version  is 1.1
+1716044545.2441788 [vision_manager-19] [INFO] [1716044544.870279296] [vision_manager cyberdog_model]: nx_version  is 1.1
+1716044545.2445834 [vision_manager-19] [INFO] [1716044544.870402880] [vision_manager cyberdog_model]: nx model version is the newest version
+1716044545.2449260 [vision_manager-19] [INFO] [1716044544.870506688] [vision_manager cyberdog_model]: DownloadModels fuc
+1716044545.2452285 [vision_manager-19] [INFO] [1716044544.873180800] [vision_manager cyberdog_model]: do not need download
+1716044545.2610586 [vision_manager-19] [ERROR] [1716044544.873318080] [vision_manager cyberdog_model]: download failed or do not need download
+1716044545.2945814 [vision_manager-19] [ERROR] [1716044544.873444256] [az2.vision_manager]: Download model from Fds fail. 
+1716044565.3221281 [INFO] [launch.user]: navigation launch occmap
+1716044566.2982993 [INFO] [create_gridmap_node-25]: process started with pid [10653]
+1716044566.2998137 [INFO] [publish_gridmap_node-26]: process started with pid [10654]
+1716044566.8712938 [create_gridmap_node-25] [0m[INFO] [1716044566.869830798] [az2.create_gridmap_node]: create map path /home/mi/mapping/[0m
+1716044566.8793349 [create_gridmap_node-25] [0m[INFO] [1716044566.870654990] [az2.create_gridmap_node]: loop pose path /SDCARD/miloc/maps/default/viusal/[0m
+1716044566.8840046 [create_gridmap_node-25] [0m[INFO] [1716044566.874149742] [az2.create_gridmap_node]: calibration_file /SDCARD/calibrate.yaml[0m
+1716044566.8851907 [create_gridmap_node-25] [0m[INFO] [1716044566.874708878] [az2.create_gridmap_node]: subscribe odom topic odom_slam[0m
+1716044566.8861673 [create_gridmap_node-25] [0m[INFO] [1716044566.874963854] [az2.create_gridmap_node]: subscribe laser topic scan[0m
+1716044566.8908815 [create_gridmap_node-25] [0m[INFO] [1716044566.875245518] [az2.create_gridmap_node]: create map service cyberdog_occmap/create_map_service[0m
+1716044566.8914464 [create_gridmap_node-25] [0m[INFO] [1716044566.875482158] [az2.create_gridmap_node]: finish map service cyberdog_occmap/finish_map_service[0m
+1716044566.8943207 [create_gridmap_node-25] [0m[INFO] [1716044566.885761518] [az2.create_gridmap_node]: start_nav_service cyberdog_occmap/start_nav_service[0m
+1716044566.8968561 [create_gridmap_node-25] [0m[INFO] [1716044566.886164078] [az2.create_gridmap_node]: stop_nav_service cyberdog_occmap/stop_nav_service[0m
+1716044570.6908967 [vision_manager-19] [INFO] [1716044570.688544366] [az2.vision_manager]: Configuring vision_manager. 
+1716044570.7007923 [vision_manager-19] Semaphore set id is: 0
+1716044570.7041099 [vision_manager-19] [INFO] [1716044570.693625422] [az2.vision_manager]: Create ROS object. 
+1716044570.7451015 [vision_manager-19] [INFO] [1716044570.740060206] [az2.vision_manager]: Configure complated. 
+1716044585.3226895 [INFO] [launch.user]: navigation launch state_publisher
+1716044585.5035725 [INFO] [robot_state_publisher-27]: process started with pid [10854]
+1716044589.3213847 [INFO] [launch.user]: navigation launch tracking
+1716044589.4824793 [INFO] [cyberdog_tracking-28]: process started with pid [10901]
+1716044593.3151293 [INFO] [launch.user]: navigation launch realsense
+1716044593.6393561 [INFO] [realsense2_camera_node-29]: process started with pid [10951]
+1716044597.3214898 [INFO] [launch.user]: navigation launch realsense_align
+1716044597.6654303 [INFO] [realsense_align_node-30]: process started with pid [11001]
+1716044601.3155279 [INFO] [launch.user]: navigation launch mcr_uwb
+1716044601.4352400 [INFO] [mcr_uwb-31]: process started with pid [11050]
+1716044601.7434678 [mcr_uwb-31] [INFO] [1716044601.711331310] [az2.mcr_uwb]: 
+1716044601.7460732 [mcr_uwb-31] 	mcr_uwb lifecycle node launched. 
+1716044601.7474976 [mcr_uwb-31] 	Waiting on external lifecycle transitions to activate
+1716044601.7517557 [mcr_uwb-31] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+1716044601.7527585 [mcr_uwb-31] [INFO] [1716044601.712012306] [az2.mcr_uwb]: Creating
+1716044605.3219256 [INFO] [launch.user]: navigation launch velocity_adaptor
+1716044605.4616892 [INFO] [velocity_adaptor-32]: process started with pid [11096]
+1716044609.3225346 [INFO] [launch.user]: navigation launch map_label_server
+1716044609.4513822 [INFO] [label_server-33]: process started with pid [11148]
+1716044613.3178844 [INFO] [launch.user]: navigation launch laser_mapping
+1716044613.5778260 [INFO] [mapping-34]: process started with pid [11200]
+1716044617.3168087 [INFO] [launch.user]: navigation launch laser_localization
+1716044617.5768194 [INFO] [localization-35]: process started with pid [11254]
+1716044621.3240800 [INFO] [launch.user]: navigation launch mivins_localization
+1716044621.8618135 [INFO] [mivins_node-36]: process started with pid [11306]
+1716044625.3243806 [INFO] [launch.user]: navigation launch mivins_mapping
+1716044625.9100974 [INFO] [mivins_node-37]: process started with pid [11354]
+1716044629.3235090 [INFO] [launch.user]: navigation launch mivins_vo
+1716044629.7941747 [INFO] [mivins_node-38]: process started with pid [11400]
+1716044633.3169334 [INFO] [launch.user]: navigation launch miloc
+1716044633.5071042 [INFO] [miloc_server-39]: process started with pid [11447]
+1716044637.3179963 [INFO] [launch.user]: navigation launch elevation_mapping_odom
+1716044637.4842465 [INFO] [elevation_mapping-40]: process started with pid [11512]
+1716044641.3161972 [INFO] [launch.user]: navigation launch head_tof_pc_publisher
+1716044641.5116260 [INFO] [head_tof_pcl_publisher.py-41]: process started with pid [11558]
+1716044645.3177228 [INFO] [launch.user]: navigation launch stair_align
+1716044645.4658856 [INFO] [stair_align-42]: process started with pid [11606]
+1716044649.3261969 [INFO] [launch.user]: navigation launch tracking_indication
+1716044649.4896100 [INFO] [tracking_indication-43]: process started with pid [11654]
+1716044653.3261547 [INFO] [launch.user]: navigation launch rosbag_recorder
+1716044653.4686804 [INFO] [rosbag_recorder-44]: process started with pid [11705]
+1716044653.7030289 [rosbag_recorder-44] [WARN] [1716044653.701852582] [az2.cyberdog_rosbag_recorder]: Rosbag recorder is not use, please set flag use: true, you can record.
+1716044657.3175175 [INFO] [launch.user]: navigation launch tracking_base
+1716044657.6184833 [INFO] [tracking_base-45]: process started with pid [11752]
+1716044661.3224912 [INFO] [launch.user]: navigation launch emergency_stop
+1716044661.4735074 [INFO] [cyberdog_emergency_stop-46]: process started with pid [11798]
+1716044661.8888469 [cyberdog_emergency_stop-46] [INFO] [1716044661.884048402] [az2.cyberdog_emergency_stop]: Create enable emergency stop service......
+1716044665.3175957 [INFO] [launch.user]: navigation launch cyberdog_pointnet
+1716044665.4550188 [INFO] [cyberdog_pointnet-47]: process started with pid [11849]
+1716044665.7999458 [cyberdog_pointnet-47] [INFO] [1716044665.798527807] [az2.cyberdog_pointnet]: Create service: release_pointnet
+1716044665.9200332 [cyberdog_pointnet-47] [INFO] [1716044665.917750332] [uninitialized cyberdog_model]: cyberdog_model Constructor
+1716044665.9329858 [cyberdog_pointnet-47] [INFO] [1716044665.918035097] [uninitialized cyberdog_model]: is_specified_version: 0
+1716044665.9342806 [cyberdog_pointnet-47] [INFO] [1716044665.918181463] [uninitialized cyberdog_model]: specified_version: 1.1
+1716044665.9347255 [cyberdog_pointnet-47] [INFO] [1716044665.918354741] [uninitialized cyberdog_model]: module_name: ground_segmentation
+1716044665.9350901 [cyberdog_pointnet-47] [INFO] [1716044665.918470580] [uninitialized cyberdog_model]: model_dir: /SDCARD/vision/ground_segmentation/
+1716044665.9354215 [cyberdog_pointnet-47] [INFO] [1716044665.918584499] [uninitialized cyberdog_model]: temp_download_path: /SDCARD/vision/ground_segmentation/temp/
+1716044667.1843827 [cyberdog_pointnet-47] [INFO] [1716044667.182491219] [az2.cyberdog_pointnet]: [WifiSignalCallback] internet is ok!!!
+1716044667.1869342 [cyberdog_pointnet-47] [INFO] [1716044667.183132236] [uninitialized cyberdog_model]: update models fuc begin
+1716044667.1881464 [cyberdog_pointnet-47] [INFO] [1716044667.183267818] [uninitialized cyberdog_model]: init fuc
+1716044667.6617746 [cyberdog_pointnet-47] [INFO] [1716044667.660434998] [uninitialized cyberdog_model]: ground_segmentation has 2 versions in fsd
+1716044667.6661174 [cyberdog_pointnet-47] [INFO] [1716044667.661944037] [uninitialized cyberdog_model]: read model version in toml file
+1716044667.6667027 [cyberdog_pointnet-47] [INFO] [1716044667.662157667] [uninitialized cyberdog_model]: Get_Model_Version func 
+1716044667.6722777 [cyberdog_pointnet-47] [INFO] [1716044667.667697510] [uninitialized cyberdog_model]: read key value from toml successfully
+1716044667.6735513 [cyberdog_pointnet-47] [INFO] [1716044667.667921027] [uninitialized cyberdog_model]: the model version in toml file is 1.0 
+1716044667.6749859 [cyberdog_pointnet-47] [INFO] [1716044667.668083522] [uninitialized cyberdog_model]: temp toml path /SDCARD/vision/ground_segmentation/temp/version.toml exist!
+1716044667.6754534 [cyberdog_pointnet-47] [INFO] [1716044667.668247072] [uninitialized cyberdog_model]: new models already downloaded into temp path, do not download again
+1716044667.6759083 [cyberdog_pointnet-47] [INFO] [1716044667.668368062] [uninitialized cyberdog_model]: DownloadModels fuc
+1716044667.6773591 [cyberdog_pointnet-47] [INFO] [1716044667.668467421] [uninitialized cyberdog_model]: do not need download
+1716044667.6780894 [cyberdog_pointnet-47] [ERROR] [1716044667.668562524] [uninitialized cyberdog_model]: download failed or do not need download
+1716044667.6785290 [cyberdog_pointnet-47] [INFO] [1716044667.668768794] [az2.cyberdog_pointnet]: Download and update ground_segmentation model from Fds failed or timeout
+1716044669.3227415 [INFO] [launch.user]: navigation launch algorithm_manager
+1716044669.4610100 [INFO] [algorithm_manager-48]: process started with pid [11905]
+1716044671.5061169 [algorithm_manager-48] [INFO] [1716044671.502296544] [AlgorithmTaskManager]: diff_x threashold: 0.700000, diff_y threashold: 0.700000
+1716044671.5136561 [algorithm_manager-48] [INFO] [1716044671.512199614] [AlgorithmTaskManager]: detect_duration: 5
+1716044671.5144970 [algorithm_manager-48] [INFO] [1716044671.512391292] [AlgorithmTaskManager]: pose_topic_name: tracking_pose_transformed
+1716044671.5165575 [algorithm_manager-48] [INFO] [1716044671.512492283] [AlgorithmTaskManager]: filter_size: 5
+1716044672.5026767 [algorithm_manager-48] [INFO] [1716044672.500256218] [az2.LaserMapping]: DeclareParameters.
+1716044675.7731390 [algorithm_manager-48] [INFO] [1716044675.771430933] [az2.VisionTracking]: tracking_keep_distance_: 1.500000, tracking_relative_pos_: 1, enable_visual_obstacle_avoidance_
+1716044677.8419509 [algorithm_manager-48] [INFO] [1716044677.840954986] [az2.AutoDock]: ExecutorAutoDock server is ready
+1716044678.3768711 [algorithm_manager-48] [INFO] [1716044678.375365599] [AlgorithmTaskManager]: MachineActuator Init, config file: /opt/ros2/cyberdog/share/params/toml_config/manager/state_machine_config.toml
+1716044678.5424075 [algorithm_manager-48] [INFO] [1716044678.526333651] [AlgorithmTaskManager]: MachineActuator start on call.
+1716044678.5430367 [algorithm_manager-48] [INFO] [1716044678.527678280] [AlgorithmTaskManager]: MachineActuator checkout state: SetUp.
+1716044678.5471487 [algorithm_manager-48] [INFO] [1716044678.527808647] [AlgorithmTaskManager]: Get fsm: Setup
+1716044678.5477076 [algorithm_manager-48] [INFO] [1716044678.527920966] [AlgorithmTaskManager]: MachineActuator service setup on call.
+1716044678.7021978 [algorithm_manager-48] [INFO] [1716044678.663496827] [AlgorithmTaskManager]: MachineActuator service callback on call.
+1716044678.7028751 [algorithm_manager-48] 	 ===> target_state: Active
+1716044678.7032750 [algorithm_manager-48] [INFO] [1716044678.663704793] [AlgorithmTaskManager]: MachineActuator checkout state: Active.
+1716044678.7036920 [algorithm_manager-48] [INFO] [1716044678.663831736] [AlgorithmTaskManager]: Get fsm: Active
+1716045008.5830371 [camera_server-18] [INFO] [1716045008.563846639] [MainCameraNode]: serviceCallback: service received command STOP_IMAGE_PUBLISH, argument 
+1716045008.5835814 [camera_server-18] 
+1716045008.5839396 [camera_server-18] [INFO] [1716045008.564191663] [MainCameraNode]: serviceCallback: width = 0, height = 0, fps = 0
+1716045008.5842352 [camera_server-18] [INFO] [1716045008.564459407] []: ~TimePerf: STOP_IMAGE_PUBLISH cost time: 28us
+1716045009.0820105 [camera_server-18] [INFO] [1716045009.079671087] [MainCameraNode]: serviceCallback: service received command START_IMAGE_PUBLISH, argument 
+1716045009.0837920 [camera_server-18] 
+1716045009.0875983 [camera_server-18] [INFO] [1716045009.079974479] [MainCameraNode]: serviceCallback: width = 2560, height = 1920, fps = 10
+1716045009.3762133 [camera_server-18] OFParserListModules: module list: /proc/device-tree/tegra-camera-platform/modules/module0
+1716045009.3817952 [camera_server-18] OFParserListModules: module list: /proc/device-tree/tegra-camera-platform/modules/module1
+1716045009.3998239 [camera_server-18] OFParserListModules: module list: /proc/device-tree/tegra-camera-platform/modules/module2
+1716045009.4161060 [camera_server-18] OFParserListModules: module list: /proc/device-tree/tegra-camera-platform/modules/module3
+1716045009.4333434 [camera_server-18] NvPclHwGetModuleList: No module data found
+1716045009.4348795 [camera_server-18] NvPclHwGetModuleList: No module data found
+1716045009.4358099 [camera_server-18] NvPclHwGetModuleList: No module data found
+1716045009.4365959 [camera_server-18] NvPclHwGetModuleList: No module data found
+1716045009.5551283 [camera_server-18] OFParserGetVirtualDevice: NVIDIA Camera virtual enumerator not found in proc device-tree
+1716045009.5597055 [camera_server-18] ---- imager: Found override file [/var/nvidia/nvcam/settings/ov13b10_bottomleft_RBP194.isp]. ----
+1716045009.6723049 [camera_server-18] ---- imager: Found override file [/var/nvidia/nvcam/settings/gc02m1_bottomright_RBP194.isp]. ----
+1716045009.7500618 [camera_server-18] LSC: LSC surface is not based on full res!
+1716045009.7537315 [camera_server-18] ---- imager: Found override file [/var/nvidia/nvcam/settings/ov9782_centerleft_RBP194.isp]. ----
+1716045009.8352110 [camera_server-18] LSC: LSC surface is not based on full res!
+1716045009.8387873 [camera_server-18] ---- imager: Found override file [/var/nvidia/nvcam/settings/ov9782_centerright_RBP194.isp]. ----
+1716045009.9073017 [camera_server-18] LSC: LSC surface is not based on full res!
+1716045009.9138923 [camera_server-18] ---- imager: No override file found. ----
+1716045009.9145827 [camera_server-18] initializeDevNode: Failed to open dev node '/dev/camera/video4'; No such file or directory, trying alternate default location
+1716045009.9150665 [camera_server-18] (NvCamV4l2) Error BadParameter: Control 10094858 not found (in /dvs/git/dirty/git-master_linux/camera/utils/nvcamv4l2/v4l2_device.cpp, function findControlById(), line 1874)
+1716045009.9154108 [camera_server-18] (NvCamV4l2) Error BadParameter:  (propagating from /dvs/git/dirty/git-master_linux/camera/utils/nvcamv4l2/v4l2_device.cpp, function getControlRange(), line 331)
+1716045009.9156926 [camera_server-18] initialize: focus query failed
+1716045009.9159796 [camera_server-18] SCF: Error BadParameter:  (propagating from src/services/capture/CaptureServiceDeviceSensor.cpp, function open(), line 139)
+1716045009.9162924 [camera_server-18] SCF: Error BadParameter:  (propagating from src/services/capture/CaptureServiceDeviceSensor.cpp, function getSourceFromGuid(), line 579)
+1716045009.9166234 [camera_server-18] SCF: Error BadParameter:  (propagating from src/services/capture/CaptureService.cpp, function addSourceByGuid(), line 437)
+1716045009.9169257 [camera_server-18] SCF: Error BadParameter:  (propagating from src/api/CameraDriver.cpp, function addSourceByIndex(), line 305)
+1716045009.9172034 [camera_server-18] SCF: Error BadParameter:  (propagating from src/api/CameraDriver.cpp, function getSource(), line 471)
+1716045009.9174798 [camera_server-18] Acquiring SCF Camera device source via index 4 has failed. ---- imager: No override file found. ----
+1716045009.9177988 [camera_server-18] initializeDevNode: Failed to open dev node '/dev/camera/video5'; No such file or directory, trying alternate default location
+1716045009.9180670 [camera_server-18] (NvCamV4l2) Error BadParameter: Control 10094858 not found (in /dvs/git/dirty/git-master_linux/camera/utils/nvcamv4l2/v4l2_device.cpp, function findControlById(), line 1874)
+1716045009.9188650 [camera_server-18] (NvCamV4l2) Error BadParameter:  (propagating from /dvs/git/dirty/git-master_linux/camera/utils/nvcamv4l2/v4l2_device.cpp, function getControlRange(), line 331)
+1716045009.9198108 [camera_server-18] initialize: focus query failed
+1716045009.9246740 [camera_server-18] SCF: Error BadValue: NvPHSSendThroughputHints (in src/common/CameraPowerHint.cpp, function sendCameraPowerHint(), line 56)
+1716045009.9839542 [camera_server-18] [INFO] [1716045009.981752879] [StreamConsumer]: StreamConsumer: Stream size: 2560x1920
+1716045009.9894755 [camera_server-18] [INFO] [1716045009.987348975] [RGBStream]: RGBStreamConsumer: publish rate = 10
+1716045009.9949243 [camera_server-18] [INFO] [1716045009.989977871] [StreamConsumer]: threadInitialize: m_maxBuffersNum = 8
+1716045010.2350175 [camera_server-18] [INFO] [1716045010.232870127] [CameraContext]: startCameraStream: Starting repeat capture requests.
+1716045010.2355969 [camera_server-18] 
+1716045010.2652147 [camera_server-18] [INFO] [1716045010.251711727] [NCSClient]: NCSClient: Create
+1716045010.2699721 [camera_server-18] [INFO] [1716045010.252017487] []: ~TimePerf: START_IMAGE_PUBLISH cost time: 1171892us
+1716045010.6197419 [camera_server-18] [INFO] [1716045010.617222639] [RGBStream]: publishImage: Publishing image #0
+1716045011.6206536 [camera_server-18] [INFO] [1716045011.617778351] [RGBStream]: processBuffer: 21.11 frames per second
+1716045012.7550299 [camera_server-18] [INFO] [1716045012.743313359] [RGBStream]: processBuffer: 23.99 frames per second
+1716045013.6398592 [camera_server-18] [INFO] [1716045013.636578575] [RGBStream]: publishImage: Publishing image #72
+1716045013.8493073 [camera_server-18] [INFO] [1716045013.845032047] [RGBStream]: processBuffer: 24.51 frames per second
+1716045014.9511652 [camera_server-18] [INFO] [1716045014.948894831] [RGBStream]: processBuffer: 24.46 frames per second
+1716045015.9627166 [camera_server-18] [INFO] [1716045015.960283471] [RGBStream]: processBuffer: 26.70 frames per second
+1716045016.7174945 [camera_server-18] [INFO] [1716045016.713457615] [RGBStream]: publishImage: Publishing image #150
+1716045017.0330682 [camera_server-18] [INFO] [1716045017.022832847] [RGBStream]: processBuffer: 25.41 frames per second
+1716045018.0874934 [camera_server-18] [INFO] [1716045018.078564719] [RGBStream]: processBuffer: 25.58 frames per second
+1716045019.1948869 [camera_server-18] [INFO] [1716045019.192575023] [RGBStream]: processBuffer: 24.28 frames per second
+1716045019.8019547 [camera_server-18] [INFO] [1716045019.798125263] [RGBStream]: publishImage: Publishing image #228
+1716045020.2277768 [camera_server-18] [INFO] [1716045020.223935375] [RGBStream]: processBuffer: 26.13 frames per second
+1716045021.2640762 [camera_server-18] [INFO] [1716045021.261514031] [RGBStream]: processBuffer: 28.91 frames per second
+1716045022.3080525 [camera_server-18] [INFO] [1716045022.305142479] [RGBStream]: processBuffer: 28.75 frames per second
+1716045022.9349000 [camera_server-18] [INFO] [1716045022.932197231] [RGBStream]: publishImage: Publishing image #315
+1716045023.3199084 [camera_server-18] [INFO] [1716045023.313294671] [RGBStream]: processBuffer: 26.78 frames per second
+1716045024.3655212 [camera_server-18] [INFO] [1716045024.362370319] [RGBStream]: processBuffer: 28.60 frames per second
+1716045025.3894081 [camera_server-18] [INFO] [1716045025.386335375] [RGBStream]: processBuffer: 29.30 frames per second
+1716045025.9918385 [camera_server-18] [INFO] [1716045025.988472495] [RGBStream]: publishImage: Publishing image #399
+1716045026.4164770 [camera_server-18] [INFO] [1716045026.412381103] [RGBStream]: processBuffer: 23.39 frames per second
+1716045027.4979277 [camera_server-18] [INFO] [1716045027.489020879] [RGBStream]: processBuffer: 27.86 frames per second
+1716045028.4983544 [camera_server-18] [INFO] [1716045028.495265487] [RGBStream]: processBuffer: 28.82 frames per second
+1716045029.0958390 [camera_server-18] [INFO] [1716045029.093297775] [RGBStream]: publishImage: Publishing image #483
+1716045029.5138664 [camera_server-18] [INFO] [1716045029.507417487] [RGBStream]: processBuffer: 24.70 frames per second
+1716045030.5490348 [camera_server-18] [INFO] [1716045030.542498063] [RGBStream]: processBuffer: 26.08 frames per second
+1716045031.5620103 [camera_server-18] [INFO] [1716045031.558766351] [RGBStream]: processBuffer: 26.57 frames per second
+1716045032.1526904 [camera_server-18] [INFO] [1716045032.149449359] [RGBStream]: publishImage: Publishing image #564
+1716045032.6373529 [camera_server-18] [INFO] [1716045032.618903599] [RGBStream]: processBuffer: 28.30 frames per second
+1716045033.6446056 [camera_server-18] [INFO] [1716045033.640232847] [RGBStream]: processBuffer: 29.37 frames per second
+1716045034.6729698 [camera_server-18] [INFO] [1716045034.670736335] [RGBStream]: processBuffer: 29.11 frames per second
+1716045035.1593757 [camera_server-18] [INFO] [1716045035.156291151] [RGBStream]: publishImage: Publishing image #651
+1716045035.7184126 [camera_server-18] [INFO] [1716045035.706759823] [RGBStream]: processBuffer: 28.96 frames per second
+1716045036.7283068 [camera_server-18] [INFO] [1716045036.723481519] [RGBStream]: processBuffer: 28.52 frames per second
+1716045037.8116407 [camera_server-18] [INFO] [1716045037.809232367] [RGBStream]: processBuffer: 25.79 frames per second
+1716045038.2069631 [camera_server-18] [INFO] [1716045038.203222095] [RGBStream]: publishImage: Publishing image #735
+1716045038.8336313 [camera_server-18] [INFO] [1716045038.824388047] [RGBStream]: processBuffer: 26.60 frames per second
+1716045039.8496797 [camera_server-18] [INFO] [1716045039.846173455] [RGBStream]: processBuffer: 29.36 frames per second
+1716045040.8845880 [camera_server-18] [INFO] [1716045040.875273359] [RGBStream]: processBuffer: 29.15 frames per second
+1716045041.2877870 [camera_server-18] [INFO] [1716045041.274823055] [RGBStream]: publishImage: Publishing image #822
+1716045041.9627335 [camera_server-18] [INFO] [1716045041.936077199] [RGBStream]: processBuffer: 28.28 frames per second
+1716045042.9587717 [camera_server-18] [INFO] [1716045042.955202031] [RGBStream]: processBuffer: 28.46 frames per second
+1716045043.9613333 [camera_server-18] [INFO] [1716045043.958436879] [RGBStream]: processBuffer: 26.91 frames per second
+1716045044.3053260 [camera_server-18] [INFO] [1716045044.300912239] [RGBStream]: publishImage: Publishing image #906
+1716045044.9874754 [camera_server-18] [INFO] [1716045044.984568815] [RGBStream]: processBuffer: 27.29 frames per second
+1716045046.0720251 [camera_server-18] [INFO] [1716045046.061749327] [RGBStream]: processBuffer: 27.85 frames per second
+1716045047.1298013 [camera_server-18] [INFO] [1716045047.118916463] [RGBStream]: processBuffer: 28.38 frames per second
+1716045047.3769867 [camera_server-18] [INFO] [1716045047.373032271] [RGBStream]: publishImage: Publishing image #993
+1716045048.1976376 [camera_server-18] [INFO] [1716045048.195197423] [RGBStream]: processBuffer: 27.87 frames per second
+1716045049.2605472 [camera_server-18] [INFO] [1716045049.243799695] [RGBStream]: processBuffer: 28.61 frames per second
+1716045050.3335004 [camera_server-18] [INFO] [1716045050.321178575] [RGBStream]: processBuffer: 27.85 frames per second
+1716045050.4848387 [camera_server-18] [INFO] [1716045050.482098895] [RGBStream]: publishImage: Publishing image #1080
+1716045051.3583565 [camera_server-18] [INFO] [1716045051.356012143] [RGBStream]: processBuffer: 28.99 frames per second
+1716045052.3827107 [camera_server-18] [INFO] [1716045052.380048239] [RGBStream]: processBuffer: 29.30 frames per second
+1716045053.3973260 [camera_server-18] [INFO] [1716045053.395150607] [RGBStream]: processBuffer: 26.60 frames per second
+1716045053.5463850 [camera_server-18] [INFO] [1716045053.530693871] [RGBStream]: publishImage: Publishing image #1167
+1716045054.4510121 [camera_server-18] [INFO] [1716045054.447561327] [RGBStream]: processBuffer: 25.66 frames per second
+1716045055.4711246 [camera_server-18] [INFO] [1716045055.462468239] [RGBStream]: processBuffer: 26.60 frames per second
+1716045056.5583601 [camera_server-18] [INFO] [1716045056.549099631] [RGBStream]: processBuffer: 27.61 frames per second
+1716045056.5766304 [camera_server-18] [INFO] [1716045056.572864623] [RGBStream]: publishImage: Publishing image #1248
+1716045057.6132579 [camera_server-18] [INFO] [1716045057.608904943] [RGBStream]: processBuffer: 28.31 frames per second
+1716045058.6174924 [camera_server-18] [INFO] [1716045058.615209423] [RGBStream]: processBuffer: 26.83 frames per second
+1716045059.6100974 [camera_server-18] [INFO] [1716045059.607629135] [RGBStream]: publishImage: Publishing image #1332
+1716045059.6923027 [camera_server-18] [INFO] [1716045059.689895087] [RGBStream]: processBuffer: 27.92 frames per second
+1716045060.7204654 [camera_server-18] [INFO] [1716045060.717192175] [RGBStream]: processBuffer: 29.20 frames per second
+1716045061.7576172 [camera_server-18] [INFO] [1716045061.755430607] [RGBStream]: processBuffer: 28.90 frames per second
+1716045062.6815853 [camera_server-18] [INFO] [1716045062.678345007] [RGBStream]: publishImage: Publishing image #1419
+1716045062.7921088 [camera_server-18] [INFO] [1716045062.786958159] [RGBStream]: processBuffer: 28.11 frames per second
+1716045063.8223584 [camera_server-18] [INFO] [1716045063.814787087] [RGBStream]: processBuffer: 27.24 frames per second
+1716045064.8720946 [camera_server-18] [INFO] [1716045064.869537679] [RGBStream]: processBuffer: 28.44 frames per second
+1716045065.7644992 [camera_server-18] [INFO] [1716045065.761852463] [RGBStream]: publishImage: Publishing image #1506
+1716045065.9399941 [camera_server-18] [INFO] [1716045065.932021775] [RGBStream]: processBuffer: 28.24 frames per second
+1716045066.9738104 [camera_server-18] [INFO] [1716045066.970310543] [RGBStream]: processBuffer: 28.89 frames per second
+1716045067.9958224 [camera_server-18] [INFO] [1716045067.993466127] [RGBStream]: processBuffer: 27.37 frames per second
+1716045068.7762678 [camera_server-18] [INFO] [1716045068.774055759] [RGBStream]: publishImage: Publishing image #1590
+1716045069.0548182 [camera_server-18] [INFO] [1716045069.051801231] [RGBStream]: processBuffer: 27.40 frames per second
+1716045070.1092927 [camera_server-18] [INFO] [1716045070.101139151] [RGBStream]: processBuffer: 25.73 frames per second
+1716045071.1466439 [camera_server-18] [INFO] [1716045071.141432719] [RGBStream]: processBuffer: 28.84 frames per second
+1716045071.8578362 [camera_server-18] [INFO] [1716045071.855628943] [RGBStream]: publishImage: Publishing image #1674
+1716045072.1492338 [camera_server-18] [INFO] [1716045072.144473103] [RGBStream]: processBuffer: 28.91 frames per second
+1716045072.2384648 [camera_server-18] [INFO] [1716045072.232988111] [MainCameraNode]: serviceCallback: service received command STOP_IMAGE_PUBLISH, argument 
+1716045072.2391193 [camera_server-18] 
+1716045072.2395968 [camera_server-18] [INFO] [1716045072.233796623] [MainCameraNode]: serviceCallback: width = 0, height = 0, fps = 0
+1716045072.4617150 [camera_server-18] [INFO] [1716045072.451814255] [StreamConsumer]: threadExecute: stop stream thread
+1716045073.6597168 [camera_server-18] [INFO] [1716045073.657499247] []: ~TimePerf: STOP_IMAGE_PUBLISH cost time: 1423088us
+1716045081.2269528 [camera_server-18] [INFO] [1716045081.218182543] [MainCameraNode]: serviceCallback: service received command STOP_IMAGE_PUBLISH, argument 
+1716045081.2274361 [camera_server-18] 
+1716045081.2278588 [camera_server-18] [INFO] [1716045081.218490799] [MainCameraNode]: serviceCallback: width = 0, height = 0, fps = 0
+1716045081.2283995 [camera_server-18] [INFO] [1716045081.218634223] []: ~TimePerf: STOP_IMAGE_PUBLISH cost time: 7us
+1716045119.9734459 [camera_server-18] [INFO] [1716045119.951052719] [MainCameraNode]: serviceCallback: service received command STOP_IMAGE_PUBLISH, argument 
+1716045119.9738681 [camera_server-18] 
+1716045119.9742014 [camera_server-18] [INFO] [1716045119.951333551] [MainCameraNode]: serviceCallback: width = 0, height = 0, fps = 0
+1716045119.9746151 [camera_server-18] [INFO] [1716045119.951503471] []: ~TimePerf: STOP_IMAGE_PUBLISH cost time: 9us
+1716045120.4630585 [camera_server-18] [INFO] [1716045120.460209935] [MainCameraNode]: serviceCallback: service received command START_IMAGE_PUBLISH, argument 
+1716045120.4636762 [camera_server-18] 
+1716045120.4645100 [camera_server-18] [INFO] [1716045120.460479663] [MainCameraNode]: serviceCallback: width = 2560, height = 1920, fps = 10
+1716045120.5470843 [camera_server-18] [INFO] [1716045120.517154799] [StreamConsumer]: StreamConsumer: Stream size: 2560x1920
+1716045120.5507736 [camera_server-18] [INFO] [1716045120.522560815] [RGBStream]: RGBStreamConsumer: publish rate = 10
+1716045120.5513177 [camera_server-18] [INFO] [1716045120.523129647] [StreamConsumer]: threadInitialize: m_maxBuffersNum = 8
+1716045120.6053383 [camera_server-18] [INFO] [1716045120.598287727] [CameraContext]: startCameraStream: Starting repeat capture requests.
+1716045120.6065798 [camera_server-18] 
+1716045120.6075742 [camera_server-18] [INFO] [1716045120.598690927] []: ~TimePerf: START_IMAGE_PUBLISH cost time: 138009us
+1716045120.6810064 [camera_server-18] PowerServiceCore:handleRequests: timePassed = 47072
+1716045120.9445326 [camera_server-18] [INFO] [1716045120.936917487] [RGBStream]: publishImage: Publishing image #0
+1716045121.9691234 [camera_server-18] [INFO] [1716045121.966087503] [RGBStream]: processBuffer: 26.21 frames per second
+1716045122.9748030 [camera_server-18] [INFO] [1716045122.972466223] [RGBStream]: processBuffer: 28.82 frames per second
+1716045123.9914258 [camera_server-18] [INFO] [1716045123.989191887] [RGBStream]: processBuffer: 27.54 frames per second
+1716045124.0263708 [camera_server-18] [INFO] [1716045124.019978447] [RGBStream]: publishImage: Publishing image #87
+1716045125.0275171 [camera_server-18] [INFO] [1716045125.016783471] [RGBStream]: processBuffer: 29.19 frames per second
+1716045126.0291700 [camera_server-18] [INFO] [1716045126.025333263] [RGBStream]: processBuffer: 27.76 frames per second
+1716045127.0493906 [camera_server-18] [INFO] [1716045127.040645263] [RGBStream]: publishImage: Publishing image #171
+1716045127.1036398 [camera_server-18] [INFO] [1716045127.092300463] [RGBStream]: processBuffer: 27.18 frames per second
+1716045128.1421258 [camera_server-18] [INFO] [1716045128.138610831] [RGBStream]: processBuffer: 28.67 frames per second
+1716045129.1550260 [camera_server-18] [INFO] [1716045129.151957935] [RGBStream]: processBuffer: 29.60 frames per second
+1716045130.1659997 [camera_server-18] [INFO] [1716045130.156968623] [RGBStream]: publishImage: Publishing image #258
+1716045130.2173450 [camera_server-18] [INFO] [1716045130.214812175] [RGBStream]: processBuffer: 25.40 frames per second
+1716045131.2207677 [camera_server-18] [INFO] [1716045131.217192015] [RGBStream]: processBuffer: 30.93 frames per second
+1716045132.2370558 [camera_server-18] [INFO] [1716045132.227414735] [RGBStream]: processBuffer: 25.74 frames per second
+1716045133.2055533 [camera_server-18] [INFO] [1716045133.201085519] [RGBStream]: publishImage: Publishing image #345
+1716045133.2723296 [camera_server-18] [INFO] [1716045133.266369551] [RGBStream]: processBuffer: 28.88 frames per second
+1716045134.3113832 [camera_server-18] [INFO] [1716045134.306492847] [RGBStream]: processBuffer: 25.95 frames per second
+1716045135.3600161 [camera_server-18] [INFO] [1716045135.354551951] [RGBStream]: processBuffer: 28.62 frames per second
+1716045136.2451627 [camera_server-18] [INFO] [1716045136.232643535] [RGBStream]: publishImage: Publishing image #429
+1716045136.4388800 [camera_server-18] [INFO] [1716045136.426841711] [RGBStream]: processBuffer: 27.98 frames per second
+1716045137.4959397 [camera_server-18] [INFO] [1716045137.493469871] [RGBStream]: processBuffer: 28.13 frames per second
+1716045138.2815273 [camera_server-18] [INFO] [1716045138.220631439] [uninitialized WebRTCManager]: Got msg: {"offer_sdp":{"sdp":"v=0\r\no=- 7073598239356183035 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0 1\r\na=msid-semantic: WMS\r\nm=video 9 UDP/TLS/RTP/SAVPF 96 97 98 99 125 100 101 127\r\nc=IN IP4 0.0.0.0\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=ice-ufrag:dIvT\r\na=ice-pwd:CvXinpBHpVjWY+HwWyXMOKzQ\r\na=ice-options:trickle renomination\r\na=fingerprint:sha-256 15:98:8E:F0:BA:73:1D:28:B5:A4:99:B0:4F:F4:DB:18:FC:B2:D6:D9:4B:94:9C:F6:6D:41:D7:48:F7:83:E6:71\r\na=setup:actpass\r\na=mid:0\r\na=extmap:1 urn:ietf:params:rtp-hdrext:toffset\r\na=extmap:2 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time\r\na=extmap:3 urn:3gpp:video-orientation\r\na=extmap:4 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01\r\na=extmap:5 http://www.webrtc.org/experiments/rtp-hdrext/playout-delay\r\na=extmap:6 http://www.webrtc.org/experiments/rtp-hdrext/video-content-type\r\na=extmap:7 http://www.webrtc.org/experiments/rtp-hdrext/video-timing\r\na=extmap:8 http://www.webrtc.org/experiments/rtp-hdrext/color-space\r\na=extmap:9 urn:ietf:params:rtp-hdrext:sdes:mid\r\na=extmap:10 urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id\r\na=extmap:11 urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id\r\na=recvonly\r\na=rtcp-mux\r\na=rtcp-rsize\r\na=rtpmap:96 VP8/90000\r\na=rtcp-fb:96 goog-remb\r\na=rtcp-fb:96 transport-cc\r\na=rtcp-fb:96 ccm fir\r\na=rtcp-fb:96 nack\r\na=rtcp-fb:96 nack pli\r\na=rtpmap:97 rtx/90000\r\na=fmtp:97 apt=96\r\na=rtpmap:98 VP9/90000\r\na=rtcp-fb:98 goog-remb\r\na=rtcp-fb:98 transport-cc\r\na=rtcp-fb:98 ccm fir\r\na=rtcp-fb:98 nack\r\na=rtcp-fb:98 nack pli\r\na=rtpmap:99 rtx/90000\r\na=fmtp:99 apt=98\r\na=rtpmap:125 H264/90000\r\na=rtcp-fb:125 goog-remb\r\na=rtcp-fb:125 transport-cc\r\na=rtcp-fb:125 ccm fir\r\na=rtcp-fb:125 nack\r\na=rtcp-fb:125 nack pli\r\na=fmtp:125 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42e01f\r\na=rtpmap:100 red/90000\r\na=rtpmap:101 rtx/90000\r\na=fmtp:101 apt=100\r\na=rtpmap:127 ulpfec/90000\r\nm=audio 9 UDP/TLS/RTP/SAVPF 111 103 104 9 102 0 8 106 105 13 110 112 113 126\r\nc=IN IP4 0.0.0.0\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=ice-ufrag:dIvT\r\na=ice-pwd:CvXinpBHpVjWY+HwWyXMOKzQ\r\na=ice-options:trickle renomination\r\na=fingerprint:sha-256 15:98:8E:F0:BA:73:1D:28:B5:A4:99:B0:4F:F4:DB:18:FC:B2:D6:D9:4B:94:9C:F6:6D:41:D7:48:F7:83:E6:71\r\na=setup:actpass\r\na=mid:1\r\na=extmap:14 urn:ietf:params:rtp-hdrext:ssrc-audio-level\r\na=extmap:2 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time\r\na=extmap:4 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01\r\na=extmap:9 urn:ietf:params:rtp-hdrext:sdes:mid\r\na=extmap:10 urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id\r\na=extmap:11 urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id\r\na=recvonly\r\na=rtcp-mux\r\na=rtpmap:111 opus/48000/2\r\na=rtcp-fb:111 transport-cc\r\na=fmtp:111 minptime=10;useinbandfec=1\r\na=rtpmap:103 ISAC/16000\r\na=rtpmap:104 ISAC/32000\r\na=rtpmap:9 G722/8000\r\na=rtpmap:102 ILBC/8000\r\na=rtpmap:0 PCMU/8000\r\na=rtpmap:8 PCMA/8000\r\na=rtpmap:106 CN/32000\r\na=rtpmap:105 CN/16000\r\na=rtpmap:13 CN/8000\r\na=rtpmap:110 telephone-event/48000\r\na=rtpmap:112 telephone-event/32000\r\na=rtpmap:113 telephone-event/16000\r\na=rtpmap:126 telephone-event/8000\r\n","type":"offer"},"height":1260,"width":2720,"alignment":"middle"}
+1716045138.2823179 [camera_server-18] [WARN] [1716045138.222840015] [uninitialized WebRTCManager]: There is no uid in this msg, set default_uid
+1716045138.2985826 [camera_server-18] [INFO] [1716045138.256140335] [uninitialized WebRTCManager]: A new pc is created.
+1716045138.2994771 [camera_server-18] [INFO] [1716045138.256624431] [uninitialized WebRTCManager]: It's an sdp
+1716045138.2999389 [camera_server-18] [INFO] [1716045138.258756527] [uninitialized WebRTCManager]: create session description
+1716045138.3107688 [camera_server-18] [INFO] [1716045138.272568783] [uninitialized PCConductor]: OnSignalingChange3
+1716045138.3113995 [camera_server-18] [INFO] [1716045138.277408111] [uninitialized PCConductor]: set remote description
+1716045138.3117890 [camera_server-18] [INFO] [1716045138.279374255] [uninitialized PCConductor]: OnSuccess
+1716045138.3121240 [camera_server-18] [INFO] [1716045138.280596431] [uninitialized PCConductor]: OnSignalingChange0
+1716045138.3124456 [camera_server-18] [INFO] [1716045138.283657071] [uninitialized PCConductor]: sdp answer has been created
+1716045138.3197415 [camera_server-18] [INFO] [1716045138.291507791] [uninitialized I420DataInterface]: AddOrUpdateSink
+1716045138.3349912 [camera_server-18] [INFO] [1716045138.295642543] [uninitialized WebRTCManager]: send sdp
+1716045138.3356600 [camera_server-18] [INFO] [1716045138.295892143] [uninitialized WebRTCManager]: {
+1716045138.3361156 [camera_server-18] 	"answer_sdp" : 
+1716045138.3365891 [camera_server-18] 	{
+1716045138.3373096 [camera_server-18] 		"sdp" : "v=0\r\no=- 2020477462960923090 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0 1\r\na=msid-semantic: WMS stream_id\r\nm=video 9 UDP/TLS/RTP/SAVPF 96 97 98 99 125 100 101 127\r\nc=IN IP4 0.0.0.0\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=ice-ufrag:pJ6u\r\na=ice-pwd:yGtoqpgfa7v8d/lt4sO8R691\r\na=ice-options:trickle\r\na=fingerprint:sha-256 D1:C2:E4:FA:40:95:F5:68:C5:C4:41:B9:F4:13:70:7D:FC:2C:0A:05:2B:48:D8:2E:2C:37:78:ED:1C:4D:BC:BA\r\na=setup:active\r\na=mid:0\r\na=extmap:1 urn:ietf:params:rtp-hdrext:toffset\r\na=extmap:2 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time\r\na=extmap:3 urn:3gpp:video-orientation\r\na=extmap:4 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01\r\na=extmap:5 http://www.webrtc.org/experiments/rtp-hdrext/playout-delay\r\na=extmap:6 http://www.webrtc.org/experiments/rtp-hdrext/video-content-type\r\na=extmap:7 http://www.webrtc.org/experiments/rtp-hdrext/video-timing\r\na=extmap:8 http://www.webrtc.org/experiments/rtp-hdrext/color-space\r\na=extmap:9 urn:ietf:params:rtp-hdrext:sdes:mid\r\na=extmap:10 urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id\r\na=extmap:11 urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id\r\na=sendonly\r\na=msid:stream_id video_label\r\na=rtcp-mux\r\na=rtcp-rsize\r\na=rtpmap:96 VP8/90000\r\na=rtcp-fb:96 goog-remb\r\na=rtcp-fb:96 transport-cc\r\na=rtcp-fb:96 ccm fir\r\na=rtcp-fb:96 nack\r\na=rtcp-fb:96 nack pli\r\na=rtpmap:97 rtx/90000\r\na=fmtp:97 apt=96\r\na=rtpmap:98 VP9/90000\r\na=rtcp-fb:98 goog-remb\r\na=rtcp-fb:98 transport-cc\r\na=rtcp-fb:98 ccm fir\r\na=rtcp-fb:98 nack\r\na=rtcp-fb:98 nack pli\r\na=fmtp:98 profile-id=0\r\na=rtpmap:99 rtx/90000\r\na=fmtp:99 apt=98\r\na=rtpmap:125 H264/90000\r\na=rtcp-fb:125 goog-remb\r\na=rtcp-fb:125 transport-cc\r\na=rtcp-fb:125 ccm fir\r\na=rtcp-fb:125 nack\r\na=rtcp-fb:125 nack pli\r\na=fmtp:125 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42e01f\r\na=rtpmap:100 red/90000\r\na=rtpmap:101 rtx/90000\r\na=fmtp:101 apt=100\r\na=rtpmap:127 ulpfec/90000\r\na=ssrc-group:FID 804892957 1799726277\r\na=ssrc:804892957 cname:wXRD505pWt66M2E4\r\na=ssrc:804892957 msid:stream_id video_label\r\na=ssrc:804892957 mslabel:stream_id\r\na=ssrc:804892957 label:video_label\r\na=ssrc:1799726277 cname:wXRD505pWt66M2E4\r\na=ssrc:1799726277 msid:stream_id video_label\r\na=ssrc:1799726277 mslabel:stream_id\r\na=ssrc:1799726277 label:video_label\r\nm=audio 9 UDP/TLS/RTP/SAVPF 111 103 104 9 102 0 8 106 105 13 110 112 113 126\r\nc=IN IP4 0.0.0.0\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=ice-ufrag:pJ6u\r\na=ice-pwd:yGtoqpgfa7v8d/lt4sO8R691\r\na=ice-options:trickle\r\na=fingerprint:sha-256 D1:C2:E4:FA:40:95:F5:68:C5:C4:41:B9:F4:13:70:7D:FC:2C:0A:05:2B:48:D8:2E:2C:37:78:ED:1C:4D:BC:BA\r\na=setup:active\r\na=mid:1\r\na=extmap:14 urn:ietf:params:rtp-hdrext:ssrc-audio-level\r\na=extmap:4 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01\r\na=extmap:9 urn:ietf:params:rtp-hdrext:sdes:mid\r\na=extmap:10 urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id\r\na=extmap:11 urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id\r\na=inactive\r\na=rtcp-mux\r\na=rtpmap:111 opus/48000/2\r\na=rtcp-fb:111 transport-cc\r\na=fmtp:111 minptime=10;useinbandfec=1\r\na=rtpmap:103 ISAC/16000\r\na=rtpmap:104 ISAC/32000\r\na=rtpmap:9 G722/8000\r\na=rtpmap:102 ILBC/8000\r\na=rtpmap:0 PCMU/8000\r\na=rtpmap:8 PCMA/8000\r\na=rtpmap:106 CN/32000\r\na=rtpmap:105 CN/16000\r\na=rtpmap:13 CN/8000\r\na=rtpmap:110 telephone-event/48000\r\na=rtpmap:112 telephone-event/32000\r\na=rtpmap:113 telephone-event/16000\r\na=rtpmap:126 telephone-event/8000\r\n",
+1716045138.3378367 [camera_server-18] 		"type" : "answer"
+1716045138.3382702 [camera_server-18] 	},
+1716045138.3389397 [camera_server-18] 	"uid" : "default_uid"
+1716045138.3393557 [camera_server-18] }
+1716045138.3397717 [camera_server-18] [INFO] [1716045138.298638959] [uninitialized PCConductor]: OnIceGatheringChange1
+1716045138.3401430 [camera_server-18] [INFO] [1716045138.298865007] [uninitialized PCConductor]: OnIceCandidate
+1716045138.3405554 [camera_server-18] [INFO] [1716045138.299337423] [uninitialized WebRTCManager]: send candidate
+1716045138.3411689 [camera_server-18] [INFO] [1716045138.299486735] [uninitialized WebRTCManager]: {
+1716045138.3415992 [camera_server-18] 	"c_sdp" : 
+1716045138.3419890 [camera_server-18] 	{
+1716045138.3423815 [camera_server-18] 		"candidate" : "candidate:1064704802 1 udp 2122260223 10.0.0.252 47571 typ host generation 0 ufrag pJ6u network-id 4 network-cost 50",
+1716045138.3429246 [camera_server-18] 		"sdpMLineIndex" : 0,
+1716045138.3433685 [camera_server-18] 		"sdpMid" : "0"
+1716045138.3437788 [camera_server-18] 	},
+1716045138.3441658 [camera_server-18] 	"uid" : "default_uid"
+1716045138.3447175 [camera_server-18] }
+1716045138.3451481 [camera_server-18] [INFO] [1716045138.299728463] [uninitialized PCConductor]: OnIceCandidate
+1716045138.3455682 [camera_server-18] [INFO] [1716045138.300072431] [uninitialized WebRTCManager]: send candidate
+1716045138.3459411 [camera_server-18] [INFO] [1716045138.300206319] [uninitialized WebRTCManager]: {
+1716045138.3464963 [camera_server-18] 	"c_sdp" : 
+1716045138.3470035 [camera_server-18] 	{
+1716045138.3474212 [camera_server-18] 		"candidate" : "candidate:1500764036 1 udp 2122194687 192.168.44.1 38682 typ host generation 0 ufrag pJ6u network-id 1",
+1716045138.3477731 [camera_server-18] 		"sdpMLineIndex" : 0,
+1716045138.3480926 [camera_server-18] 		"sdpMid" : "0"
+1716045138.3487992 [camera_server-18] 	},
+1716045138.3492346 [camera_server-18] 	"uid" : "default_uid"
+1716045138.3496437 [camera_server-18] }
+1716045138.3601143 [camera_server-18] [INFO] [1716045138.356814799] [uninitialized WebRTCManager]: Got msg: {"c_sdp":{"adapterType":"UNKNOWN","sdpMLineIndex":0,"sdpMid":"0","serverUrl":"","candidate":"candidate:4017991817 1 udp 2122262783 2409:8100:1bd3:3cb3:17cf:fd89:2a7e:9515 49742 typ host generation 0 ufrag dIvT network-id 5 network-cost 50"},"height":1260,"width":2720,"alignment":"middle"}
+1716045138.3670137 [camera_server-18] [WARN] [1716045138.357369839] [uninitialized WebRTCManager]: There is no uid in this msg, set default_uid
+1716045138.3678370 [camera_server-18] [INFO] [1716045138.357602351] [uninitialized WebRTCManager]: Got an existed pc.
+1716045138.3682330 [camera_server-18] [INFO] [1716045138.357769775] [uninitialized WebRTCManager]: It's a candidate
+1716045138.3689702 [camera_server-18] [INFO] [1716045138.358129967] [uninitialized WebRTCManager]: create candidate
+1716045138.3693438 [camera_server-18] [INFO] [1716045138.358943599] [uninitialized PCConductor]: OnIceConnectionChange1
+1716045138.3698819 [camera_server-18] [INFO] [1716045138.359177167] [uninitialized PCConductor]: add ice candidate
+1716045138.3710179 [camera_server-18] [INFO] [1716045138.360434319] [uninitialized WebRTCManager]: Got msg: {"c_sdp":{"adapterType":"UNKNOWN","sdpMLineIndex":0,"sdpMid":"0","serverUrl":"","candidate":"candidate:2928805241 1 udp 2122197247 240e:504:1a20:d1cb:17cf:fd89:44ed:e284 38306 typ host generation 0 ufrag dIvT network-id 6 network-cost 50"},"height":1260,"width":2720,"alignment":"middle"}
+1716045138.3715069 [camera_server-18] [WARN] [1716045138.362111663] [uninitialized WebRTCManager]: There is no uid in this msg, set default_uid
+1716045138.3761301 [camera_server-18] [INFO] [1716045138.362392303] [uninitialized WebRTCManager]: Got an existed pc.
+1716045138.3770354 [camera_server-18] [INFO] [1716045138.362614287] [uninitialized WebRTCManager]: It's a candidate
+1716045138.3817518 [camera_server-18] [INFO] [1716045138.363685679] [uninitialized WebRTCManager]: create candidate
+1716045138.3827271 [camera_server-18] [INFO] [1716045138.363478127] [uninitialized PCConductor]: OnIceCandidate
+1716045138.3833091 [camera_server-18] [INFO] [1716045138.364252975] [uninitialized WebRTCManager]: send candidate
+1716045138.3839238 [camera_server-18] [INFO] [1716045138.364382991] [uninitialized WebRTCManager]: {
+1716045138.3844211 [camera_server-18] 	"c_sdp" : 
+1716045138.3851025 [camera_server-18] 	{
+1716045138.3856325 [camera_server-18] 		"candidate" : "candidate:3696729550 1 udp 1686052607 166.111.74.119 47571 typ srflx raddr 10.0.0.252 rport 47571 generation 0 ufrag pJ6u network-id 4 network-cost 50",
+1716045138.3860166 [camera_server-18] 		"sdpMLineIndex" : 0,
+1716045138.3865936 [camera_server-18] 		"sdpMid" : "0"
+1716045138.3871853 [camera_server-18] 	},
+1716045138.3875768 [camera_server-18] 	"uid" : "default_uid"
+1716045138.3880038 [camera_server-18] }
+1716045138.3887663 [camera_server-18] [INFO] [1716045138.364652399] [uninitialized PCConductor]: OnIceCandidate
+1716045138.3891647 [camera_server-18] [INFO] [1716045138.365073871] [uninitialized WebRTCManager]: send candidate
+1716045138.3896644 [camera_server-18] [INFO] [1716045138.365212239] [uninitialized WebRTCManager]: {
+1716045138.3900611 [camera_server-18] 	"c_sdp" : 
+1716045138.3910792 [camera_server-18] 	{
+1716045138.3917196 [camera_server-18] 		"candidate" : "candidate:2942545488 1 udp 1685987071 166.111.74.119 38682 typ srflx raddr 192.168.44.1 rport 38682 generation 0 ufrag pJ6u network-id 1",
+1716045138.3922296 [camera_server-18] 		"sdpMLineIndex" : 0,
+1716045138.3925939 [camera_server-18] 		"sdpMid" : "0"
+1716045138.3931322 [camera_server-18] 	},
+1716045138.3935556 [camera_server-18] 	"uid" : "default_uid"
+1716045138.3939147 [camera_server-18] }
+1716045138.3945973 [camera_server-18] [INFO] [1716045138.366813327] [uninitialized PCConductor]: add ice candidate
+1716045138.3952107 [camera_server-18] [INFO] [1716045138.367741807] [uninitialized WebRTCManager]: Got msg: {"c_sdp":{"adapterType":"UNKNOWN","sdpMLineIndex":0,"sdpMid":"0","serverUrl":"","candidate":"candidate:3973439045 1 udp 2122129151 10.0.0.105 53533 typ host generation 0 ufrag dIvT network-id 9 network-cost 10"},"height":1260,"width":2720,"alignment":"middle"}
+1716045138.3956101 [camera_server-18] [WARN] [1716045138.368226543] [uninitialized WebRTCManager]: There is no uid in this msg, set default_uid
+1716045138.3963065 [camera_server-18] [INFO] [1716045138.368401807] [uninitialized WebRTCManager]: Got an existed pc.
+1716045138.3967865 [camera_server-18] [INFO] [1716045138.368689775] [uninitialized WebRTCManager]: It's a candidate
+1716045138.3970945 [camera_server-18] [INFO] [1716045138.368950927] [uninitialized WebRTCManager]: create candidate
+1716045138.3974249 [camera_server-18] [INFO] [1716045138.372680431] [uninitialized PCConductor]: add ice candidate
+1716045138.4125197 [camera_server-18] [INFO] [1716045138.373894063] [uninitialized WebRTCManager]: Got msg: {"c_sdp":{"adapterType":"UNKNOWN","sdpMLineIndex":0,"sdpMid":"0","serverUrl":"","candidate":"candidate:1121359951 1 udp 2122066175 2409:8900:1ae6:9100:b505:181:8f5b:6ec0 51216 typ host generation 0 ufrag dIvT network-id 4 network-cost 900"},"height":1260,"width":2720,"alignment":"middle"}
+1716045138.4133050 [camera_server-18] [WARN] [1716045138.374306479] [uninitialized WebRTCManager]: There is no uid in this msg, set default_uid
+1716045138.4139318 [camera_server-18] [INFO] [1716045138.374488975] [uninitialized WebRTCManager]: Got an existed pc.
+1716045138.4146423 [camera_server-18] [INFO] [1716045138.374684975] [uninitialized WebRTCManager]: It's a candidate
+1716045138.4152744 [camera_server-18] [INFO] [1716045138.374940047] [uninitialized WebRTCManager]: create candidate
+1716045138.4158540 [camera_server-18] [INFO] [1716045138.376148655] [uninitialized PCConductor]: add ice candidate
+1716045138.4162874 [camera_server-18] [INFO] [1716045138.377060847] [uninitialized WebRTCManager]: Got msg: {"c_sdp":{"adapterType":"UNKNOWN","sdpMLineIndex":0,"sdpMid":"0","serverUrl":"","candidate":"candidate:2022981585 1 udp 2121998079 10.211.14.24 35057 typ host generation 0 ufrag dIvT network-id 3 network-cost 900"},"height":1260,"width":2720,"alignment":"middle"}
+1716045138.4169354 [camera_server-18] [WARN] [1716045138.377384719] [uninitialized WebRTCManager]: There is no uid in this msg, set default_uid
+1716045138.4173305 [camera_server-18] [INFO] [1716045138.377529487] [uninitialized WebRTCManager]: Got an existed pc.
+1716045138.4178352 [camera_server-18] [INFO] [1716045138.378343695] [uninitialized WebRTCManager]: It's a candidate
+1716045138.4183486 [camera_server-18] [INFO] [1716045138.378608303] [uninitialized WebRTCManager]: create candidate
+1716045138.4240687 [camera_server-18] [INFO] [1716045138.379733455] [uninitialized PCConductor]: add ice candidate
+1716045138.4248867 [camera_server-18] [INFO] [1716045138.381627375] [uninitialized WebRTCManager]: Got msg: {"c_sdp":{"adapterType":"UNKNOWN","sdpMLineIndex":0,"sdpMid":"0","serverUrl":"","candidate":"candidate:559267639 1 udp 2121940223 ::1 53846 typ host generation 0 ufrag dIvT network-id 2"},"height":1260,"width":2720,"alignment":"middle"}
+1716045138.4255223 [camera_server-18] [WARN] [1716045138.381952047] [uninitialized WebRTCManager]: There is no uid in this msg, set default_uid
+1716045138.4259515 [camera_server-18] [INFO] [1716045138.382101199] [uninitialized WebRTCManager]: Got an existed pc.
+1716045138.4264987 [camera_server-18] [INFO] [1716045138.382346511] [uninitialized WebRTCManager]: It's a candidate
+1716045138.4270399 [camera_server-18] [INFO] [1716045138.382588335] [uninitialized WebRTCManager]: create candidate
+1716045138.4274523 [camera_server-18] [INFO] [1716045138.391036911] [uninitialized PCConductor]: OnIceGatheringChange2
+1716045138.4278238 [camera_server-18] [INFO] [1716045138.395001263] [uninitialized PCConductor]: add ice candidate
+1716045138.4620423 [camera_server-18] [INFO] [1716045138.459297839] [uninitialized WebRTCManager]: Got msg: {"c_sdp":{"adapterType":"UNKNOWN","sdpMLineIndex":0,"sdpMid":"0","serverUrl":"","candidate":"candidate:1510613869 1 udp 2121867007 127.0.0.1 47107 typ host generation 0 ufrag dIvT network-id 1"},"height":1260,"width":2720,"alignment":"middle"}
+1716045138.4669814 [camera_server-18] [WARN] [1716045138.462027535] [uninitialized WebRTCManager]: There is no uid in this msg, set default_uid
+1716045138.4676716 [camera_server-18] [INFO] [1716045138.462434255] [uninitialized WebRTCManager]: Got an existed pc.
+1716045138.4681764 [camera_server-18] [INFO] [1716045138.462623759] [uninitialized WebRTCManager]: It's a candidate
+1716045138.4688594 [camera_server-18] [INFO] [1716045138.462935823] [uninitialized WebRTCManager]: create candidate
+1716045138.4736857 [camera_server-18] [INFO] [1716045138.464071631] [uninitialized PCConductor]: add ice candidate
+1716045138.4744465 [camera_server-18] [INFO] [1716045138.464999407] [uninitialized WebRTCManager]: Got msg: {"c_sdp":{"adapterType":"UNKNOWN","sdpMLineIndex":1,"sdpMid":"1","serverUrl":"","candidate":"candidate:4017991817 1 udp 2122262783 2409:8100:1bd3:3cb3:17cf:fd89:2a7e:9515 57220 typ host generation 0 ufrag dIvT network-id 5 network-cost 50"},"height":1260,"width":2720,"alignment":"middle"}
+1716045138.4750557 [camera_server-18] [WARN] [1716045138.465341711] [uninitialized WebRTCManager]: There is no uid in this msg, set default_uid
+1716045138.4755301 [camera_server-18] [INFO] [1716045138.465494255] [uninitialized WebRTCManager]: Got an existed pc.
+1716045138.4759657 [camera_server-18] [INFO] [1716045138.465689071] [uninitialized WebRTCManager]: It's a candidate
+1716045138.4765635 [camera_server-18] [INFO] [1716045138.465977423] [uninitialized WebRTCManager]: create candidate
+1716045138.4770944 [camera_server-18] [INFO] [1716045138.466519631] [uninitialized PCConductor]: add ice candidate
+1716045138.4776018 [camera_server-18] [INFO] [1716045138.467595119] [uninitialized WebRTCManager]: Got msg: {"c_sdp":{"adapterType":"UNKNOWN","sdpMLineIndex":1,"sdpMid":"1","serverUrl":"","candidate":"candidate:2928805241 1 udp 2122197247 240e:504:1a20:d1cb:17cf:fd89:44ed:e284 37454 typ host generation 0 ufrag dIvT network-id 6 network-cost 50"},"height":1260,"width":2720,"alignment":"middle"}
+1716045138.4779723 [camera_server-18] [WARN] [1716045138.467864143] [uninitialized WebRTCManager]: There is no uid in this msg, set default_uid
+1716045138.4785020 [camera_server-18] [INFO] [1716045138.468016527] [uninitialized WebRTCManager]: Got an existed pc.
+1716045138.4789827 [camera_server-18] [INFO] [1716045138.468158863] [uninitialized WebRTCManager]: It's a candidate
+1716045138.4793556 [camera_server-18] [INFO] [1716045138.468374191] [uninitialized WebRTCManager]: create candidate
+1716045138.4797959 [camera_server-18] [INFO] [1716045138.468975823] [uninitialized PCConductor]: add ice candidate
+1716045138.4844000 [camera_server-18] [INFO] [1716045138.470560847] [uninitialized WebRTCManager]: Got msg: {"c_sdp":{"adapterType":"UNKNOWN","sdpMLineIndex":1,"sdpMid":"1","serverUrl":"","candidate":"candidate:3973439045 1 udp 2122129151 10.0.0.105 42913 typ host generation 0 ufrag dIvT network-id 9 network-cost 10"},"height":1260,"width":2720,"alignment":"middle"}
+1716045138.4853444 [camera_server-18] [WARN] [1716045138.470853135] [uninitialized WebRTCManager]: There is no uid in this msg, set default_uid
+1716045138.4860902 [camera_server-18] [INFO] [1716045138.471051919] [uninitialized WebRTCManager]: Got an existed pc.
+1716045138.4870503 [camera_server-18] [INFO] [1716045138.471217871] [uninitialized WebRTCManager]: It's a candidate
+1716045138.4875703 [camera_server-18] [INFO] [1716045138.471429327] [uninitialized WebRTCManager]: create candidate
+1716045138.4930665 [camera_server-18] [INFO] [1716045138.471899183] [uninitialized PCConductor]: add ice candidate
+1716045138.4939494 [camera_server-18] [INFO] [1716045138.472745423] [uninitialized WebRTCManager]: Got msg: {"c_sdp":{"adapterType":"UNKNOWN","sdpMLineIndex":1,"sdpMid":"1","serverUrl":"","candidate":"candidate:1121359951 1 udp 2122066175 2409:8900:1ae6:9100:b505:181:8f5b:6ec0 33294 typ host generation 0 ufrag dIvT network-id 4 network-cost 900"},"height":1260,"width":2720,"alignment":"middle"}
+1716045138.4948962 [camera_server-18] [WARN] [1716045138.472963183] [uninitialized WebRTCManager]: There is no uid in this msg, set default_uid
+1716045138.4955089 [camera_server-18] [INFO] [1716045138.473116495] [uninitialized WebRTCManager]: Got an existed pc.
+1716045138.4963479 [camera_server-18] [INFO] [1716045138.473321807] [uninitialized WebRTCManager]: It's a candidate
+1716045138.4969389 [camera_server-18] [INFO] [1716045138.473531727] [uninitialized WebRTCManager]: create candidate
+1716045138.4975595 [camera_server-18] [INFO] [1716045138.473976623] [uninitialized PCConductor]: add ice candidate
+1716045138.4980578 [camera_server-18] [INFO] [1716045138.474808367] [uninitialized WebRTCManager]: Got msg: {"c_sdp":{"adapterType":"UNKNOWN","sdpMLineIndex":1,"sdpMid":"1","serverUrl":"","candidate":"candidate:559267639 1 udp 2121940223 ::1 60779 typ host generation 0 ufrag dIvT network-id 2"},"height":1260,"width":2720,"alignment":"middle"}
+1716045138.4986417 [camera_server-18] [WARN] [1716045138.475040559] [uninitialized WebRTCManager]: There is no uid in this msg, set default_uid
+1716045138.4991722 [camera_server-18] [INFO] [1716045138.475155055] [uninitialized WebRTCManager]: Got an existed pc.
+1716045138.4995642 [camera_server-18] [INFO] [1716045138.475315887] [uninitialized WebRTCManager]: It's a candidate
+1716045138.4999340 [camera_server-18] [INFO] [1716045138.475525391] [uninitialized WebRTCManager]: create candidate
+1716045138.5003908 [camera_server-18] [INFO] [1716045138.476023151] [uninitialized PCConductor]: add ice candidate
+1716045138.5009363 [camera_server-18] [INFO] [1716045138.476752335] [uninitialized WebRTCManager]: Got msg: {"c_sdp":{"adapterType":"UNKNOWN","sdpMLineIndex":1,"sdpMid":"1","serverUrl":"","candidate":"candidate:2022981585 1 udp 2121998079 10.211.14.24 41879 typ host generation 0 ufrag dIvT network-id 3 network-cost 900"},"height":1260,"width":2720,"alignment":"middle"}
+1716045138.5013366 [camera_server-18] [WARN] [1716045138.476961167] [uninitialized WebRTCManager]: There is no uid in this msg, set default_uid
+1716045138.5018265 [camera_server-18] [INFO] [1716045138.477199055] [uninitialized WebRTCManager]: Got an existed pc.
+1716045138.5021741 [camera_server-18] [INFO] [1716045138.477399279] [uninitialized WebRTCManager]: It's a candidate
+1716045138.5029280 [camera_server-18] [INFO] [1716045138.477604879] [uninitialized WebRTCManager]: create candidate
+1716045138.5033083 [camera_server-18] [INFO] [1716045138.480735503] [uninitialized PCConductor]: add ice candidate
+1716045138.5087945 [camera_server-18] [INFO] [1716045138.481495471] [uninitialized WebRTCManager]: Got msg: {"c_sdp":{"adapterType":"UNKNOWN","sdpMLineIndex":1,"sdpMid":"1","serverUrl":"","candidate":"candidate:1510613869 1 udp 2121867007 127.0.0.1 56656 typ host generation 0 ufrag dIvT network-id 1"},"height":1260,"width":2720,"alignment":"middle"}
+1716045138.5096371 [camera_server-18] [WARN] [1716045138.481712239] [uninitialized WebRTCManager]: There is no uid in this msg, set default_uid
+1716045138.5101676 [camera_server-18] [INFO] [1716045138.481950767] [uninitialized WebRTCManager]: Got an existed pc.
+1716045138.5149710 [camera_server-18] [INFO] [1716045138.482085551] [uninitialized WebRTCManager]: It's a candidate
+1716045138.5157549 [camera_server-18] [INFO] [1716045138.482366351] [uninitialized WebRTCManager]: create candidate
+1716045138.5163238 [camera_server-18] [INFO] [1716045138.482877103] [uninitialized PCConductor]: add ice candidate
+1716045138.5169909 [camera_server-18] [INFO] [1716045138.483688111] [uninitialized WebRTCManager]: Got msg: {"c_sdp":{"adapterType":"UNKNOWN","sdpMLineIndex":0,"sdpMid":"0","serverUrl":"","candidate":"candidate:2717797497 1 tcp 1518283007 2409:8100:1bd3:3cb3:17cf:fd89:2a7e:9515 51525 typ host tcptype passive generation 0 ufrag dIvT network-id 5 network-cost 50"},"height":1260,"width":2720,"alignment":"middle"}
+1716045138.5176425 [camera_server-18] [WARN] [1716045138.483965423] [uninitialized WebRTCManager]: There is no uid in this msg, set default_uid
+1716045138.5181975 [camera_server-18] [INFO] [1716045138.484121551] [uninitialized WebRTCManager]: Got an existed pc.
+1716045138.5188704 [camera_server-18] [INFO] [1716045138.484249679] [uninitialized WebRTCManager]: It's a candidate
+1716045138.5192921 [camera_server-18] [INFO] [1716045138.484452431] [uninitialized WebRTCManager]: create candidate
+1716045138.5198219 [camera_server-18] [INFO] [1716045138.485313999] [uninitialized PCConductor]: add ice candidate
+1716045138.5202498 [camera_server-18] [INFO] [1716045138.486510191] [uninitialized WebRTCManager]: Got msg: {"c_sdp":{"adapterType":"UNKNOWN","sdpMLineIndex":0,"sdpMid":"0","serverUrl":"","candidate":"candidate:3759274377 1 tcp 1518217471 240e:504:1a20:d1cb:17cf:fd89:44ed:e284 38737 typ host tcptype passive generation 0 ufrag dIvT network-id 6 network-cost 50"},"height":1260,"width":2720,"alignment":"middle"}
+1716045138.5208945 [camera_server-18] [WARN] [1716045138.487765455] [uninitialized WebRTCManager]: There is no uid in this msg, set default_uid
+1716045138.5213132 [camera_server-18] [INFO] [1716045138.487952207] [uninitialized WebRTCManager]: Got an existed pc.
+1716045138.5217028 [camera_server-18] [INFO] [1716045138.488196591] [uninitialized WebRTCManager]: It's a candidate
+1716045138.5221133 [camera_server-18] [INFO] [1716045138.488560719] [uninitialized WebRTCManager]: create candidate
+1716045138.5226576 [camera_server-18] [INFO] [1716045138.489417103] [uninitialized PCConductor]: add ice candidate
+1716045138.5294693 [camera_server-18] [INFO] [1716045138.490273967] [uninitialized WebRTCManager]: Got msg: {"c_sdp":{"adapterType":"UNKNOWN","sdpMLineIndex":0,"sdpMid":"0","serverUrl":"","candidate":"candidate:206922943 1 tcp 1518086399 2409:8900:1ae6:9100:b505:181:8f5b:6ec0 58383 typ host tcptype passive generation 0 ufrag dIvT network-id 4 network-cost 900"},"height":1260,"width":2720,"alignment":"middle"}
+1716045138.5301721 [camera_server-18] [WARN] [1716045138.490520399] [uninitialized WebRTCManager]: There is no uid in this msg, set default_uid
+1716045138.5309093 [camera_server-18] [INFO] [1716045138.490650319] [uninitialized WebRTCManager]: Got an existed pc.
+1716045138.5313663 [camera_server-18] [INFO] [1716045138.490806703] [uninitialized WebRTCManager]: It's a candidate
+1716045138.5318549 [camera_server-18] [INFO] [1716045138.491027983] [uninitialized WebRTCManager]: create candidate
+1716045138.5322685 [camera_server-18] [INFO] [1716045138.491740143] [uninitialized PCConductor]: add ice candidate
+1716045138.5328822 [camera_server-18] [INFO] [1716045138.492527823] [uninitialized WebRTCManager]: Got msg: {"c_sdp":{"adapterType":"UNKNOWN","sdpMLineIndex":0,"sdpMid":"0","serverUrl":"","candidate":"candidate:2723553973 1 tcp 1518149375 10.0.0.105 46493 typ host tcptype passive generation 0 ufrag dIvT network-id 9 network-cost 10"},"height":1260,"width":2720,"alignment":"middle"}
+1716045138.5333445 [camera_server-18] [WARN] [1716045138.492744591] [uninitialized WebRTCManager]: There is no uid in this msg, set default_uid
+1716045138.5337546 [camera_server-18] [INFO] [1716045138.492887311] [uninitialized WebRTCManager]: Got an existed pc.
+1716045138.5341473 [camera_server-18] [INFO] [1716045138.493053807] [uninitialized WebRTCManager]: It's a candidate
+1716045138.5346198 [camera_server-18] [INFO] [1716045138.493259119] [uninitialized WebRTCManager]: create candidate
+1716045138.5351293 [camera_server-18] [INFO] [1716045138.494186703] [uninitialized PCConductor]: add ice candidate
+1716045138.5444076 [camera_server-18] [INFO] [1716045138.535980687] [RGBStream]: processBuffer: 25.90 frames per second
+1716045138.5451643 [camera_server-18] [INFO] [1716045138.536293679] [uninitialized WebRTCManager]: Got msg: {"c_sdp":{"adapterType":"UNKNOWN","sdpMLineIndex":0,"sdpMid":"0","serverUrl":"","candidate":"candidate:907526945 1 tcp 1518018303 10.211.14.24 37567 typ host tcptype passive generation 0 ufrag dIvT network-id 3 network-cost 900"},"height":1260,"width":2720,"alignment":"middle"}
+1716045138.5491686 [camera_server-18] [WARN] [1716045138.537231215] [uninitialized WebRTCManager]: There is no uid in this msg, set default_uid
+1716045138.5496337 [camera_server-18] [INFO] [1716045138.537430351] [uninitialized WebRTCManager]: Got an existed pc.
+1716045138.5500188 [camera_server-18] [INFO] [1716045138.537640079] [uninitialized WebRTCManager]: It's a candidate
+1716045138.5504727 [camera_server-18] [INFO] [1716045138.537931919] [uninitialized WebRTCManager]: create candidate
+1716045138.5509303 [camera_server-18] [INFO] [1716045138.539990767] [uninitialized PCConductor]: add ice candidate
+1716045138.5512524 [camera_server-18] [INFO] [1716045138.541084975] [uninitialized WebRTCManager]: Got msg: {"c_sdp":{"adapterType":"UNKNOWN","sdpMLineIndex":0,"sdpMid":"0","serverUrl":"","candidate":"candidate:1876313031 1 tcp 1517960447 ::1 44449 typ host tcptype passive generation 0 ufrag dIvT network-id 2"},"height":1260,"width":2720,"alignment":"middle"}
+1716045138.5516112 [camera_server-18] [WARN] [1716045138.541358031] [uninitialized WebRTCManager]: There is no uid in this msg, set default_uid
+1716045138.5519211 [camera_server-18] [INFO] [1716045138.541502031] [uninitialized WebRTCManager]: Got an existed pc.
+1716045138.5564122 [camera_server-18] [INFO] [1716045138.541642223] [uninitialized WebRTCManager]: It's a candidate
+1716045138.5571861 [camera_server-18] [INFO] [1716045138.541903119] [uninitialized WebRTCManager]: create candidate
+1716045138.5619040 [camera_server-18] [INFO] [1716045138.542766479] [uninitialized PCConductor]: add ice candidate
+1716045138.5627766 [camera_server-18] [INFO] [1716045138.543649199] [uninitialized WebRTCManager]: Got msg: {"c_sdp":{"adapterType":"UNKNOWN","sdpMLineIndex":0,"sdpMid":"0","serverUrl":"","candidate":"candidate:344579997 1 tcp 1517887231 127.0.0.1 60221 typ host tcptype passive generation 0 ufrag dIvT network-id 1"},"height":1260,"width":2720,"alignment":"middle"}
+1716045138.5632744 [camera_server-18] [WARN] [1716045138.543902223] [uninitialized WebRTCManager]: There is no uid in this msg, set default_uid
+1716045138.5638177 [camera_server-18] [INFO] [1716045138.544027151] [uninitialized WebRTCManager]: Got an existed pc.
+1716045138.5642619 [camera_server-18] [INFO] [1716045138.544154255] [uninitialized WebRTCManager]: It's a candidate
+1716045138.5648954 [camera_server-18] [INFO] [1716045138.544357455] [uninitialized WebRTCManager]: create candidate
+1716045138.5653238 [camera_server-18] [INFO] [1716045138.545332431] [uninitialized PCConductor]: add ice candidate
+1716045138.5658565 [camera_server-18] [INFO] [1716045138.546909359] [uninitialized WebRTCManager]: Got msg: {"c_sdp":{"adapterType":"UNKNOWN","sdpMLineIndex":1,"sdpMid":"1","serverUrl":"","candidate":"candidate:2717797497 1 tcp 1518283007 2409:8100:1bd3:3cb3:17cf:fd89:2a7e:9515 38607 typ host tcptype passive generation 0 ufrag dIvT network-id 5 network-cost 50"},"height":1260,"width":2720,"alignment":"middle"}
+1716045138.5709350 [camera_server-18] [WARN] [1716045138.547178703] [uninitialized WebRTCManager]: There is no uid in this msg, set default_uid
+1716045138.5717371 [camera_server-18] [INFO] [1716045138.547308239] [uninitialized WebRTCManager]: Got an existed pc.
+1716045138.5722268 [camera_server-18] [INFO] [1716045138.547437647] [uninitialized WebRTCManager]: It's a candidate
+1716045138.5728548 [camera_server-18] [INFO] [1716045138.547666799] [uninitialized WebRTCManager]: create candidate
+1716045138.5732574 [camera_server-18] [INFO] [1716045138.548181167] [uninitialized PCConductor]: add ice candidate
+1716045138.5736868 [camera_server-18] [INFO] [1716045138.548937359] [uninitialized WebRTCManager]: Got msg: {"c_sdp":{"adapterType":"UNKNOWN","sdpMLineIndex":1,"sdpMid":"1","serverUrl":"","candidate":"candidate:3759274377 1 tcp 1518217471 240e:504:1a20:d1cb:17cf:fd89:44ed:e284 60837 typ host tcptype passive generation 0 ufrag dIvT network-id 6 network-cost 50"},"height":1260,"width":2720,"alignment":"middle"}
+1716045138.5741360 [camera_server-18] [WARN] [1716045138.549196207] [uninitialized WebRTCManager]: There is no uid in this msg, set default_uid
+1716045138.5746200 [camera_server-18] [INFO] [1716045138.549321711] [uninitialized WebRTCManager]: Got an existed pc.
+1716045138.5751495 [camera_server-18] [INFO] [1716045138.549515759] [uninitialized WebRTCManager]: It's a candidate
+1716045138.5756407 [camera_server-18] [INFO] [1716045138.549755535] [uninitialized WebRTCManager]: create candidate
+1716045138.5760241 [camera_server-18] [INFO] [1716045138.550483311] [uninitialized PCConductor]: add ice candidate
+1716045138.5765202 [camera_server-18] [INFO] [1716045138.551402863] [uninitialized WebRTCManager]: Got msg: {"c_sdp":{"adapterType":"UNKNOWN","sdpMLineIndex":1,"sdpMid":"1","serverUrl":"","candidate":"candidate:206922943 1 tcp 1518086399 2409:8900:1ae6:9100:b505:181:8f5b:6ec0 37715 typ host tcptype passive generation 0 ufrag dIvT network-id 4 network-cost 900"},"height":1260,"width":2720,"alignment":"middle"}
+1716045138.5770383 [camera_server-18] [WARN] [1716045138.551727503] [uninitialized WebRTCManager]: There is no uid in this msg, set default_uid
+1716045138.5774105 [camera_server-18] [INFO] [1716045138.551866223] [uninitialized WebRTCManager]: Got an existed pc.
+1716045138.5778127 [camera_server-18] [INFO] [1716045138.552113679] [uninitialized WebRTCManager]: It's a candidate
+1716045138.5811977 [camera_server-18] [INFO] [1716045138.556564623] [uninitialized WebRTCManager]: create candidate
+1716045138.5816026 [camera_server-18] [INFO] [1716045138.557109551] [uninitialized PCConductor]: add ice candidate
+1716045138.5819290 [camera_server-18] [INFO] [1716045138.558324591] [uninitialized WebRTCManager]: Got msg: {"c_sdp":{"adapterType":"UNKNOWN","sdpMLineIndex":1,"sdpMid":"1","serverUrl":"","candidate":"candidate:907526945 1 tcp 1518018303 10.211.14.24 58203 typ host tcptype passive generation 0 ufrag dIvT network-id 3 network-cost 900"},"height":1260,"width":2720,"alignment":"middle"}
+1716045138.5822928 [camera_server-18] [WARN] [1716045138.558563567] [uninitialized WebRTCManager]: There is no uid in this msg, set default_uid
+1716045138.5826552 [camera_server-18] [INFO] [1716045138.558687695] [uninitialized WebRTCManager]: Got an existed pc.
+1716045138.5831990 [camera_server-18] [INFO] [1716045138.558819983] [uninitialized WebRTCManager]: It's a candidate
+1716045138.5860822 [camera_server-18] [INFO] [1716045138.560115215] [uninitialized WebRTCManager]: create candidate
+1716045138.5869145 [camera_server-18] [INFO] [1716045138.560597935] [uninitialized PCConductor]: add ice candidate
+1716045138.5873878 [camera_server-18] [INFO] [1716045138.561376047] [uninitialized WebRTCManager]: Got msg: {"c_sdp":{"adapterType":"UNKNOWN","sdpMLineIndex":1,"sdpMid":"1","serverUrl":"","candidate":"candidate:2723553973 1 tcp 1518149375 10.0.0.105 41017 typ host tcptype passive generation 0 ufrag dIvT network-id 9 network-cost 10"},"height":1260,"width":2720,"alignment":"middle"}
+1716045138.5880702 [camera_server-18] [WARN] [1716045138.561610991] [uninitialized WebRTCManager]: There is no uid in this msg, set default_uid
+1716045138.5897367 [camera_server-18] [INFO] [1716045138.561760975] [uninitialized WebRTCManager]: Got an existed pc.
+1716045138.5901141 [camera_server-18] [INFO] [1716045138.561898927] [uninitialized WebRTCManager]: It's a candidate
+1716045138.5907719 [camera_server-18] [INFO] [1716045138.562121679] [uninitialized WebRTCManager]: create candidate
+1716045138.5911508 [camera_server-18] [INFO] [1716045138.562715151] [uninitialized PCConductor]: add ice candidate
+1716045138.5918777 [camera_server-18] [INFO] [1716045138.563538127] [uninitialized WebRTCManager]: Got msg: {"c_sdp":{"adapterType":"UNKNOWN","sdpMLineIndex":1,"sdpMid":"1","serverUrl":"","candidate":"candidate:1876313031 1 tcp 1517960447 ::1 60361 typ host tcptype passive generation 0 ufrag dIvT network-id 2"},"height":1260,"width":2720,"alignment":"middle"}
+1716045138.5922701 [camera_server-18] [WARN] [1716045138.563836431] [uninitialized WebRTCManager]: There is no uid in this msg, set default_uid
+1716045138.5928087 [camera_server-18] [INFO] [1716045138.563971151] [uninitialized WebRTCManager]: Got an existed pc.
+1716045138.5931983 [camera_server-18] [INFO] [1716045138.564105263] [uninitialized WebRTCManager]: It's a candidate
+1716045138.5936005 [camera_server-18] [INFO] [1716045138.564444879] [uninitialized WebRTCManager]: create candidate
+1716045138.5939586 [camera_server-18] [INFO] [1716045138.564941551] [uninitialized PCConductor]: add ice candidate
+1716045138.5948110 [camera_server-18] [INFO] [1716045138.565895055] [uninitialized WebRTCManager]: Got msg: {"c_sdp":{"adapterType":"UNKNOWN","sdpMLineIndex":1,"sdpMid":"1","serverUrl":"","candidate":"candidate:344579997 1 tcp 1517887231 127.0.0.1 42499 typ host tcptype passive generation 0 ufrag dIvT network-id 1"},"height":1260,"width":2720,"alignment":"middle"}
+1716045138.5953586 [camera_server-18] [WARN] [1716045138.566108527] [uninitialized WebRTCManager]: There is no uid in this msg, set default_uid
+1716045138.5957940 [camera_server-18] [INFO] [1716045138.566284591] [uninitialized WebRTCManager]: Got an existed pc.
+1716045138.5963371 [camera_server-18] [INFO] [1716045138.566444111] [uninitialized WebRTCManager]: It's a candidate
+1716045138.5968192 [camera_server-18] [INFO] [1716045138.566646319] [uninitialized WebRTCManager]: create candidate
+1716045138.5972338 [camera_server-18] [INFO] [1716045138.567180175] [uninitialized PCConductor]: add ice candidate
+1716045139.2815335 [camera_server-18] [INFO] [1716045139.277628079] [RGBStream]: publishImage: Publishing image #510
+1716045139.5593371 [camera_server-18] [INFO] [1716045139.556367055] [RGBStream]: processBuffer: 27.44 frames per second
+1716045140.5981967 [camera_server-18] [INFO] [1716045140.595947119] [RGBStream]: processBuffer: 25.01 frames per second
+1716045141.6894813 [camera_server-18] [INFO] [1716045141.686756335] [RGBStream]: processBuffer: 27.51 frames per second
+1716045142.2850678 [camera_server-18] [INFO] [1716045142.279449359] [RGBStream]: publishImage: Publishing image #591
+1716045142.7170875 [camera_server-18] [INFO] [1716045142.712376143] [RGBStream]: processBuffer: 26.32 frames per second
+1716045143.3076208 [camera_server-18] [WARN] [1716045143.305209103] [uninitialized WebRTCManager]: Send error code1002 msg: ICE connection timeout
+1716045143.3901496 [camera_server-18] [ERROR] [1716045143.386272111] [uninitialized WebRTCManager]: PeerConnection default_uid failed to connect with another peer. Destructing!
+1716045143.3919799 [camera_server-18] [INFO] [1716045143.386920783] [uninitialized PCConductor]: pc_conductor destructor
+1716045143.3924677 [camera_server-18] [INFO] [1716045143.387077679] [uninitialized PCConductor]: pc close
+1716045143.4051666 [camera_server-18] [INFO] [1716045143.398637743] [uninitialized PCConductor]: OnIceConnectionChange6
+1716045143.4058306 [camera_server-18] [INFO] [1716045143.398966639] [uninitialized PCConductor]: OnSignalingChange5
+1716045143.4091067 [camera_server-18] [INFO] [1716045143.404548527] [uninitialized I420DataInterface]: RemoveSink
+1716045143.4298573 [camera_server-18] [INFO] [1716045143.415643247] [uninitialized PCConductor]: pc closed
+1716045143.4341328 [camera_server-18] [INFO] [1716045143.416762063] [uninitialized PCConductor]: pc_conductor has been destructed
+1716045143.4347844 [camera_server-18] [INFO] [1716045143.421645423] [MainCameraNode]: serviceCallback: service received command STOP_LIVE_STREAM, argument 
+1716045143.4351692 [camera_server-18] 
+1716045143.4354777 [camera_server-18] [INFO] [1716045143.421864847] [MainCameraNode]: serviceCallback: width = 0, height = 0, fps = 0
+1716045143.4357877 [camera_server-18] [INFO] [1716045143.422030735] []: ~TimePerf: STOP_LIVE_STREAM cost time: 13us
+1716045143.7391298 [camera_server-18] [INFO] [1716045143.727055471] [RGBStream]: processBuffer: 26.61 frames per second
+1716045144.7341650 [camera_server-18] [INFO] [1716045144.731029263] [RGBStream]: processBuffer: 28.89 frames per second
+1716045145.2875841 [camera_server-18] [INFO] [1716045145.285395407] [RGBStream]: publishImage: Publishing image #672
+1716045145.7434163 [camera_server-18] [INFO] [1716045145.733728367] [RGBStream]: processBuffer: 27.92 frames per second
+1716045146.7777700 [camera_server-18] [INFO] [1716045146.774373423] [RGBStream]: processBuffer: 28.83 frames per second
+1716045147.7842894 [camera_server-18] [INFO] [1716045147.778631471] [RGBStream]: processBuffer: 26.89 frames per second
+1716045148.3558924 [camera_server-18] [INFO] [1716045148.352054223] [RGBStream]: publishImage: Publishing image #759
+1716045148.8297093 [camera_server-18] [INFO] [1716045148.826455023] [RGBStream]: processBuffer: 28.63 frames per second
+1716045149.9303021 [camera_server-18] [INFO] [1716045149.926526639] [RGBStream]: processBuffer: 27.27 frames per second
+1716045150.9465165 [camera_server-18] [INFO] [1716045150.944222191] [RGBStream]: processBuffer: 29.48 frames per second
+1716045151.4448471 [camera_server-18] [INFO] [1716045151.440137455] [RGBStream]: publishImage: Publishing image #846
+1716045151.9631779 [camera_server-18] [INFO] [1716045151.961042831] [RGBStream]: processBuffer: 28.52 frames per second
+1716045152.9965885 [camera_server-18] [INFO] [1716045152.993274543] [RGBStream]: processBuffer: 27.12 frames per second
+1716045154.0518591 [camera_server-18] [INFO] [1716045154.047333391] [RGBStream]: processBuffer: 28.46 frames per second
+1716045154.5379927 [camera_server-18] [INFO] [1716045154.535416207] [RGBStream]: publishImage: Publishing image #933
+1716045155.1524084 [camera_server-18] [INFO] [1716045155.147225391] [RGBStream]: processBuffer: 27.28 frames per second
+1716045156.1824331 [camera_server-18] [INFO] [1716045156.178856911] [RGBStream]: processBuffer: 29.08 frames per second
+1716045157.1969264 [camera_server-18] [INFO] [1716045157.193777583] [RGBStream]: processBuffer: 27.59 frames per second
+1716045157.5708220 [camera_server-18] [INFO] [1716045157.568217871] [RGBStream]: publishImage: Publishing image #1017
+1716045158.2642908 [camera_server-18] [INFO] [1716045158.258705295] [RGBStream]: processBuffer: 27.23 frames per second
+1716045159.3352039 [camera_server-18] [INFO] [1716045159.332392783] [RGBStream]: processBuffer: 27.94 frames per second
+1716045160.4338274 [camera_server-18] [INFO] [1716045160.423143631] [RGBStream]: processBuffer: 24.75 frames per second
+1716045160.5789826 [camera_server-18] [INFO] [1716045160.574917039] [RGBStream]: publishImage: Publishing image #1098
+1716045161.5325413 [camera_server-18] [INFO] [1716045161.529626831] [RGBStream]: processBuffer: 27.11 frames per second
+1716045162.5893621 [camera_server-18] [INFO] [1716045162.585010191] [RGBStream]: processBuffer: 28.43 frames per second
+1716045163.6006918 [camera_server-18] [INFO] [1716045163.598463439] [RGBStream]: processBuffer: 31.58 frames per second
+1716045163.6276538 [camera_server-18] [INFO] [1716045163.624989199] [RGBStream]: publishImage: Publishing image #1185
+1716045164.6043484 [camera_server-18] [INFO] [1716045164.599658639] [RGBStream]: processBuffer: 27.97 frames per second
+1716045165.6100800 [camera_server-18] [INFO] [1716045165.608042863] [RGBStream]: processBuffer: 26.78 frames per second
+1716045166.6287885 [camera_server-18] [INFO] [1716045166.625236815] [RGBStream]: processBuffer: 26.54 frames per second
+1716045166.7210333 [camera_server-18] [INFO] [1716045166.718507023] [RGBStream]: publishImage: Publishing image #1269
+1716045167.6645458 [camera_server-18] [INFO] [1716045167.661189551] [RGBStream]: processBuffer: 26.06 frames per second
+1716045168.6825411 [camera_server-18] [INFO] [1716045168.679945583] [RGBStream]: processBuffer: 28.47 frames per second
+1716045169.7964270 [camera_server-18] [INFO] [1716045169.775879087] [RGBStream]: processBuffer: 25.55 frames per second
+1716045169.8393698 [camera_server-18] [INFO] [1716045169.823335471] [RGBStream]: publishImage: Publishing image #1353
+1716045170.8007390 [camera_server-18] [INFO] [1716045170.797726447] [RGBStream]: processBuffer: 26.42 frames per second
+1716045171.8429031 [camera_server-18] [INFO] [1716045171.840709647] [RGBStream]: processBuffer: 28.76 frames per second
+1716045172.8524618 [camera_server-18] [INFO] [1716045172.850058287] [RGBStream]: processBuffer: 28.73 frames per second
+1716045172.8824160 [camera_server-18] [INFO] [1716045172.873217103] [RGBStream]: publishImage: Publishing image #1437
+1716045173.8883832 [camera_server-18] [INFO] [1716045173.886082639] [RGBStream]: processBuffer: 27.03 frames per second
+1716045174.9091692 [camera_server-18] [INFO] [1716045174.906911919] [RGBStream]: processBuffer: 28.41 frames per second
+1716045175.9049506 [camera_server-18] [INFO] [1716045175.900927631] [RGBStream]: publishImage: Publishing image #1521
+1716045175.9599488 [camera_server-18] [INFO] [1716045175.952951439] [RGBStream]: processBuffer: 26.77 frames per second
+1716045176.9691415 [camera_server-18] [INFO] [1716045176.962609455] [RGBStream]: processBuffer: 28.73 frames per second
+1716045178.0068064 [camera_server-18] [INFO] [1716045178.000033615] [RGBStream]: processBuffer: 26.99 frames per second
+1716045178.9235020 [camera_server-18] [INFO] [1716045178.919666543] [RGBStream]: publishImage: Publishing image #1605
+1716045179.0271175 [camera_server-18] [INFO] [1716045179.024673743] [RGBStream]: processBuffer: 27.33 frames per second
+1716045180.0997622 [camera_server-18] [INFO] [1716045180.095463535] [RGBStream]: processBuffer: 27.08 frames per second
+1716045181.1536086 [camera_server-18] [INFO] [1716045181.148099471] [RGBStream]: processBuffer: 25.65 frames per second
+1716045181.9650760 [camera_server-18] [INFO] [1716045181.962179087] [RGBStream]: publishImage: Publishing image #1686
+1716045182.2278328 [camera_server-18] [INFO] [1716045182.224896143] [RGBStream]: processBuffer: 27.86 frames per second
+1716045182.2331243 [camera_server-18] [INFO] [1716045182.225277071] [MainCameraNode]: serviceCallback: service received command STOP_IMAGE_PUBLISH, argument 
+1716045182.2337701 [camera_server-18] 
+1716045182.2342687 [camera_server-18] [INFO] [1716045182.225515215] [MainCameraNode]: serviceCallback: width = 0, height = 0, fps = 0
+1716045182.4442995 [camera_server-18] [INFO] [1716045182.441008367] [StreamConsumer]: threadExecute: stop stream thread
+1716045183.6172700 [camera_server-18] [INFO] [1716045183.614020271] []: ~TimePerf: STOP_IMAGE_PUBLISH cost time: 1388331us
+1716045252.4198718 [camera_server-18] [INFO] [1716045252.401732751] [MainCameraNode]: serviceCallback: service received command STOP_IMAGE_PUBLISH, argument 
+1716045252.4204285 [camera_server-18] 
+1716045252.4211934 [camera_server-18] [INFO] [1716045252.402296047] [MainCameraNode]: serviceCallback: width = 0, height = 0, fps = 0
+1716045252.4218552 [camera_server-18] [INFO] [1716045252.402504271] []: ~TimePerf: STOP_IMAGE_PUBLISH cost time: 8us
+1716045252.9216990 [camera_server-18] [INFO] [1716045252.918068783] [MainCameraNode]: serviceCallback: service received command START_IMAGE_PUBLISH, argument 
+1716045252.9223201 [camera_server-18] 
+1716045252.9227109 [camera_server-18] [INFO] [1716045252.918442063] [MainCameraNode]: serviceCallback: width = 2560, height = 1920, fps = 10
+1716045252.9858429 [camera_server-18] [INFO] [1716045252.967978575] [StreamConsumer]: StreamConsumer: Stream size: 2560x1920
+1716045252.9900391 [camera_server-18] [INFO] [1716045252.973322927] [RGBStream]: RGBStreamConsumer: publish rate = 10
+1716045252.9906464 [camera_server-18] [INFO] [1716045252.973911951] [StreamConsumer]: threadInitialize: m_maxBuffersNum = 8
+1716045253.0565541 [camera_server-18] [INFO] [1716045253.053203759] [CameraContext]: startCameraStream: Starting repeat capture requests.
+1716045253.0580664 [camera_server-18] 
+1716045253.0663030 [camera_server-18] [INFO] [1716045253.053603567] []: ~TimePerf: START_IMAGE_PUBLISH cost time: 134953us
+1716045253.1496089 [camera_server-18] PowerServiceCore:handleRequests: timePassed = 69570
+1716045253.3986599 [camera_server-18] [INFO] [1716045253.396288783] [RGBStream]: publishImage: Publishing image #0
+1716045254.3800132 [camera_server-18] [INFO] [1716045254.377593711] [RGBStream]: processBuffer: 24.41 frames per second
+1716045255.4571488 [camera_server-18] [INFO] [1716045255.453238127] [RGBStream]: processBuffer: 27.89 frames per second
+1716045256.4655530 [camera_server-18] [INFO] [1716045256.458673807] [RGBStream]: publishImage: Publishing image #84
+1716045256.5158260 [camera_server-18] [INFO] [1716045256.513524879] [RGBStream]: processBuffer: 28.29 frames per second
+1716045257.5816417 [camera_server-18] [INFO] [1716045257.577223311] [RGBStream]: processBuffer: 28.20 frames per second
+1716045258.6585908 [camera_server-18] [INFO] [1716045258.654842927] [RGBStream]: processBuffer: 27.84 frames per second
+1716045259.4661195 [camera_server-18] [INFO] [1716045259.461602959] [RGBStream]: publishImage: Publishing image #168
+1716045259.6937644 [camera_server-18] [INFO] [1716045259.691695247] [RGBStream]: processBuffer: 28.93 frames per second
+1716045260.7127211 [camera_server-18] [INFO] [1716045260.708442063] [RGBStream]: processBuffer: 26.56 frames per second
+1716045261.7181885 [camera_server-18] [INFO] [1716045261.715648079] [RGBStream]: processBuffer: 28.80 frames per second
+1716045262.4938478 [camera_server-18] [INFO] [1716045262.489986255] [RGBStream]: publishImage: Publishing image #252
+1716045262.7673807 [camera_server-18] [INFO] [1716045262.749439727] [RGBStream]: processBuffer: 27.08 frames per second
+1716045263.7618318 [camera_server-18] [INFO] [1716045263.751316495] [RGBStream]: processBuffer: 26.95 frames per second
+1716045264.7595060 [camera_server-18] [INFO] [1716045264.755557999] [RGBStream]: processBuffer: 28.88 frames per second
+1716045265.5166388 [camera_server-18] [INFO] [1716045265.513763727] [RGBStream]: publishImage: Publishing image #336
+1716045265.7783468 [camera_server-18] [INFO] [1716045265.775240815] [RGBStream]: processBuffer: 27.46 frames per second
+1716045266.7874699 [camera_server-18] [INFO] [1716045266.784116207] [RGBStream]: processBuffer: 28.74 frames per second
+1716045267.8129447 [camera_server-18] [INFO] [1716045267.807913199] [RGBStream]: processBuffer: 27.35 frames per second
+1716045268.6028950 [camera_server-18] [INFO] [1716045268.600396303] [RGBStream]: publishImage: Publishing image #423
+1716045268.8725722 [camera_server-18] [INFO] [1716045268.868503119] [RGBStream]: processBuffer: 28.29 frames per second
+1716045269.9434481 [camera_server-18] [INFO] [1716045269.941220751] [RGBStream]: processBuffer: 27.97 frames per second
+1716045270.9671202 [camera_server-18] [INFO] [1716045270.962581999] [RGBStream]: processBuffer: 29.37 frames per second
+1716045271.6788158 [camera_server-18] [INFO] [1716045271.675971599] [RGBStream]: publishImage: Publishing image #510
+1716045272.0412602 [camera_server-18] [INFO] [1716045272.029672975] [RGBStream]: processBuffer: 28.11 frames per second
+1716045273.1019657 [camera_server-18] [INFO] [1716045273.089336559] [RGBStream]: processBuffer: 28.31 frames per second
+1716045274.1253364 [camera_server-18] [INFO] [1716045274.116130799] [RGBStream]: processBuffer: 31.17 frames per second
+1716045274.6715901 [camera_server-18] [INFO] [1716045274.669012175] [MainCameraNode]: serviceCallback: service received command STOP_IMAGE_PUBLISH, argument 
+1716045274.6723683 [camera_server-18] 
+1716045274.6770079 [camera_server-18] [INFO] [1716045274.669353263] [MainCameraNode]: serviceCallback: width = 0, height = 0, fps = 0
+1716045274.6989646 [camera_server-18] [INFO] [1716045274.695882639] [RGBStream]: publishImage: Publishing image #597
+1716045274.8889353 [camera_server-18] [INFO] [1716045274.884487343] [StreamConsumer]: threadExecute: stop stream thread
+1716045276.0850377 [camera_server-18] [INFO] [1716045276.078424847] []: ~TimePerf: STOP_IMAGE_PUBLISH cost time: 1408910us
+1716045283.1272547 [camera_server-18] [INFO] [1716045283.094700015] [uninitialized WebRTCManager]: Got msg: {"offer_sdp":{"sdp":"v=0\r\no=- 3266909681319723887 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0 1\r\na=msid-semantic: WMS\r\nm=video 9 UDP/TLS/RTP/SAVPF 96 97 98 99 125 100 101 127\r\nc=IN IP4 0.0.0.0\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=ice-ufrag:jyyB\r\na=ice-pwd:GYd8SU2onujCiafja4vTQv1H\r\na=ice-options:trickle renomination\r\na=fingerprint:sha-256 91:55:0A:E9:2F:8F:70:03:EB:3A:3B:D0:C9:E8:5E:33:00:74:65:BA:86:35:8B:A6:D5:24:7E:02:28:50:69:D5\r\na=setup:actpass\r\na=mid:0\r\na=extmap:1 urn:ietf:params:rtp-hdrext:toffset\r\na=extmap:2 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time\r\na=extmap:3 urn:3gpp:video-orientation\r\na=extmap:4 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01\r\na=extmap:5 http://www.webrtc.org/experiments/rtp-hdrext/playout-delay\r\na=extmap:6 http://www.webrtc.org/experiments/rtp-hdrext/video-content-type\r\na=extmap:7 http://www.webrtc.org/experiments/rtp-hdrext/video-timing\r\na=extmap:8 http://www.webrtc.org/experiments/rtp-hdrext/color-space\r\na=extmap:9 urn:ietf:params:rtp-hdrext:sdes:mid\r\na=extmap:10 urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id\r\na=extmap:11 urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id\r\na=recvonly\r\na=rtcp-mux\r\na=rtcp-rsize\r\na=rtpmap:96 VP8/90000\r\na=rtcp-fb:96 goog-remb\r\na=rtcp-fb:96 transport-cc\r\na=rtcp-fb:96 ccm fir\r\na=rtcp-fb:96 nack\r\na=rtcp-fb:96 nack pli\r\na=rtpmap:97 rtx/90000\r\na=fmtp:97 apt=96\r\na=rtpmap:98 VP9/90000\r\na=rtcp-fb:98 goog-remb\r\na=rtcp-fb:98 transport-cc\r\na=rtcp-fb:98 ccm fir\r\na=rtcp-fb:98 nack\r\na=rtcp-fb:98 nack pli\r\na=rtpmap:99 rtx/90000\r\na=fmtp:99 apt=98\r\na=rtpmap:125 H264/90000\r\na=rtcp-fb:125 goog-remb\r\na=rtcp-fb:125 transport-cc\r\na=rtcp-fb:125 ccm fir\r\na=rtcp-fb:125 nack\r\na=rtcp-fb:125 nack pli\r\na=fmtp:125 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42e01f\r\na=rtpmap:100 red/90000\r\na=rtpmap:101 rtx/90000\r\na=fmtp:101 apt=100\r\na=rtpmap:127 ulpfec/90000\r\nm=audio 9 UDP/TLS/RTP/SAVPF 111 103 104 9 102 0 8 106 105 13 110 112 113 126\r\nc=IN IP4 0.0.0.0\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=ice-ufrag:jyyB\r\na=ice-pwd:GYd8SU2onujCiafja4vTQv1H\r\na=ice-options:trickle renomination\r\na=fingerprint:sha-256 91:55:0A:E9:2F:8F:70:03:EB:3A:3B:D0:C9:E8:5E:33:00:74:65:BA:86:35:8B:A6:D5:24:7E:02:28:50:69:D5\r\na=setup:actpass\r\na=mid:1\r\na=extmap:14 urn:ietf:params:rtp-hdrext:ssrc-audio-level\r\na=extmap:2 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time\r\na=extmap:4 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01\r\na=extmap:9 urn:ietf:params:rtp-hdrext:sdes:mid\r\na=extmap:10 urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id\r\na=extmap:11 urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id\r\na=recvonly\r\na=rtcp-mux\r\na=rtpmap:111 opus/48000/2\r\na=rtcp-fb:111 transport-cc\r\na=fmtp:111 minptime=10;useinbandfec=1\r\na=rtpmap:103 ISAC/16000\r\na=rtpmap:104 ISAC/32000\r\na=rtpmap:9 G722/8000\r\na=rtpmap:102 ILBC/8000\r\na=rtpmap:0 PCMU/8000\r\na=rtpmap:8 PCMA/8000\r\na=rtpmap:106 CN/32000\r\na=rtpmap:105 CN/16000\r\na=rtpmap:13 CN/8000\r\na=rtpmap:110 telephone-event/48000\r\na=rtpmap:112 telephone-event/32000\r\na=rtpmap:113 telephone-event/16000\r\na=rtpmap:126 telephone-event/8000\r\n","type":"offer"},"height":1260,"width":2720,"alignment":"middle"}
+1716045283.1296096 [camera_server-18] [WARN] [1716045283.096694831] [uninitialized WebRTCManager]: There is no uid in this msg, set default_uid
+1716045283.1301353 [camera_server-18] [INFO] [1716045283.107068239] [uninitialized WebRTCManager]: A new pc is created.
+1716045283.1307580 [camera_server-18] [INFO] [1716045283.107523247] [uninitialized WebRTCManager]: It's an sdp
+1716045283.1311121 [camera_server-18] [INFO] [1716045283.109691727] [uninitialized WebRTCManager]: create session description
+1716045283.1483071 [camera_server-18] [INFO] [1716045283.121858255] [uninitialized PCConductor]: OnSignalingChange3
+1716045283.1489985 [camera_server-18] [INFO] [1716045283.125646447] [uninitialized PCConductor]: set remote description
+1716045283.1494961 [camera_server-18] [INFO] [1716045283.128412495] [uninitialized PCConductor]: OnSuccess
+1716045283.1498406 [camera_server-18] [INFO] [1716045283.130955919] [uninitialized PCConductor]: OnSignalingChange0
+1716045283.1503723 [camera_server-18] [INFO] [1716045283.132056975] [uninitialized PCConductor]: sdp answer has been created
+1716045283.1515172 [camera_server-18] [INFO] [1716045283.133176495] [uninitialized WebRTCManager]: Got msg: {"c_sdp":{"adapterType":"UNKNOWN","sdpMLineIndex":0,"sdpMid":"0","serverUrl":"","candidate":"candidate:4017991817 1 udp 2122262783 2409:8100:1bd3:3cb3:17cf:fd89:2a7e:9515 40643 typ host generation 0 ufrag jyyB network-id 3 network-cost 50"},"height":1260,"width":2720,"alignment":"middle"}
+1716045283.1519017 [camera_server-18] [WARN] [1716045283.133531823] [uninitialized WebRTCManager]: There is no uid in this msg, set default_uid
+1716045283.1522689 [camera_server-18] [INFO] [1716045283.133748527] [uninitialized WebRTCManager]: Got an existed pc.
+1716045283.1527550 [camera_server-18] [INFO] [1716045283.133925903] [uninitialized WebRTCManager]: It's a candidate
+1716045283.1666121 [camera_server-18] [INFO] [1716045283.134198735] [uninitialized WebRTCManager]: create candidate
+1716045283.1715963 [camera_server-18] [INFO] [1716045283.140394863] [uninitialized I420DataInterface]: AddOrUpdateSink
+1716045283.1759310 [camera_server-18] [INFO] [1716045283.147928175] [uninitialized WebRTCManager]: send sdp
+1716045283.1768789 [camera_server-18] [INFO] [1716045283.148170447] [uninitialized WebRTCManager]: {
+1716045283.1773598 [camera_server-18] 	"answer_sdp" : 
+1716045283.1777396 [camera_server-18] 	{
+1716045283.1782002 [camera_server-18] 		"sdp" : "v=0\r\no=- 815120104669254772 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0 1\r\na=msid-semantic: WMS stream_id\r\nm=video 9 UDP/TLS/RTP/SAVPF 96 97 98 99 125 100 101 127\r\nc=IN IP4 0.0.0.0\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=ice-ufrag:jZ8S\r\na=ice-pwd:6W5zn6v/abivAjNK+wEa0Kle\r\na=ice-options:trickle\r\na=fingerprint:sha-256 AD:AB:C8:FE:DA:9E:BB:61:C5:B3:8B:32:2E:1C:EB:0C:4D:0D:A9:41:79:68:4B:16:E1:97:DA:D3:F6:4C:C2:53\r\na=setup:active\r\na=mid:0\r\na=extmap:1 urn:ietf:params:rtp-hdrext:toffset\r\na=extmap:2 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time\r\na=extmap:3 urn:3gpp:video-orientation\r\na=extmap:4 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01\r\na=extmap:5 http://www.webrtc.org/experiments/rtp-hdrext/playout-delay\r\na=extmap:6 http://www.webrtc.org/experiments/rtp-hdrext/video-content-type\r\na=extmap:7 http://www.webrtc.org/experiments/rtp-hdrext/video-timing\r\na=extmap:8 http://www.webrtc.org/experiments/rtp-hdrext/color-space\r\na=extmap:9 urn:ietf:params:rtp-hdrext:sdes:mid\r\na=extmap:10 urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id\r\na=extmap:11 urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id\r\na=sendonly\r\na=msid:stream_id video_label\r\na=rtcp-mux\r\na=rtcp-rsize\r\na=rtpmap:96 VP8/90000\r\na=rtcp-fb:96 goog-remb\r\na=rtcp-fb:96 transport-cc\r\na=rtcp-fb:96 ccm fir\r\na=rtcp-fb:96 nack\r\na=rtcp-fb:96 nack pli\r\na=rtpmap:97 rtx/90000\r\na=fmtp:97 apt=96\r\na=rtpmap:98 VP9/90000\r\na=rtcp-fb:98 goog-remb\r\na=rtcp-fb:98 transport-cc\r\na=rtcp-fb:98 ccm fir\r\na=rtcp-fb:98 nack\r\na=rtcp-fb:98 nack pli\r\na=fmtp:98 profile-id=0\r\na=rtpmap:99 rtx/90000\r\na=fmtp:99 apt=98\r\na=rtpmap:125 H264/90000\r\na=rtcp-fb:125 goog-remb\r\na=rtcp-fb:125 transport-cc\r\na=rtcp-fb:125 ccm fir\r\na=rtcp-fb:125 nack\r\na=rtcp-fb:125 nack pli\r\na=fmtp:125 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42e01f\r\na=rtpmap:100 red/90000\r\na=rtpmap:101 rtx/90000\r\na=fmtp:101 apt=100\r\na=rtpmap:127 ulpfec/90000\r\na=ssrc-group:FID 401968791 3047799265\r\na=ssrc:401968791 cname:8DpMcxEKyV8siqtX\r\na=ssrc:401968791 msid:stream_id video_label\r\na=ssrc:401968791 mslabel:stream_id\r\na=ssrc:401968791 label:video_label\r\na=ssrc:3047799265 cname:8DpMcxEKyV8siqtX\r\na=ssrc:3047799265 msid:stream_id video_label\r\na=ssrc:3047799265 mslabel:stream_id\r\na=ssrc:3047799265 label:video_label\r\nm=audio 9 UDP/TLS/RTP/SAVPF 111 103 104 9 102 0 8 106 105 13 110 112 113 126\r\nc=IN IP4 0.0.0.0\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=ice-ufrag:jZ8S\r\na=ice-pwd:6W5zn6v/abivAjNK+wEa0Kle\r\na=ice-options:trickle\r\na=fingerprint:sha-256 AD:AB:C8:FE:DA:9E:BB:61:C5:B3:8B:32:2E:1C:EB:0C:4D:0D:A9:41:79:68:4B:16:E1:97:DA:D3:F6:4C:C2:53\r\na=setup:active\r\na=mid:1\r\na=extmap:14 urn:ietf:params:rtp-hdrext:ssrc-audio-level\r\na=extmap:4 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01\r\na=extmap:9 urn:ietf:params:rtp-hdrext:sdes:mid\r\na=extmap:10 urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id\r\na=extmap:11 urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id\r\na=inactive\r\na=rtcp-mux\r\na=rtpmap:111 opus/48000/2\r\na=rtcp-fb:111 transport-cc\r\na=fmtp:111 minptime=10;useinbandfec=1\r\na=rtpmap:103 ISAC/16000\r\na=rtpmap:104 ISAC/32000\r\na=rtpmap:9 G722/8000\r\na=rtpmap:102 ILBC/8000\r\na=rtpmap:0 PCMU/8000\r\na=rtpmap:8 PCMA/8000\r\na=rtpmap:106 CN/32000\r\na=rtpmap:105 CN/16000\r\na=rtpmap:13 CN/8000\r\na=rtpmap:110 telephone-event/48000\r\na=rtpmap:112 telephone-event/32000\r\na=rtpmap:113 telephone-event/16000\r\na=rtpmap:126 telephone-event/8000\r\n",
+1716045283.1939046 [camera_server-18] 		"type" : "answer"
+1716045283.1949067 [camera_server-18] 	},
+1716045283.1955826 [camera_server-18] 	"uid" : "default_uid"
+1716045283.1959782 [camera_server-18] }
+1716045283.1963308 [camera_server-18] [INFO] [1716045283.152741103] [uninitialized PCConductor]: OnIceConnectionChange1
+1716045283.1968098 [camera_server-18] [INFO] [1716045283.153681391] [uninitialized PCConductor]: add ice candidate
+1716045283.1973751 [camera_server-18] [INFO] [1716045283.154667631] [uninitialized WebRTCManager]: Got msg: {"c_sdp":{"adapterType":"UNKNOWN","sdpMLineIndex":0,"sdpMid":"0","serverUrl":"","candidate":"candidate:2928805241 1 udp 2122197247 240e:504:1a20:d1cb:17cf:fd89:44ed:e284 59812 typ host generation 0 ufrag jyyB network-id 4 network-cost 50"},"height":1260,"width":2720,"alignment":"middle"}
+1716045283.1977332 [camera_server-18] [WARN] [1716045283.154973743] [uninitialized WebRTCManager]: There is no uid in this msg, set default_uid
+1716045283.1980598 [camera_server-18] [INFO] [1716045283.155131375] [uninitialized WebRTCManager]: Got an existed pc.
+1716045283.1984220 [camera_server-18] [INFO] [1716045283.155320559] [uninitialized WebRTCManager]: It's a candidate
+1716045283.1988392 [camera_server-18] [INFO] [1716045283.155557583] [uninitialized WebRTCManager]: create candidate
+1716045283.1993408 [camera_server-18] [INFO] [1716045283.155773839] [uninitialized PCConductor]: OnIceGatheringChange1
+1716045283.1996508 [camera_server-18] [INFO] [1716045283.155925007] [uninitialized PCConductor]: OnIceCandidate
+1716045283.2075136 [camera_server-18] [INFO] [1716045283.156334031] [uninitialized WebRTCManager]: send candidate
+1716045283.2081239 [camera_server-18] [INFO] [1716045283.156469263] [uninitialized WebRTCManager]: {
+1716045283.2089102 [camera_server-18] 	"c_sdp" : 
+1716045283.2093744 [camera_server-18] 	{
+1716045283.2097716 [camera_server-18] 		"candidate" : "candidate:1064704802 1 udp 2122260223 10.0.0.252 34976 typ host generation 0 ufrag jZ8S network-id 4 network-cost 50",
+1716045283.2103591 [camera_server-18] 		"sdpMLineIndex" : 0,
+1716045283.2108378 [camera_server-18] 		"sdpMid" : "0"
+1716045283.2112043 [camera_server-18] 	},
+1716045283.2115083 [camera_server-18] 	"uid" : "default_uid"
+1716045283.2118773 [camera_server-18] }
+1716045283.2121606 [camera_server-18] [INFO] [1716045283.156689647] [uninitialized PCConductor]: OnIceCandidate
+1716045283.2125280 [camera_server-18] [INFO] [1716045283.156991599] [uninitialized WebRTCManager]: send candidate
+1716045283.2129481 [camera_server-18] [INFO] [1716045283.157118607] [uninitialized WebRTCManager]: {
+1716045283.2132421 [camera_server-18] 	"c_sdp" : 
+1716045283.2135327 [camera_server-18] 	{
+1716045283.2139251 [camera_server-18] 		"candidate" : "candidate:1500764036 1 udp 2122194687 192.168.44.1 59093 typ host generation 0 ufrag jZ8S network-id 1",
+1716045283.2144878 [camera_server-18] 		"sdpMLineIndex" : 0,
+1716045283.2149734 [camera_server-18] 		"sdpMid" : "0"
+1716045283.2152479 [camera_server-18] 	},
+1716045283.2155166 [camera_server-18] 	"uid" : "default_uid"
+1716045283.2168233 [camera_server-18] }
+1716045283.2172594 [camera_server-18] [INFO] [1716045283.157612751] [uninitialized PCConductor]: add ice candidate
+1716045283.2175701 [camera_server-18] [INFO] [1716045283.158407151] [uninitialized WebRTCManager]: Got msg: {"c_sdp":{"adapterType":"UNKNOWN","sdpMLineIndex":0,"sdpMid":"0","serverUrl":"","candidate":"candidate:3973439045 1 udp 2122129151 10.0.0.105 48688 typ host generation 0 ufrag jyyB network-id 5 network-cost 10"},"height":1260,"width":2720,"alignment":"middle"}
+1716045283.2179220 [camera_server-18] [WARN] [1716045283.158678159] [uninitialized WebRTCManager]: There is no uid in this msg, set default_uid
+1716045283.2182026 [camera_server-18] [INFO] [1716045283.158823471] [uninitialized WebRTCManager]: Got an existed pc.
+1716045283.2347314 [camera_server-18] [INFO] [1716045283.158977455] [uninitialized WebRTCManager]: It's a candidate
+1716045283.2352254 [camera_server-18] [INFO] [1716045283.159198639] [uninitialized WebRTCManager]: create candidate
+1716045283.2355962 [camera_server-18] [INFO] [1716045283.160438479] [uninitialized PCConductor]: add ice candidate
+1716045283.2545204 [camera_server-18] [INFO] [1716045283.161238703] [uninitialized WebRTCManager]: Got msg: {"c_sdp":{"adapterType":"UNKNOWN","sdpMLineIndex":0,"sdpMid":"0","serverUrl":"","candidate":"candidate:559267639 1 udp 2122071295 ::1 43830 typ host generation 0 ufrag jyyB network-id 2"},"height":1260,"width":2720,"alignment":"middle"}
+1716045283.2552054 [camera_server-18] [WARN] [1716045283.161533743] [uninitialized WebRTCManager]: There is no uid in this msg, set default_uid
+1716045283.2556038 [camera_server-18] [INFO] [1716045283.161881551] [uninitialized WebRTCManager]: Got an existed pc.
+1716045283.2560327 [camera_server-18] [INFO] [1716045283.162096207] [uninitialized WebRTCManager]: It's a candidate
+1716045283.2563488 [camera_server-18] [INFO] [1716045283.162398991] [uninitialized WebRTCManager]: create candidate
+1716045283.2567499 [camera_server-18] [INFO] [1716045283.163083183] [uninitialized PCConductor]: add ice candidate
+1716045283.2572308 [camera_server-18] [INFO] [1716045283.163925999] [uninitialized WebRTCManager]: Got msg: {"c_sdp":{"adapterType":"UNKNOWN","sdpMLineIndex":0,"sdpMid":"0","serverUrl":"","candidate":"candidate:1510613869 1 udp 2121998079 127.0.0.1 35796 typ host generation 0 ufrag jyyB network-id 1"},"height":1260,"width":2720,"alignment":"middle"}
+1716045283.2713795 [camera_server-18] [WARN] [1716045283.164199983] [uninitialized WebRTCManager]: There is no uid in this msg, set default_uid
+1716045283.2724404 [camera_server-18] [INFO] [1716045283.164398127] [uninitialized WebRTCManager]: Got an existed pc.
+1716045283.2728696 [camera_server-18] [INFO] [1716045283.166081423] [uninitialized WebRTCManager]: It's a candidate
+1716045283.2732425 [camera_server-18] [INFO] [1716045283.166419631] [uninitialized WebRTCManager]: create candidate
+1716045283.2839611 [camera_server-18] [INFO] [1716045283.167391343] [uninitialized PCConductor]: add ice candidate
+1716045283.2846777 [camera_server-18] [INFO] [1716045283.168476143] [uninitialized WebRTCManager]: Got msg: {"c_sdp":{"adapterType":"UNKNOWN","sdpMLineIndex":1,"sdpMid":"1","serverUrl":"","candidate":"candidate:4017991817 1 udp 2122262783 2409:8100:1bd3:3cb3:17cf:fd89:2a7e:9515 34438 typ host generation 0 ufrag jyyB network-id 3 network-cost 50"},"height":1260,"width":2720,"alignment":"middle"}
+1716045283.2886114 [camera_server-18] [WARN] [1716045283.169117455] [uninitialized WebRTCManager]: There is no uid in this msg, set default_uid
+1716045283.2891424 [camera_server-18] [INFO] [1716045283.169282191] [uninitialized WebRTCManager]: Got an existed pc.
+1716045283.2895467 [camera_server-18] [INFO] [1716045283.169441935] [uninitialized WebRTCManager]: It's a candidate
+1716045283.2899117 [camera_server-18] [INFO] [1716045283.169673359] [uninitialized WebRTCManager]: create candidate
+1716045283.2904239 [camera_server-18] [INFO] [1716045283.170145967] [uninitialized PCConductor]: add ice candidate
+1716045283.2907498 [camera_server-18] [INFO] [1716045283.170992719] [uninitialized WebRTCManager]: Got msg: {"c_sdp":{"adapterType":"UNKNOWN","sdpMLineIndex":1,"sdpMid":"1","serverUrl":"","candidate":"candidate:2928805241 1 udp 2122197247 240e:504:1a20:d1cb:17cf:fd89:44ed:e284 59601 typ host generation 0 ufrag jyyB network-id 4 network-cost 50"},"height":1260,"width":2720,"alignment":"middle"}
+1716045283.2913077 [camera_server-18] [WARN] [1716045283.171293263] [uninitialized WebRTCManager]: There is no uid in this msg, set default_uid
+1716045283.2916100 [camera_server-18] [INFO] [1716045283.171443695] [uninitialized WebRTCManager]: Got an existed pc.
+1716045283.2919173 [camera_server-18] [INFO] [1716045283.171614831] [uninitialized WebRTCManager]: It's a candidate
+1716045283.2922440 [camera_server-18] [INFO] [1716045283.171844687] [uninitialized WebRTCManager]: create candidate
+1716045283.2925305 [camera_server-18] [INFO] [1716045283.172301263] [uninitialized PCConductor]: add ice candidate
+1716045283.2954264 [camera_server-18] [INFO] [1716045283.173731119] [uninitialized WebRTCManager]: Got msg: {"c_sdp":{"adapterType":"UNKNOWN","sdpMLineIndex":1,"sdpMid":"1","serverUrl":"","candidate":"candidate:559267639 1 udp 2122071295 ::1 42075 typ host generation 0 ufrag jyyB network-id 2"},"height":1260,"width":2720,"alignment":"middle"}
+1716045283.2958148 [camera_server-18] [WARN] [1716045283.174040463] [uninitialized WebRTCManager]: There is no uid in this msg, set default_uid
+1716045283.2961221 [camera_server-18] [INFO] [1716045283.174206127] [uninitialized WebRTCManager]: Got an existed pc.
+1716045283.2965131 [camera_server-18] [INFO] [1716045283.174434511] [uninitialized WebRTCManager]: It's a candidate
+1716045283.2969139 [camera_server-18] [INFO] [1716045283.174668367] [uninitialized WebRTCManager]: create candidate
+1716045283.2973242 [camera_server-18] [INFO] [1716045283.176471695] [uninitialized PCConductor]: add ice candidate
+1716045283.2976227 [camera_server-18] [INFO] [1716045283.177291119] [uninitialized WebRTCManager]: Got msg: {"c_sdp":{"adapterType":"UNKNOWN","sdpMLineIndex":1,"sdpMid":"1","serverUrl":"","candidate":"candidate:3973439045 1 udp 2122129151 10.0.0.105 52932 typ host generation 0 ufrag jyyB network-id 5 network-cost 10"},"height":1260,"width":2720,"alignment":"middle"}
+1716045283.2979419 [camera_server-18] [WARN] [1716045283.177580975] [uninitialized WebRTCManager]: There is no uid in this msg, set default_uid
+1716045283.2983296 [camera_server-18] [INFO] [1716045283.177746959] [uninitialized WebRTCManager]: Got an existed pc.
+1716045283.2986596 [camera_server-18] [INFO] [1716045283.177904975] [uninitialized WebRTCManager]: It's a candidate
+1716045283.2989399 [camera_server-18] [INFO] [1716045283.178151375] [uninitialized WebRTCManager]: create candidate
+1716045283.2992213 [camera_server-18] [INFO] [1716045283.177618447] [uninitialized PCConductor]: OnIceGatheringChange2
+1716045283.2995050 [camera_server-18] [INFO] [1716045283.178947599] [uninitialized PCConductor]: add ice candidate
+1716045283.2998950 [camera_server-18] [INFO] [1716045283.179740335] [uninitialized WebRTCManager]: Got msg: {"c_sdp":{"adapterType":"UNKNOWN","sdpMLineIndex":1,"sdpMid":"1","serverUrl":"","candidate":"candidate:1510613869 1 udp 2121998079 127.0.0.1 33067 typ host generation 0 ufrag jyyB network-id 1"},"height":1260,"width":2720,"alignment":"middle"}
+1716045283.3003166 [camera_server-18] [WARN] [1716045283.180017807] [uninitialized WebRTCManager]: There is no uid in this msg, set default_uid
+1716045283.3006094 [camera_server-18] [INFO] [1716045283.180273135] [uninitialized WebRTCManager]: Got an existed pc.
+1716045283.3008893 [camera_server-18] [INFO] [1716045283.180435119] [uninitialized WebRTCManager]: It's a candidate
+1716045283.3011613 [camera_server-18] [INFO] [1716045283.180660815] [uninitialized WebRTCManager]: create candidate
+1716045283.3014374 [camera_server-18] [INFO] [1716045283.181076847] [uninitialized PCConductor]: add ice candidate
+1716045283.3152122 [camera_server-18] [INFO] [1716045283.214013615] [uninitialized PCConductor]: OnIceConnectionChange2
+1716045283.3157089 [camera_server-18] [INFO] [1716045283.216975375] [MainCameraNode]: serviceCallback: service received command START_LIVE_STREAM, argument middle
+1716045283.3160391 [camera_server-18] 
+1716045283.3163333 [camera_server-18] [INFO] [1716045283.217192847] [MainCameraNode]: serviceCallback: width = 640, height = 296, fps = 0
+1716045283.3291957 [camera_server-18] [INFO] [1716045283.313934895] [StreamConsumer]: StreamConsumer: Stream size: 640x296
+1716045283.3297360 [camera_server-18] [INFO] [1716045283.314586415] [StreamConsumer]: threadInitialize: m_maxBuffersNum = 8
+1716045283.3852084 [camera_server-18] [INFO] [1716045283.378740687] [CameraDispatcher]: setStreamClipRect: rect: (0.000000 0.191667 1.000000 0.808333)
+1716045283.3858523 [camera_server-18] [INFO] [1716045283.379169647] [CameraContext]: startCameraStream: Starting repeat capture requests.
+1716045283.3864586 [camera_server-18] 
+1716045283.3868327 [camera_server-18] [INFO] [1716045283.381730031] []: ~TimePerf: START_LIVE_STREAM cost time: 164338us
+1716045283.4833038 [camera_server-18] PowerServiceCore:handleRequests: timePassed = 7442
+1716045283.7054570 [camera_server-18] [INFO] [1716045283.701528111] [uninitialized I420DataInterface]: AddOrUpdateSink
+1716045284.7101107 [camera_server-18] [INFO] [1716045284.707967247] [H264Stream]: processBuffer: 30.63 frames per second
+1716045285.2890003 [camera_server-18] [INFO] [1716045285.286893263] [uninitialized PCConductor]: OnIceConnectionChange5
+1716045285.3063500 [camera_server-18] [INFO] [1716045285.297709615] [uninitialized WebRTCManager]: Got msg: {}
+1716045285.3070059 [camera_server-18] [WARN] [1716045285.298054319] [uninitialized WebRTCManager]: There is no uid in this msg, set default_uid
+1716045285.3074298 [camera_server-18] [WARN] [1716045285.298799119] [uninitialized WebRTCManager]: Stop signal
+1716045285.3077483 [camera_server-18] [INFO] [1716045285.299014639] [uninitialized PCConductor]: pc_conductor destructor
+1716045285.3080602 [camera_server-18] [INFO] [1716045285.299236623] [uninitialized PCConductor]: pc close
+1716045285.3113608 [camera_server-18] [INFO] [1716045285.304617711] [uninitialized PCConductor]: OnIceConnectionChange6
+1716045285.3118536 [camera_server-18] [INFO] [1716045285.304898127] [uninitialized PCConductor]: OnSignalingChange5
+1716045285.3122072 [camera_server-18] [INFO] [1716045285.305349359] [uninitialized I420DataInterface]: RemoveSink
+1716045285.3153660 [camera_server-18] [INFO] [1716045285.313336751] [uninitialized PCConductor]: pc closed
+1716045285.3185675 [camera_server-18] [INFO] [1716045285.314557999] [uninitialized PCConductor]: pc_conductor has been destructed
+1716045285.3216760 [camera_server-18] [INFO] [1716045285.317029775] [uninitialized WebRTCManager]: send stop response
+1716045285.3221824 [camera_server-18] [INFO] [1716045285.318947311] [MainCameraNode]: serviceCallback: service received command STOP_LIVE_STREAM, argument 
+1716045285.3226116 [camera_server-18] 
+1716045285.3229468 [camera_server-18] [INFO] [1716045285.319181391] [MainCameraNode]: serviceCallback: width = 0, height = 0, fps = 0
+1716045285.5112638 [camera_server-18] [INFO] [1716045285.505631375] [StreamConsumer]: threadExecute: stop stream thread
+1716045285.6987543 [camera_server-18] [INFO] [1716045285.691778191] []: ~TimePerf: STOP_LIVE_STREAM cost time: 372457us
+1716047140.9226866 [camera_server-18] [INFO] [1716047140.917911819] [MainCameraNode]: serviceCallback: service received command STOP_IMAGE_PUBLISH, argument 
+1716047140.9238939 [camera_server-18] 
+1716047140.9252141 [camera_server-18] [INFO] [1716047140.918633771] [MainCameraNode]: serviceCallback: width = 0, height = 0, fps = 0
+1716047140.9257390 [camera_server-18] [INFO] [1716047140.919164843] []: ~TimePerf: STOP_IMAGE_PUBLISH cost time: 10us
+1716047147.0968242 [camera_server-18] [INFO] [1716047147.029122601] [uninitialized WebRTCManager]: Got msg: {"offer_sdp":{"sdp":"v=0\r\no=- 4885606769987516880 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0 1\r\na=msid-semantic: WMS\r\nm=video 9 UDP/TLS/RTP/SAVPF 96 97 98 99 125 100 101 127\r\nc=IN IP4 0.0.0.0\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=ice-ufrag:RRnN\r\na=ice-pwd:sTjjyqgVHtw4C+qGQr0OmoB4\r\na=ice-options:trickle renomination\r\na=fingerprint:sha-256 A2:0C:81:73:3D:AB:01:81:DA:AC:63:9D:18:10:DD:00:7B:14:49:CD:8B:79:FE:F3:6E:E7:52:25:07:AF:E0:37\r\na=setup:actpass\r\na=mid:0\r\na=extmap:1 urn:ietf:params:rtp-hdrext:toffset\r\na=extmap:2 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time\r\na=extmap:3 urn:3gpp:video-orientation\r\na=extmap:4 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01\r\na=extmap:5 http://www.webrtc.org/experiments/rtp-hdrext/playout-delay\r\na=extmap:6 http://www.webrtc.org/experiments/rtp-hdrext/video-content-type\r\na=extmap:7 http://www.webrtc.org/experiments/rtp-hdrext/video-timing\r\na=extmap:8 http://www.webrtc.org/experiments/rtp-hdrext/color-space\r\na=extmap:9 urn:ietf:params:rtp-hdrext:sdes:mid\r\na=extmap:10 urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id\r\na=extmap:11 urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id\r\na=recvonly\r\na=rtcp-mux\r\na=rtcp-rsize\r\na=rtpmap:96 VP8/90000\r\na=rtcp-fb:96 goog-remb\r\na=rtcp-fb:96 transport-cc\r\na=rtcp-fb:96 ccm fir\r\na=rtcp-fb:96 nack\r\na=rtcp-fb:96 nack pli\r\na=rtpmap:97 rtx/90000\r\na=fmtp:97 apt=96\r\na=rtpmap:98 VP9/90000\r\na=rtcp-fb:98 goog-remb\r\na=rtcp-fb:98 transport-cc\r\na=rtcp-fb:98 ccm fir\r\na=rtcp-fb:98 nack\r\na=rtcp-fb:98 nack pli\r\na=rtpmap:99 rtx/90000\r\na=fmtp:99 apt=98\r\na=rtpmap:125 H264/90000\r\na=rtcp-fb:125 goog-remb\r\na=rtcp-fb:125 transport-cc\r\na=rtcp-fb:125 ccm fir\r\na=rtcp-fb:125 nack\r\na=rtcp-fb:125 nack pli\r\na=fmtp:125 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42e01f\r\na=rtpmap:100 red/90000\r\na=rtpmap:101 rtx/90000\r\na=fmtp:101 apt=100\r\na=rtpmap:127 ulpfec/90000\r\nm=audio 9 UDP/TLS/RTP/SAVPF 111 103 104 9 102 0 8 106 105 13 110 112 113 126\r\nc=IN IP4 0.0.0.0\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=ice-ufrag:RRnN\r\na=ice-pwd:sTjjyqgVHtw4C+qGQr0OmoB4\r\na=ice-options:trickle renomination\r\na=fingerprint:sha-256 A2:0C:81:73:3D:AB:01:81:DA:AC:63:9D:18:10:DD:00:7B:14:49:CD:8B:79:FE:F3:6E:E7:52:25:07:AF:E0:37\r\na=setup:actpass\r\na=mid:1\r\na=extmap:14 urn:ietf:params:rtp-hdrext:ssrc-audio-level\r\na=extmap:2 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time\r\na=extmap:4 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01\r\na=extmap:9 urn:ietf:params:rtp-hdrext:sdes:mid\r\na=extmap:10 urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id\r\na=extmap:11 urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id\r\na=recvonly\r\na=rtcp-mux\r\na=rtpmap:111 opus/48000/2\r\na=rtcp-fb:111 transport-cc\r\na=fmtp:111 minptime=10;useinbandfec=1\r\na=rtpmap:103 ISAC/16000\r\na=rtpmap:104 ISAC/32000\r\na=rtpmap:9 G722/8000\r\na=rtpmap:102 ILBC/8000\r\na=rtpmap:0 PCMU/8000\r\na=rtpmap:8 PCMA/8000\r\na=rtpmap:106 CN/32000\r\na=rtpmap:105 CN/16000\r\na=rtpmap:13 CN/8000\r\na=rtpmap:110 telephone-event/48000\r\na=rtpmap:112 telephone-event/32000\r\na=rtpmap:113 telephone-event/16000\r\na=rtpmap:126 telephone-event/8000\r\n","type":"offer"},"height":1260,"width":2720,"alignment":"middle"}
+1716047147.2139487 [camera_server-18] [WARN] [1716047147.032006345] [uninitialized WebRTCManager]: There is no uid in this msg, set default_uid
+1716047147.3123128 [camera_server-18] [INFO] [1716047147.044454988] [uninitialized WebRTCManager]: A new pc is created.
+1716047147.3138134 [camera_server-18] [INFO] [1716047147.045014956] [uninitialized WebRTCManager]: It's an sdp
+1716047147.3273270 [camera_server-18] [INFO] [1716047147.075289906] [uninitialized WebRTCManager]: create session description
+1716047147.3287339 [camera_server-18] [INFO] [1716047147.080246611] [uninitialized PCConductor]: OnSignalingChange3
+1716047147.3308291 [camera_server-18] [INFO] [1716047147.087937492] [uninitialized PCConductor]: set remote description
+1716047147.3313644 [camera_server-18] [INFO] [1716047147.090089941] [uninitialized PCConductor]: OnSuccess
+1716047147.3318629 [camera_server-18] [INFO] [1716047147.091650485] [uninitialized PCConductor]: OnSignalingChange0
+1716047147.3351953 [camera_server-18] [INFO] [1716047147.101998967] [uninitialized PCConductor]: sdp answer has been created
+1716047147.3357153 [camera_server-18] [INFO] [1716047147.103350359] [uninitialized WebRTCManager]: Got msg: {"c_sdp":{"adapterType":"UNKNOWN","sdpMLineIndex":0,"sdpMid":"0","serverUrl":"","candidate":"candidate:4017991817 1 udp 2122262783 2409:8100:1bd3:3cb3:17cf:fd89:2a7e:9515 56849 typ host generation 0 ufrag RRnN network-id 3 network-cost 50"},"height":1260,"width":2720,"alignment":"middle"}
+1716047147.3360658 [camera_server-18] [WARN] [1716047147.116642202] [uninitialized WebRTCManager]: There is no uid in this msg, set default_uid
+1716047147.3363557 [camera_server-18] [INFO] [1716047147.116874970] [uninitialized WebRTCManager]: Got an existed pc.
+1716047147.3369424 [camera_server-18] [INFO] [1716047147.117070554] [uninitialized WebRTCManager]: It's a candidate
+1716047147.3372402 [camera_server-18] [INFO] [1716047147.120902619] [uninitialized I420DataInterface]: AddOrUpdateSink
+1716047147.3375709 [camera_server-18] [INFO] [1716047147.124511483] [uninitialized WebRTCManager]: send sdp
+1716047147.3378420 [camera_server-18] [INFO] [1716047147.124781915] [uninitialized WebRTCManager]: {
+1716047147.3381243 [camera_server-18] 	"answer_sdp" : 
+1716047147.3385222 [camera_server-18] 	{
+1716047147.3389308 [camera_server-18] 		"sdp" : "v=0\r\no=- 8753871290352588914 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0 1\r\na=msid-semantic: WMS stream_id\r\nm=video 9 UDP/TLS/RTP/SAVPF 96 97 98 99 125 100 101 127\r\nc=IN IP4 0.0.0.0\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=ice-ufrag:a2kN\r\na=ice-pwd:l6mTNmFmkBTL7x6Ia5gG7M01\r\na=ice-options:trickle\r\na=fingerprint:sha-256 2A:87:8A:29:54:D5:2C:9F:71:C6:0C:8F:93:A8:89:07:D0:99:9B:3B:F6:6E:FA:3C:D5:C0:FB:D9:C7:9D:FD:D6\r\na=setup:active\r\na=mid:0\r\na=extmap:1 urn:ietf:params:rtp-hdrext:toffset\r\na=extmap:2 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time\r\na=extmap:3 urn:3gpp:video-orientation\r\na=extmap:4 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01\r\na=extmap:5 http://www.webrtc.org/experiments/rtp-hdrext/playout-delay\r\na=extmap:6 http://www.webrtc.org/experiments/rtp-hdrext/video-content-type\r\na=extmap:7 http://www.webrtc.org/experiments/rtp-hdrext/video-timing\r\na=extmap:8 http://www.webrtc.org/experiments/rtp-hdrext/color-space\r\na=extmap:9 urn:ietf:params:rtp-hdrext:sdes:mid\r\na=extmap:10 urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id\r\na=extmap:11 urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id\r\na=sendonly\r\na=msid:stream_id video_label\r\na=rtcp-mux\r\na=rtcp-rsize\r\na=rtpmap:96 VP8/90000\r\na=rtcp-fb:96 goog-remb\r\na=rtcp-fb:96 transport-cc\r\na=rtcp-fb:96 ccm fir\r\na=rtcp-fb:96 nack\r\na=rtcp-fb:96 nack pli\r\na=rtpmap:97 rtx/90000\r\na=fmtp:97 apt=96\r\na=rtpmap:98 VP9/90000\r\na=rtcp-fb:98 goog-remb\r\na=rtcp-fb:98 transport-cc\r\na=rtcp-fb:98 ccm fir\r\na=rtcp-fb:98 nack\r\na=rtcp-fb:98 nack pli\r\na=fmtp:98 profile-id=0\r\na=rtpmap:99 rtx/90000\r\na=fmtp:99 apt=98\r\na=rtpmap:125 H264/90000\r\na=rtcp-fb:125 goog-remb\r\na=rtcp-fb:125 transport-cc\r\na=rtcp-fb:125 ccm fir\r\na=rtcp-fb:125 nack\r\na=rtcp-fb:125 nack pli\r\na=fmtp:125 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42e01f\r\na=rtpmap:100 red/90000\r\na=rtpmap:101 rtx/90000\r\na=fmtp:101 apt=100\r\na=rtpmap:127 ulpfec/90000\r\na=ssrc-group:FID 1356993204 254624555\r\na=ssrc:1356993204 cname:7WA89bCnLWTDQHYA\r\na=ssrc:1356993204 msid:stream_id video_label\r\na=ssrc:1356993204 mslabel:stream_id\r\na=ssrc:1356993204 label:video_label\r\na=ssrc:254624555 cname:7WA89bCnLWTDQHYA\r\na=ssrc:254624555 msid:stream_id video_label\r\na=ssrc:254624555 mslabel:stream_id\r\na=ssrc:254624555 label:video_label\r\nm=audio 9 UDP/TLS/RTP/SAVPF 111 103 104 9 102 0 8 106 105 13 110 112 113 126\r\nc=IN IP4 0.0.0.0\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=ice-ufrag:a2kN\r\na=ice-pwd:l6mTNmFmkBTL7x6Ia5gG7M01\r\na=ice-options:trickle\r\na=fingerprint:sha-256 2A:87:8A:29:54:D5:2C:9F:71:C6:0C:8F:93:A8:89:07:D0:99:9B:3B:F6:6E:FA:3C:D5:C0:FB:D9:C7:9D:FD:D6\r\na=setup:active\r\na=mid:1\r\na=extmap:14 urn:ietf:params:rtp-hdrext:ssrc-audio-level\r\na=extmap:4 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01\r\na=extmap:9 urn:ietf:params:rtp-hdrext:sdes:mid\r\na=extmap:10 urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id\r\na=extmap:11 urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id\r\na=inactive\r\na=rtcp-mux\r\na=rtpmap:111 opus/48000/2\r\na=rtcp-fb:111 transport-cc\r\na=fmtp:111 minptime=10;useinbandfec=1\r\na=rtpmap:103 ISAC/16000\r\na=rtpmap:104 ISAC/32000\r\na=rtpmap:9 G722/8000\r\na=rtpmap:102 ILBC/8000\r\na=rtpmap:0 PCMU/8000\r\na=rtpmap:8 PCMA/8000\r\na=rtpmap:106 CN/32000\r\na=rtpmap:105 CN/16000\r\na=rtpmap:13 CN/8000\r\na=rtpmap:110 telephone-event/48000\r\na=rtpmap:112 telephone-event/32000\r\na=rtpmap:113 telephone-event/16000\r\na=rtpmap:126 telephone-event/8000\r\n",
+1716047147.3393812 [camera_server-18] 		"type" : "answer"
+1716047147.3397214 [camera_server-18] 	},
+1716047147.3400087 [camera_server-18] 	"uid" : "default_uid"
+1716047147.3403096 [camera_server-18] }
+1716047147.3405769 [camera_server-18] [INFO] [1716047147.127354556] [uninitialized PCConductor]: OnIceGatheringChange1
+1716047147.3409407 [camera_server-18] [INFO] [1716047147.127596220] [uninitialized PCConductor]: OnIceCandidate
+1716047147.3412600 [camera_server-18] [INFO] [1716047147.128079292] [uninitialized WebRTCManager]: send candidate
+1716047147.3530672 [camera_server-18] [INFO] [1716047147.128249500] [uninitialized WebRTCManager]: {
+1716047147.3599730 [camera_server-18] 	"c_sdp" : 
+1716047147.3608217 [camera_server-18] 	{
+1716047147.3616555 [camera_server-18] 		"candidate" : "candidate:1064704802 1 udp 2122260223 10.0.0.252 33440 typ host generation 0 ufrag a2kN network-id 4 network-cost 50",
+1716047147.3621302 [camera_server-18] 		"sdpMLineIndex" : 0,
+1716047147.3633585 [camera_server-18] 		"sdpMid" : "0"
+1716047147.3637257 [camera_server-18] 	},
+1716047147.3647451 [camera_server-18] 	"uid" : "default_uid"
+1716047147.3650646 [camera_server-18] }
+1716047147.3654475 [camera_server-18] [INFO] [1716047147.128503228] [uninitialized PCConductor]: OnIceCandidate
+1716047147.3657901 [camera_server-18] [INFO] [1716047147.128867676] [uninitialized WebRTCManager]: send candidate
+1716047147.3660631 [camera_server-18] [INFO] [1716047147.129014396] [uninitialized WebRTCManager]: {
+1716047147.3684881 [camera_server-18] 	"c_sdp" : 
+1716047147.3689864 [camera_server-18] 	{
+1716047147.3693705 [camera_server-18] 		"candidate" : "candidate:1500764036 1 udp 2122194687 192.168.44.1 55116 typ host generation 0 ufrag a2kN network-id 1",
+1716047147.3697481 [camera_server-18] 		"sdpMLineIndex" : 0,
+1716047147.3700418 [camera_server-18] 		"sdpMid" : "0"
+1716047147.3704374 [camera_server-18] 	},
+1716047147.3708723 [camera_server-18] 	"uid" : "default_uid"
+1716047147.3711915 [camera_server-18] }
+1716047147.3714671 [camera_server-18] [INFO] [1716047147.127411420] [uninitialized WebRTCManager]: create candidate
+1716047147.3717933 [camera_server-18] [INFO] [1716047147.149536992] [uninitialized PCConductor]: OnIceConnectionChange1
+1716047147.3721247 [camera_server-18] [INFO] [1716047147.150016832] [uninitialized PCConductor]: add ice candidate
+1716047147.3723915 [camera_server-18] [INFO] [1716047147.151148480] [uninitialized WebRTCManager]: Got msg: {"c_sdp":{"adapterType":"UNKNOWN","sdpMLineIndex":0,"sdpMid":"0","serverUrl":"","candidate":"candidate:3973439045 1 udp 2122129151 10.0.0.105 38783 typ host generation 0 ufrag RRnN network-id 5 network-cost 10"},"height":1260,"width":2720,"alignment":"middle"}
+1716047147.3726563 [camera_server-18] [WARN] [1716047147.151633921] [uninitialized WebRTCManager]: There is no uid in this msg, set default_uid
+1716047147.3730423 [camera_server-18] [INFO] [1716047147.151848257] [uninitialized WebRTCManager]: Got an existed pc.
+1716047147.3733687 [camera_server-18] [INFO] [1716047147.152052097] [uninitialized WebRTCManager]: It's a candidate
+1716047147.3736341 [camera_server-18] [INFO] [1716047147.152361857] [uninitialized WebRTCManager]: create candidate
+1716047147.3738930 [camera_server-18] [INFO] [1716047147.154705857] [uninitialized PCConductor]: add ice candidate
+1716047147.3741777 [camera_server-18] [INFO] [1716047147.155649185] [uninitialized WebRTCManager]: Got msg: {"c_sdp":{"adapterType":"UNKNOWN","sdpMLineIndex":0,"sdpMid":"0","serverUrl":"","candidate":"candidate:2928805241 1 udp 2122197247 240e:504:1a20:d1cb:17cf:fd89:44ed:e284 38684 typ host generation 0 ufrag RRnN network-id 4 network-cost 50"},"height":1260,"width":2720,"alignment":"middle"}
+1716047147.3745866 [camera_server-18] [WARN] [1716047147.155986945] [uninitialized WebRTCManager]: There is no uid in this msg, set default_uid
+1716047147.3752227 [camera_server-18] [INFO] [1716047147.156173409] [uninitialized WebRTCManager]: Got an existed pc.
+1716047147.3755627 [camera_server-18] [INFO] [1716047147.156342753] [uninitialized WebRTCManager]: It's a candidate
+1716047147.3758330 [camera_server-18] [INFO] [1716047147.156656098] [uninitialized WebRTCManager]: create candidate
+1716047147.3766356 [camera_server-18] [INFO] [1716047147.157815106] [uninitialized PCConductor]: add ice candidate
+1716047147.3770497 [camera_server-18] [INFO] [1716047147.159156898] [uninitialized WebRTCManager]: Got msg: {"c_sdp":{"adapterType":"UNKNOWN","sdpMLineIndex":0,"sdpMid":"0","serverUrl":"","candidate":"candidate:559267639 1 udp 2122071295 ::1 49100 typ host generation 0 ufrag RRnN network-id 2"},"height":1260,"width":2720,"alignment":"middle"}
+1716047147.3773999 [camera_server-18] [WARN] [1716047147.159513922] [uninitialized WebRTCManager]: There is no uid in this msg, set default_uid
+1716047147.3777289 [camera_server-18] [INFO] [1716047147.159687970] [uninitialized WebRTCManager]: Got an existed pc.
+1716047147.3781071 [camera_server-18] [INFO] [1716047147.159858850] [uninitialized WebRTCManager]: It's a candidate
+1716047147.3784788 [camera_server-18] [INFO] [1716047147.160113154] [uninitialized WebRTCManager]: create candidate
+1716047147.3788362 [camera_server-18] [INFO] [1716047147.175649253] [uninitialized PCConductor]: OnIceGatheringChange2
+1716047147.3791883 [camera_server-18] [INFO] [1716047147.175944837] [uninitialized PCConductor]: add ice candidate
+1716047147.3794789 [camera_server-18] [INFO] [1716047147.177318502] [uninitialized WebRTCManager]: Got msg: {"c_sdp":{"adapterType":"UNKNOWN","sdpMLineIndex":0,"sdpMid":"0","serverUrl":"","candidate":"candidate:1510613869 1 udp 2121998079 127.0.0.1 40603 typ host generation 0 ufrag RRnN network-id 1"},"height":1260,"width":2720,"alignment":"middle"}
+1716047147.3799186 [camera_server-18] [WARN] [1716047147.177951974] [uninitialized WebRTCManager]: There is no uid in this msg, set default_uid
+1716047147.3819444 [camera_server-18] [INFO] [1716047147.178159334] [uninitialized WebRTCManager]: Got an existed pc.
+1716047147.3823092 [camera_server-18] [INFO] [1716047147.178402470] [uninitialized WebRTCManager]: It's a candidate
+1716047147.3828866 [camera_server-18] [INFO] [1716047147.178682022] [uninitialized WebRTCManager]: create candidate
+1716047147.3831806 [camera_server-18] [INFO] [1716047147.179705766] [uninitialized PCConductor]: add ice candidate
+1716047147.3834505 [camera_server-18] [INFO] [1716047147.181244262] [uninitialized WebRTCManager]: Got msg: {"c_sdp":{"adapterType":"UNKNOWN","sdpMLineIndex":1,"sdpMid":"1","serverUrl":"","candidate":"candidate:4017991817 1 udp 2122262783 2409:8100:1bd3:3cb3:17cf:fd89:2a7e:9515 36091 typ host generation 0 ufrag RRnN network-id 3 network-cost 50"},"height":1260,"width":2720,"alignment":"middle"}
+1716047147.3839083 [camera_server-18] [WARN] [1716047147.181648806] [uninitialized WebRTCManager]: There is no uid in this msg, set default_uid
+1716047147.3842080 [camera_server-18] [INFO] [1716047147.181843654] [uninitialized WebRTCManager]: Got an existed pc.
+1716047147.3844771 [camera_server-18] [INFO] [1716047147.182041318] [uninitialized WebRTCManager]: It's a candidate
+1716047147.3850131 [camera_server-18] [INFO] [1716047147.182361382] [uninitialized WebRTCManager]: create candidate
+1716047147.3853378 [camera_server-18] [INFO] [1716047147.187789352] [uninitialized PCConductor]: add ice candidate
+1716047147.3857574 [camera_server-18] [INFO] [1716047147.190306344] [uninitialized WebRTCManager]: Got msg: {"c_sdp":{"adapterType":"UNKNOWN","sdpMLineIndex":1,"sdpMid":"1","serverUrl":"","candidate":"candidate:2928805241 1 udp 2122197247 240e:504:1a20:d1cb:17cf:fd89:44ed:e284 53184 typ host generation 0 ufrag RRnN network-id 4 network-cost 50"},"height":1260,"width":2720,"alignment":"middle"}
+1716047147.3868263 [camera_server-18] [WARN] [1716047147.190786632] [uninitialized WebRTCManager]: There is no uid in this msg, set default_uid
+1716047147.3872948 [camera_server-18] [INFO] [1716047147.190972840] [uninitialized WebRTCManager]: Got an existed pc.
+1716047147.3876357 [camera_server-18] [INFO] [1716047147.191153544] [uninitialized WebRTCManager]: It's a candidate
+1716047147.3879941 [camera_server-18] [INFO] [1716047147.191441128] [uninitialized WebRTCManager]: create candidate
+1716047147.3882637 [camera_server-18] [INFO] [1716047147.196108745] [uninitialized PCConductor]: add ice candidate
+1716047147.3888953 [camera_server-18] [INFO] [1716047147.197144201] [uninitialized WebRTCManager]: Got msg: {"c_sdp":{"adapterType":"UNKNOWN","sdpMLineIndex":1,"sdpMid":"1","serverUrl":"","candidate":"candidate:559267639 1 udp 2122071295 ::1 52622 typ host generation 0 ufrag RRnN network-id 2"},"height":1260,"width":2720,"alignment":"middle"}
+1716047147.3894126 [camera_server-18] [WARN] [1716047147.197468393] [uninitialized WebRTCManager]: There is no uid in this msg, set default_uid
+1716047147.4603171 [camera_server-18] [INFO] [1716047147.197651433] [uninitialized WebRTCManager]: Got an existed pc.
+1716047147.4616878 [camera_server-18] [INFO] [1716047147.197825353] [uninitialized WebRTCManager]: It's a candidate
+1716047147.4620249 [camera_server-18] [INFO] [1716047147.198071050] [uninitialized WebRTCManager]: create candidate
+1716047147.4624224 [camera_server-18] [INFO] [1716047147.306814175] [uninitialized PCConductor]: add ice candidate
+1716047147.4627147 [camera_server-18] [INFO] [1716047147.310374847] [uninitialized WebRTCManager]: Got msg: {"c_sdp":{"adapterType":"UNKNOWN","sdpMLineIndex":1,"sdpMid":"1","serverUrl":"","candidate":"candidate:3973439045 1 udp 2122129151 10.0.0.105 46670 typ host generation 0 ufrag RRnN network-id 5 network-cost 10"},"height":1260,"width":2720,"alignment":"middle"}
+1716047147.4630079 [camera_server-18] [WARN] [1716047147.310818303] [uninitialized WebRTCManager]: There is no uid in this msg, set default_uid
+1716047147.4632847 [camera_server-18] [INFO] [1716047147.311037247] [uninitialized WebRTCManager]: Got an existed pc.
+1716047147.4635689 [camera_server-18] [INFO] [1716047147.311222367] [uninitialized WebRTCManager]: It's a candidate
+1716047147.4638345 [camera_server-18] [INFO] [1716047147.311481535] [uninitialized WebRTCManager]: create candidate
+1716047147.4884906 [camera_server-18] [INFO] [1716047147.437160248] [uninitialized PCConductor]: add ice candidate
+1716047147.4889777 [camera_server-18] [INFO] [1716047147.438367288] [uninitialized WebRTCManager]: Got msg: {"c_sdp":{"adapterType":"UNKNOWN","sdpMLineIndex":1,"sdpMid":"1","serverUrl":"","candidate":"candidate:1510613869 1 udp 2121998079 127.0.0.1 45463 typ host generation 0 ufrag RRnN network-id 1"},"height":1260,"width":2720,"alignment":"middle"}
+1716047147.4893074 [camera_server-18] [WARN] [1716047147.438747768] [uninitialized WebRTCManager]: There is no uid in this msg, set default_uid
+1716047147.4896719 [camera_server-18] [INFO] [1716047147.438957336] [uninitialized WebRTCManager]: Got an existed pc.
+1716047147.4907472 [camera_server-18] [INFO] [1716047147.439132408] [uninitialized WebRTCManager]: It's a candidate
+1716047147.4912398 [camera_server-18] [INFO] [1716047147.439392792] [uninitialized WebRTCManager]: create candidate
+1716047147.4915662 [camera_server-18] [INFO] [1716047147.441249177] [uninitialized PCConductor]: add ice candidate
+1716047147.4918571 [camera_server-18] [INFO] [1716047147.442203321] [uninitialized WebRTCManager]: Got msg: {"c_sdp":{"adapterType":"UNKNOWN","sdpMLineIndex":0,"sdpMid":"0","serverUrl":"","candidate":"candidate:2717797497 1 tcp 1518283007 2409:8100:1bd3:3cb3:17cf:fd89:2a7e:9515 58827 typ host tcptype passive generation 0 ufrag RRnN network-id 3 network-cost 50"},"height":1260,"width":2720,"alignment":"middle"}
+1716047147.4921913 [camera_server-18] [WARN] [1716047147.442619705] [uninitialized WebRTCManager]: There is no uid in this msg, set default_uid
+1716047147.4925940 [camera_server-18] [INFO] [1716047147.442806297] [uninitialized WebRTCManager]: Got an existed pc.
+1716047147.4930661 [camera_server-18] [INFO] [1716047147.442984665] [uninitialized WebRTCManager]: It's a candidate
+1716047147.4933970 [camera_server-18] [INFO] [1716047147.443253913] [uninitialized WebRTCManager]: create candidate
+1716047147.4937432 [camera_server-18] [INFO] [1716047147.444018681] [uninitialized PCConductor]: add ice candidate
+1716047147.4940391 [camera_server-18] [INFO] [1716047147.444916569] [uninitialized WebRTCManager]: Got msg: {"c_sdp":{"adapterType":"UNKNOWN","sdpMLineIndex":0,"sdpMid":"0","serverUrl":"","candidate":"candidate:3759274377 1 tcp 1518217471 240e:504:1a20:d1cb:17cf:fd89:44ed:e284 37297 typ host tcptype passive generation 0 ufrag RRnN network-id 4 network-cost 50"},"height":1260,"width":2720,"alignment":"middle"}
+1716047147.4943936 [camera_server-18] [WARN] [1716047147.445261177] [uninitialized WebRTCManager]: There is no uid in this msg, set default_uid
+1716047147.4946830 [camera_server-18] [INFO] [1716047147.445431513] [uninitialized WebRTCManager]: Got an existed pc.
+1716047147.4950120 [camera_server-18] [INFO] [1716047147.445604025] [uninitialized WebRTCManager]: It's a candidate
+1716047147.4952836 [camera_server-18] [INFO] [1716047147.445861657] [uninitialized WebRTCManager]: create candidate
+1716047147.4956028 [camera_server-18] [INFO] [1716047147.446866074] [uninitialized PCConductor]: add ice candidate
+1716047147.4964583 [camera_server-18] [INFO] [1716047147.449249466] [uninitialized WebRTCManager]: Got msg: {"c_sdp":{"adapterType":"UNKNOWN","sdpMLineIndex":0,"sdpMid":"0","serverUrl":"","candidate":"candidate:2723553973 1 tcp 1518149375 10.0.0.105 59245 typ host tcptype passive generation 0 ufrag RRnN network-id 5 network-cost 10"},"height":1260,"width":2720,"alignment":"middle"}
+1716047147.4970031 [camera_server-18] [WARN] [1716047147.449658618] [uninitialized WebRTCManager]: There is no uid in this msg, set default_uid
+1716047147.4974420 [camera_server-18] [INFO] [1716047147.449846746] [uninitialized WebRTCManager]: Got an existed pc.
+1716047147.4977593 [camera_server-18] [INFO] [1716047147.450026682] [uninitialized WebRTCManager]: It's a candidate
+1716047147.4990654 [camera_server-18] [INFO] [1716047147.450358010] [uninitialized WebRTCManager]: create candidate
+1716047147.4994404 [camera_server-18] [INFO] [1716047147.451207386] [uninitialized PCConductor]: add ice candidate
+1716047147.4997346 [camera_server-18] [INFO] [1716047147.453575643] [uninitialized PCConductor]: OnIceConnectionChange2
+1716047147.5000165 [camera_server-18] [INFO] [1716047147.455625115] [uninitialized WebRTCManager]: Got msg: {"c_sdp":{"adapterType":"UNKNOWN","sdpMLineIndex":0,"sdpMid":"0","serverUrl":"","candidate":"candidate:1876313031 1 tcp 1518091519 ::1 54801 typ host tcptype passive generation 0 ufrag RRnN network-id 2"},"height":1260,"width":2720,"alignment":"middle"}
+1716047147.5012159 [camera_server-18] [WARN] [1716047147.456296603] [uninitialized WebRTCManager]: There is no uid in this msg, set default_uid
+1716047147.5015283 [camera_server-18] [INFO] [1716047147.456496540] [uninitialized WebRTCManager]: Got an existed pc.
+1716047147.5018361 [camera_server-18] [INFO] [1716047147.456951548] [uninitialized WebRTCManager]: It's a candidate
+1716047147.5021126 [camera_server-18] [INFO] [1716047147.457252636] [uninitialized WebRTCManager]: create candidate
+1716047147.5402622 [camera_server-18] [INFO] [1716047147.535739083] [uninitialized PCConductor]: add ice candidate
+1716047147.5409031 [camera_server-18] [INFO] [1716047147.536882795] [uninitialized WebRTCManager]: Got msg: {"c_sdp":{"adapterType":"UNKNOWN","sdpMLineIndex":1,"sdpMid":"1","serverUrl":"","candidate":"candidate:2717797497 1 tcp 1518283007 2409:8100:1bd3:3cb3:17cf:fd89:2a7e:9515 59965 typ host tcptype passive generation 0 ufrag RRnN network-id 3 network-cost 50"},"height":1260,"width":2720,"alignment":"middle"}
+1716047147.5413117 [camera_server-18] [WARN] [1716047147.537289547] [uninitialized WebRTCManager]: There is no uid in this msg, set default_uid
+1716047147.5416348 [camera_server-18] [INFO] [1716047147.537457099] [uninitialized WebRTCManager]: Got an existed pc.
+1716047147.5432005 [camera_server-18] [INFO] [1716047147.537625739] [uninitialized WebRTCManager]: It's a candidate
+1716047147.5448012 [camera_server-18] [INFO] [1716047147.537884043] [uninitialized WebRTCManager]: create candidate
+1716047147.5482855 [camera_server-18] [INFO] [1716047147.541007980] [uninitialized PCConductor]: add ice candidate
+1716047147.5487797 [camera_server-18] [INFO] [1716047147.541671020] [MainCameraNode]: serviceCallback: service received command START_LIVE_STREAM, argument middle
+1716047147.5491087 [camera_server-18] 
+1716047147.5495255 [camera_server-18] [INFO] [1716047147.541901868] [MainCameraNode]: serviceCallback: width = 640, height = 296, fps = 0
+1716047147.6499784 [camera_server-18] [INFO] [1716047147.646448544] [StreamConsumer]: StreamConsumer: Stream size: 640x296
+1716047147.6541631 [camera_server-18] [INFO] [1716047147.648052545] [StreamConsumer]: threadInitialize: m_maxBuffersNum = 8
+1716047147.7235765 [camera_server-18] [INFO] [1716047147.689078281] [CameraDispatcher]: setStreamClipRect: rect: (0.000000 0.191667 1.000000 0.808333)
+1716047147.7243276 [camera_server-18] [INFO] [1716047147.689412425] [CameraContext]: startCameraStream: Starting repeat capture requests.
+1716047147.7247074 [camera_server-18] 
+1716047147.7405274 [camera_server-18] [INFO] [1716047147.691667721] []: ~TimePerf: START_LIVE_STREAM cost time: 149595us
+1716047147.7411609 [camera_server-18] [INFO] [1716047147.693559849] [uninitialized WebRTCManager]: Got msg: {"c_sdp":{"adapterType":"UNKNOWN","sdpMLineIndex":1,"sdpMid":"1","serverUrl":"","candidate":"candidate:3759274377 1 tcp 1518217471 240e:504:1a20:d1cb:17cf:fd89:44ed:e284 47909 typ host tcptype passive generation 0 ufrag RRnN network-id 4 network-cost 50"},"height":1260,"width":2720,"alignment":"middle"}
+1716047147.7418969 [camera_server-18] [WARN] [1716047147.693943753] [uninitialized WebRTCManager]: There is no uid in this msg, set default_uid
+1716047147.7425745 [camera_server-18] [INFO] [1716047147.694134921] [uninitialized WebRTCManager]: Got an existed pc.
+1716047147.7430737 [camera_server-18] [INFO] [1716047147.694370538] [uninitialized WebRTCManager]: It's a candidate
+1716047147.7434773 [camera_server-18] [INFO] [1716047147.704952012] [uninitialized WebRTCManager]: create candidate
+1716047147.7437942 [camera_server-18] [INFO] [1716047147.706311948] [uninitialized PCConductor]: add ice candidate
+1716047147.7440834 [camera_server-18] [INFO] [1716047147.707772492] [uninitialized WebRTCManager]: Got msg: {"c_sdp":{"adapterType":"UNKNOWN","sdpMLineIndex":1,"sdpMid":"1","serverUrl":"","candidate":"candidate:2723553973 1 tcp 1518149375 10.0.0.105 39597 typ host tcptype passive generation 0 ufrag RRnN network-id 5 network-cost 10"},"height":1260,"width":2720,"alignment":"middle"}
+1716047147.7449536 [camera_server-18] [WARN] [1716047147.708200108] [uninitialized WebRTCManager]: There is no uid in this msg, set default_uid
+1716047147.7460938 [camera_server-18] [INFO] [1716047147.708361612] [uninitialized WebRTCManager]: Got an existed pc.
+1716047147.7469716 [camera_server-18] [INFO] [1716047147.708598124] [uninitialized WebRTCManager]: It's a candidate
+1716047147.7479367 [camera_server-18] [INFO] [1716047147.708924172] [uninitialized WebRTCManager]: create candidate
+1716047147.7486563 [camera_server-18] [INFO] [1716047147.710644877] [uninitialized PCConductor]: add ice candidate
+1716047147.7493961 [camera_server-18] [INFO] [1716047147.711600557] [uninitialized WebRTCManager]: Got msg: {"c_sdp":{"adapterType":"UNKNOWN","sdpMLineIndex":1,"sdpMid":"1","serverUrl":"","candidate":"candidate:344579997 1 tcp 1518018303 127.0.0.1 57023 typ host tcptype passive generation 0 ufrag RRnN network-id 1"},"height":1260,"width":2720,"alignment":"middle"}
+1716047147.7501590 [camera_server-18] [WARN] [1716047147.711922797] [uninitialized WebRTCManager]: There is no uid in this msg, set default_uid
+1716047147.7508805 [camera_server-18] [INFO] [1716047147.712073581] [uninitialized WebRTCManager]: Got an existed pc.
+1716047147.7515895 [camera_server-18] [INFO] [1716047147.712334733] [uninitialized WebRTCManager]: It's a candidate
+1716047147.7522326 [camera_server-18] [INFO] [1716047147.712569901] [uninitialized WebRTCManager]: create candidate
+1716047147.7539952 [camera_server-18] [INFO] [1716047147.713831597] [uninitialized PCConductor]: add ice candidate
+1716047147.7545226 [camera_server-18] [INFO] [1716047147.715166158] [uninitialized WebRTCManager]: Got msg: {"c_sdp":{"adapterType":"UNKNOWN","sdpMLineIndex":0,"sdpMid":"0","serverUrl":"","candidate":"candidate:344579997 1 tcp 1518018303 127.0.0.1 46201 typ host tcptype passive generation 0 ufrag RRnN network-id 1"},"height":1260,"width":2720,"alignment":"middle"}
+1716047147.7548854 [camera_server-18] [WARN] [1716047147.715467438] [uninitialized WebRTCManager]: There is no uid in this msg, set default_uid
+1716047147.7552304 [camera_server-18] [INFO] [1716047147.715622798] [uninitialized WebRTCManager]: Got an existed pc.
+1716047147.7557430 [camera_server-18] [INFO] [1716047147.715768014] [uninitialized WebRTCManager]: It's a candidate
+1716047147.7561071 [camera_server-18] [INFO] [1716047147.716004334] [uninitialized WebRTCManager]: create candidate
+1716047147.7564244 [camera_server-18] [INFO] [1716047147.724472719] [uninitialized PCConductor]: add ice candidate
+1716047147.7575138 [camera_server-18] [INFO] [1716047147.725611216] [uninitialized WebRTCManager]: Got msg: {"c_sdp":{"adapterType":"UNKNOWN","sdpMLineIndex":1,"sdpMid":"1","serverUrl":"","candidate":"candidate:1876313031 1 tcp 1518091519 ::1 36063 typ host tcptype passive generation 0 ufrag RRnN network-id 2"},"height":1260,"width":2720,"alignment":"middle"}
+1716047147.7580147 [camera_server-18] [WARN] [1716047147.725920112] [uninitialized WebRTCManager]: There is no uid in this msg, set default_uid
+1716047147.7584274 [camera_server-18] [INFO] [1716047147.726098576] [uninitialized WebRTCManager]: Got an existed pc.
+1716047147.7587636 [camera_server-18] [INFO] [1716047147.726352816] [uninitialized WebRTCManager]: It's a candidate
+1716047147.7590632 [camera_server-18] [INFO] [1716047147.726621296] [uninitialized WebRTCManager]: create candidate
+1716047147.7593331 [camera_server-18] [INFO] [1716047147.728845904] [uninitialized PCConductor]: add ice candidate
+1716047147.8259470 [camera_server-18] PowerServiceCore:handleRequests: timePassed = 1862172
+1716047148.0414052 [camera_server-18] [INFO] [1716047148.034015403] [uninitialized I420DataInterface]: AddOrUpdateSink
+1716047149.0521531 [camera_server-18] [INFO] [1716047149.044914447] [H264Stream]: processBuffer: 27.66 frames per second
+1716047149.5442491 [camera_server-18] [INFO] [1716047149.527058092] [uninitialized PCConductor]: OnIceConnectionChange5
+1716047149.5580835 [camera_server-18] [INFO] [1716047149.536189646] [uninitialized WebRTCManager]: Got msg: {}
+1716047149.5602665 [camera_server-18] [WARN] [1716047149.536491950] [uninitialized WebRTCManager]: There is no uid in this msg, set default_uid
+1716047149.5608752 [camera_server-18] [WARN] [1716047149.536624526] [uninitialized WebRTCManager]: Stop signal
+1716047149.5623190 [camera_server-18] [INFO] [1716047149.536803342] [uninitialized PCConductor]: pc_conductor destructor
+1716047149.5628576 [camera_server-18] [INFO] [1716047149.536923406] [uninitialized PCConductor]: pc close
+1716047149.5710359 [camera_server-18] [INFO] [1716047149.543859279] [uninitialized PCConductor]: OnIceConnectionChange6
+1716047149.5716784 [camera_server-18] [INFO] [1716047149.544195983] [uninitialized PCConductor]: OnSignalingChange5
+1716047149.5721078 [camera_server-18] [INFO] [1716047149.545081008] [uninitialized I420DataInterface]: RemoveSink
+1716047149.5794301 [camera_server-18] [INFO] [1716047149.577055478] [uninitialized PCConductor]: pc closed
+1716047149.5893042 [camera_server-18] [INFO] [1716047149.578629494] [uninitialized PCConductor]: pc_conductor has been destructed
+1716047149.5932059 [camera_server-18] [INFO] [1716047149.584107479] [uninitialized WebRTCManager]: send stop response
+1716047149.5938582 [camera_server-18] [INFO] [1716047149.588011576] [MainCameraNode]: serviceCallback: service received command STOP_LIVE_STREAM, argument 
+1716047149.5943284 [camera_server-18] 
+1716047149.5947158 [camera_server-18] [INFO] [1716047149.588793912] [MainCameraNode]: serviceCallback: width = 0, height = 0, fps = 0
+1716047149.7917180 [camera_server-18] [INFO] [1716047149.788690687] [StreamConsumer]: threadExecute: stop stream thread
+1716047149.9778504 [camera_server-18] [INFO] [1716047149.975792579] []: ~TimePerf: STOP_LIVE_STREAM cost time: 384433us

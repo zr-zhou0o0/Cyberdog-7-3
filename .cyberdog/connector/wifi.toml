@@ -1,0 +1,11 @@
+
+[wifi]
+
+[wifi.ssid]
+password = "password"
+provider = "provider"
+
+[wifi.Cyberdog]
+password = ""
+provider = ""
+

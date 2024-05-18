@@ -1,0 +1,13 @@
+2024-05-18 23:16:06.423 [info] Extension host with pid 19480 started
+2024-05-18 23:16:06.706 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-05-18 23:16:06.843 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-05-18 23:16:06.845 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-05-18 23:16:08.260 [info] Eager extensions activated
+2024-05-18 23:16:08.261 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-05-18 23:16:08.265 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-05-18 23:16:08.267 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2024-05-18 23:16:08.270 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2024-05-18 23:18:22.107 [error] Error: read ECONNRESET
+    at TLSWrap.onStreamRead (node:internal/stream_base_commons:217:20)
+2024-05-18 23:21:20.639 [info] Extension host terminating: renderer disconnected for too long (2)
+2024-05-18 23:21:20.832 [info] Extension host with pid 19480 exiting with code 0

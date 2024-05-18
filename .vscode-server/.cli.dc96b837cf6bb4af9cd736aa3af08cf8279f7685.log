@@ -1,0 +1,5 @@
+Listening on 127.0.0.1:39341
+[2024-05-19 00:13:14] info Disposed of connection to running server.
+looking for token f8905251-efe3-4fac-88bb-9ffc87a28cd5, got Some("f8905251-efe3-4fac-88bb-9ffc87a28cd5")
+[2024-05-19 00:13:14] info Checking /home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/log.txt and /home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/pid.txt for a running server...
+[2024-05-19 00:13:14] info Found running server (pid=19258)

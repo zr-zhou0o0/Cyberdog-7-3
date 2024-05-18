@@ -1,0 +1,47 @@
+[4.240s] Invoking command in '/home/mi/workplace/src/learning': PYTHONPATH=/home/mi/install/learning/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/learning build --build-base /home/mi/build/learning/build install --prefix /home/mi/install/learning --record /home/mi/build/learning/install.log --single-version-externally-managed
+[5.892s] running egg_info
+[5.895s] creating ../../../build/learning/learning.egg-info
+[5.896s] writing ../../../build/learning/learning.egg-info/PKG-INFO
+[5.898s] writing dependency_links to ../../../build/learning/learning.egg-info/dependency_links.txt
+[5.899s] writing entry points to ../../../build/learning/learning.egg-info/entry_points.txt
+[5.900s] writing requirements to ../../../build/learning/learning.egg-info/requires.txt
+[5.900s] writing top-level names to ../../../build/learning/learning.egg-info/top_level.txt
+[5.916s] writing manifest file '../../../build/learning/learning.egg-info/SOURCES.txt'
+[5.926s] reading manifest file '../../../build/learning/learning.egg-info/SOURCES.txt'
+[5.933s] writing manifest file '../../../build/learning/learning.egg-info/SOURCES.txt'
+[5.933s] running build
+[5.934s] running build_py
+[5.935s] creating /home/mi/build/learning/build
+[5.935s] creating /home/mi/build/learning/build/lib
+[5.936s] creating /home/mi/build/learning/build/lib/learning
+[5.936s] copying learning/stand.py -> /home/mi/build/learning/build/lib/learning
+[5.937s] copying learning/move_x.py -> /home/mi/build/learning/build/lib/learning
+[5.938s] copying learning/keeper.py -> /home/mi/build/learning/build/lib/learning
+[5.938s] copying learning/__init__.py -> /home/mi/build/learning/build/lib/learning
+[5.939s] running install
+[5.941s] /usr/local/lib/python3.6/dist-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.941s]   setuptools.SetuptoolsDeprecationWarning,
+[5.943s] running install_lib
+[5.947s] creating /home/mi/install/learning/lib/python3.6/site-packages/learning
+[5.948s] copying /home/mi/build/learning/build/lib/learning/stand.py -> /home/mi/install/learning/lib/python3.6/site-packages/learning
+[5.948s] copying /home/mi/build/learning/build/lib/learning/move_x.py -> /home/mi/install/learning/lib/python3.6/site-packages/learning
+[5.949s] copying /home/mi/build/learning/build/lib/learning/keeper.py -> /home/mi/install/learning/lib/python3.6/site-packages/learning
+[5.950s] copying /home/mi/build/learning/build/lib/learning/__init__.py -> /home/mi/install/learning/lib/python3.6/site-packages/learning
+[5.952s] byte-compiling /home/mi/install/learning/lib/python3.6/site-packages/learning/stand.py to stand.cpython-36.pyc
+[5.955s] byte-compiling /home/mi/install/learning/lib/python3.6/site-packages/learning/move_x.py to move_x.cpython-36.pyc
+[5.963s] byte-compiling /home/mi/install/learning/lib/python3.6/site-packages/learning/keeper.py to keeper.cpython-36.pyc
+[5.964s] byte-compiling /home/mi/install/learning/lib/python3.6/site-packages/learning/__init__.py to __init__.cpython-36.pyc
+[5.965s] running install_data
+[5.970s] creating /home/mi/install/learning/share/ament_index
+[5.971s] creating /home/mi/install/learning/share/ament_index/resource_index
+[5.972s] creating /home/mi/install/learning/share/ament_index/resource_index/packages
+[5.972s] copying resource/learning -> /home/mi/install/learning/share/ament_index/resource_index/packages
+[5.973s] copying package.xml -> /home/mi/install/learning/share/learning
+[5.973s] running install_egg_info
+[5.981s] Copying ../../../build/learning/learning.egg-info to /home/mi/install/learning/lib/python3.6/site-packages/learning-0.0.0-py3.6.egg-info
+[5.986s] running install_scripts
+[6.094s] Installing keeper script to /home/mi/install/learning/lib/learning
+[6.099s] Installing move_x script to /home/mi/install/learning/lib/learning
+[6.100s] Installing stand script to /home/mi/install/learning/lib/learning
+[6.101s] writing list of installed files to '/home/mi/build/learning/install.log'
+[6.232s] Invoked command in '/home/mi/workplace/src/learning' returned '0': PYTHONPATH=/home/mi/install/learning/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/learning build --build-base /home/mi/build/learning/build install --prefix /home/mi/install/learning --record /home/mi/build/learning/install.log --single-version-externally-managed

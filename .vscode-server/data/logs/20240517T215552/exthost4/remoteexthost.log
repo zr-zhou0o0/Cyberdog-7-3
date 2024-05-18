@@ -1,0 +1,13 @@
+2024-05-17 22:03:18.571 [info] Extension host with pid 21309 started
+2024-05-17 22:03:18.571 [error] Error: EEXIST: file already exists, open '/home/mi/.vscode-server/data/User/workspaceStorage/621fe81f6151ee9d1e61831d17e339c0/vscode.lock'
+2024-05-17 22:03:18.674 [info] Lock '/home/mi/.vscode-server/data/User/workspaceStorage/621fe81f6151ee9d1e61831d17e339c0/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-05-17 22:03:18.732 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-05-17 22:03:18.775 [info] Lock '/home/mi/.vscode-server/data/User/workspaceStorage/621fe81f6151ee9d1e61831d17e339c0/vscode.lock': The lock does not look stale, elapsed: 563 ms, giving up.
+2024-05-17 22:03:18.808 [info] Lock '/home/mi/.vscode-server/data/User/workspaceStorage/621fe81f6151ee9d1e61831d17e339c0-1/vscode.lock': Lock acquired.
+2024-05-17 22:03:18.917 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-05-17 22:03:18.922 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-05-17 22:03:20.199 [info] Eager extensions activated
+2024-05-17 22:03:20.201 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-05-17 22:03:20.204 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-05-17 22:04:46.658 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-05-17 22:08:26.365 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'

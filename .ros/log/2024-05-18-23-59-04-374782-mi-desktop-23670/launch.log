@@ -1,0 +1,4 @@
+1716047944.3985846 [INFO] [launch]: All log files can be found below /home/mi/.ros/log/2024-05-18-23-59-04-374782-mi-desktop-23670
+1716047944.4020648 [INFO] [launch]: Default logging verbosity is set to INFO
+1716047945.0520651 [INFO] [stereo_camera-1]: process started with pid [23724]
+1716048051.5900309 [ERROR] [stereo_camera-1]: process has died [pid 23724, exit code -11, cmd '/opt/ros2/cyberdog/lib/camera_test/stereo_camera --ros-args -r __node:=stereo_camera -r __ns:=/ --params-file /tmp/tmp43w9xnfk'].

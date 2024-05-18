@@ -1,0 +1,80 @@
+[INFO] [1716044530.121722432] [main@visual_programming_engine]: Visual programming engine node started
+[INFO] [1716044530.122384128] [main@visual_programming_engine]: [Base][task] Creating object(node)
+[INFO] [1716044530.123845312] [main@visual_programming_engine]: [LinuxAt] Creating object(node)
+[INFO] [1716044530.124283904] [main@visual_programming_engine]: [LinuxCron] Creating object(node)
+[INFO] [1716044530.124444192] [main@visual_programming_engine]: [Task] Creating object(node)
+[INFO] [1716044530.124637600] [main@visual_programming_engine]: [Base][module] Creating object(node)
+[INFO] [1716044530.124793824] [main@visual_programming_engine]: [Module] Creating object(node)
+[INFO] [1716044530.124926880] [main@visual_programming_engine]: [ArtificialIntelligence] Creating object(node)
+[INFO] [1716044530.125081280] [main@visual_programming_engine]: [Slam] Creating object(node)
+[INFO] [1716044530.126137216] [main@visual_programming_engine]: [Fsm] Creating object(node)
+[INFO] [1716044530.126330400] [main@visual_programming_engine]: [Interact] Creating object(node)
+[INFO] [1716044535.286741696] [main@visual_programming_engine]: [Interact] Initializing ...
+[INFO] [1716044535.287052576] [main@visual_programming_engine]: Shell: at -V
+[INFO] [1716044535.423715616] [main@visual_programming_engine]: [Interact] at -V
+code: 0
+message:0
+
+[INFO] [1716044535.424763840] [main@visual_programming_engine]: Shell: service cron status
+[INFO] [1716044536.391100640] [main@visual_programming_engine]: [Interact] service cron status
+code: 0
+message:● cron.service - Regular background program processing daemon
+   Loaded: loaded (/lib/systemd/system/cron.service; enabled; vendor preset: enabled)
+   Active: active (running) since Sat 2024-05-18 23:01:56 CST; 19s ago
+     Docs: man:cron(8)
+ Main PID: 4752 (cron)
+    Tasks: 1 (limit: 4915)
+   CGroup: /system.slice/cron.service
+           └─4752 /usr/sbin/cron -f
+
+May 18 23:01:56 mi-desktop systemd[1]: Started Regular background program processing daemon.
+May 18 23:01:56 mi-desktop cron[4752]: (CRON) INFO (pidfile fd = 3)
+May 18 23:01:56 mi-desktop cron[4752]: (CRON) INFO (Running @reboot jobs)
+0
+
+[INFO] [1716044536.391859168] [main@visual_programming_engine]: Shell: pyflakes --version 
+[INFO] [1716044538.979092864] [main@visual_programming_engine]: [Interact] pyflakes --version 
+code: 0
+message:2.4.0 Python 3.6.9 on Linux
+0
+
+[INFO] [1716044538.980197216] [main@visual_programming_engine]: Judge params config file dir:/opt/ros2/cyberdog/share/cyberdog_vp/config/abilityset.toml.
+[INFO] [1716044539.471742112] [main@visual_programming_engine]: [Interact] Turn on voice control.
+[INFO] [1716044539.519816512] [main@visual_programming_engine]: [Interact] Init Workspace...
+[INFO] [1716044539.520392416] [main@visual_programming_engine]: Judge params config file dir:/opt/ros2/cyberdog/share/cyberdog_vp/config/abilityset.toml.
+[INFO] [1716044539.905550944] [main@visual_programming_engine]: Judge params config file dir:/home/mi/.cyberdog/cyberdog_vp/workspace/module/module.toml.
+[INFO] [1716044539.915353824] [main@visual_programming_engine]: Judge params config file dir:/home/mi/.cyberdog/cyberdog_vp/workspace/task/task.toml.
+[INFO] [1716044539.940070432] [main@visual_programming_engine]: [Interact] Init data...
+[INFO] [1716044552.955188622] [main@visual_programming_engine]: [Base][module] Initializing ...
+[INFO] [1716044552.956358350] [main@visual_programming_engine]: Judge params config file dir:/opt/ros2/cyberdog/share/cyberdog_vp/config/abilityset.toml.
+[INFO] [1716044553.103743918] [main@visual_programming_engine]: Judge params config file dir:/home/mi/.cyberdog/cyberdog_vp/workspace/module/module.toml.
+[INFO] [1716044553.109663150] [main@visual_programming_engine]: Judge params config file dir:/home/mi/.cyberdog/cyberdog_vp/workspace/task/task.toml.
+[INFO] [1716044553.120992334] [main@visual_programming_engine]: [Base][module] Init registry file is success.
+[INFO] [1716044553.121246926] [main@visual_programming_engine]: [Module] Initializing ...
+[INFO] [1716044553.121382990] [main@visual_programming_engine]: [Base][task] Initializing ...
+[INFO] [1716044553.121943886] [main@visual_programming_engine]: Judge params config file dir:/opt/ros2/cyberdog/share/cyberdog_vp/config/abilityset.toml.
+[INFO] [1716044553.243471118] [main@visual_programming_engine]: Judge params config file dir:/home/mi/.cyberdog/cyberdog_vp/workspace/task/task.toml.
+[INFO] [1716044553.253700910] [main@visual_programming_engine]: Judge params config file dir:/home/mi/.cyberdog/cyberdog_vp/workspace/module/module.toml.
+[INFO] [1716044553.258808686] [main@visual_programming_engine]: [Base][task] Init registry file is success.
+[INFO] [1716044553.259109998] [main@visual_programming_engine]: [Task] Initializing ...
+[INFO] [1716044553.263428238] [main@visual_programming_engine]: [Task] InitList().
+[INFO] [1716044553.277487694] [main@visual_programming_engine]: Judge params config file dir:/opt/ros2/cyberdog/share/cyberdog_vp/config/abilityset.toml.
+[INFO] [1716044553.369056590] [main@visual_programming_engine]: Judge params config file dir:/home/mi/.cyberdog/cyberdog_vp/workspace/task/task.toml.
+[INFO] [1716044553.377970702] [main@visual_programming_engine]: Judge params config file dir:/opt/ros2/cyberdog/share/cyberdog_vp/config/abilityset.toml.
+[INFO] [1716044553.460788750] [main@visual_programming_engine]: Judge params config file dir:/home/mi/.cyberdog/cyberdog_vp/workspace/task/task.toml.
+[INFO] [1716044553.470556846] [main@visual_programming_engine]: [ArtificialIntelligence] Initializing ...
+[INFO] [1716044553.471041102] [main@visual_programming_engine]: [ArtificialIntelligence] Initializing data ...
+[INFO] [1716044553.486407822] [main@visual_programming_engine]: [Slam] Initializing ...
+[INFO] [1716044553.486872814] [main@visual_programming_engine]: [Slam] Initializing data ...
+[INFO] [1716044553.492194286] [main@visual_programming_engine]: [Fsm] Initializing ...
+[INFO] [1716044553.492748910] [main@visual_programming_engine]: MachineActuator Init, config file: /opt/ros2/cyberdog/share/params/toml_config/manager/state_machine_config.toml
+[INFO] [1716044553.525091374] [main@visual_programming_engine]: [Fsm] Initializing data ...
+[INFO] [1716044553.532441486] [main@visual_programming_engine]: MachineActuator start on call.
+[INFO] [1716044553.532673230] [main@visual_programming_engine]: MachineActuator checkout state: SetUp.
+[INFO] [1716044553.532838350] [main@visual_programming_engine]: [Fsm] Trigger once OnSetUp()
+[INFO] [1716044553.533963854] [main@visual_programming_engine]: MachineActuator service setup on call.
+[INFO] [1716044553.541362030] [main@visual_programming_engine]: Visual programming engine node is running ...
+[INFO] [1716044678.666643169] [main@visual_programming_engine]: MachineActuator service callback on call.
+	 ===> target_state: Active
+[INFO] [1716044678.666928350] [main@visual_programming_engine]: MachineActuator checkout state: Active.
+[INFO] [1716044678.667093245] [main@visual_programming_engine]: [Fsm] Trigger once OnActive()

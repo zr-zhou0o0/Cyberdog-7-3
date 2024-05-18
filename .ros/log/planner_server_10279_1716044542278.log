@@ -1,0 +1,10 @@
+[INFO] [1716044543.861248448] [az2.planner_server_ab]: 
+	planner_server_ab lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1716044544.349381984] [az2.planner_server_ab]: Creating
+[INFO] [1716044551.655327822] [az2.global_costmap.global_costmap]: 
+	global_costmap lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1716044551.720886830] [az2.global_costmap.global_costmap]: Creating Costmap

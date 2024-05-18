@@ -9,7 +9,6 @@ import time
 import cv2
 import numpy as np
 
-
 from .move_x import move_x_aim_ball
 
 def main():

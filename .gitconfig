@@ -1,3 +1,6 @@
 [user]
 	email = 2033616887@qq.com
 	name = zr-zhou0o0
+[http]
+	psroxy = http://127.0.0.1:1080
+[https]

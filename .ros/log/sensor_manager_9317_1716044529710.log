@@ -148,3 +148,4 @@
 [INFO] [1716044678.659130751] [sensor_manager]: Ultrasonic start success.
 [INFO] [1716044678.659230751] [sensor_manager]: Tof start success.
 [INFO] [1716044678.659311934] [sensor_manager]: Sensor manager start success.
+[WARN] [1716049785.697510219] [sensor_manager cyberdog_tof]: [right_rear_tof] get error data:[1]/[601] ,interval[60000] !

@@ -7040,3 +7040,416 @@
 [INFO] [1716049609.054418446] [az2.cyberdog_audio]: client receive: cmd[self_check], data[{"status":0,"counter":4907}]
 [INFO] [1716049610.059507568] [az2.cyberdog_audio]: self check request:{"counter":4907}
 [INFO] [1716049611.133556480] [az2.cyberdog_audio]: self check request:{"counter":4908}
+[INFO] [1716049612.154575750] [az2.cyberdog_audio]: self check request:{"counter":4909}
+[INFO] [1716049613.196083151] [az2.cyberdog_audio]: self check request:{"counter":4910}
+[INFO] [1716049614.252201564] [az2.cyberdog_audio]: self check request:{"counter":4911}
+[INFO] [1716049614.273114336] [az2.cyberdog_audio]: client receive: cmd[self_check], data[{"status":0,"counter":4912}]
+[INFO] [1716049615.278598754] [az2.cyberdog_audio]: self check request:{"counter":4912}
+[INFO] [1716049616.300330024] [az2.cyberdog_audio]: self check request:{"counter":4913}
+[INFO] [1716049617.350180851] [az2.cyberdog_audio]: self check request:{"counter":4914}
+[INFO] [1716049618.370670616] [az2.cyberdog_audio]: self check request:{"counter":4915}
+[INFO] [1716049619.389422653] [az2.cyberdog_audio]: self check request:{"counter":4916}
+[INFO] [1716049619.406522721] [az2.cyberdog_audio]: client receive: cmd[self_check], data[{"status":0,"counter":4917}]
+[INFO] [1716049620.408119874] [az2.cyberdog_audio]: self check request:{"counter":4917}
+[INFO] [1716049621.429824424] [az2.cyberdog_audio]: self check request:{"counter":4918}
+[INFO] [1716049622.450076077] [az2.cyberdog_audio]: self check request:{"counter":4919}
+[INFO] [1716049623.471375123] [az2.cyberdog_audio]: self check request:{"counter":4920}
+[INFO] [1716049624.490023544] [az2.cyberdog_audio]: self check request:{"counter":4921}
+[INFO] [1716049624.508079292] [az2.cyberdog_audio]: client receive: cmd[self_check], data[{"status":0,"counter":4922}]
+[INFO] [1716049625.509591293] [az2.cyberdog_audio]: self check request:{"counter":4922}
+[INFO] [1716049626.529446531] [az2.cyberdog_audio]: self check request:{"counter":4923}
+[INFO] [1716049627.556718313] [az2.cyberdog_audio]: self check request:{"counter":4924}
+[INFO] [1716049628.582390928] [az2.cyberdog_audio]: self check request:{"counter":4925}
+[INFO] [1716049629.634783547] [az2.cyberdog_audio]: self check request:{"counter":4926}
+[INFO] [1716049629.673958787] [az2.cyberdog_audio]: client receive: cmd[self_check], data[{"status":0,"counter":4927}]
+[INFO] [1716049630.677646053] [az2.cyberdog_audio]: self check request:{"counter":4927}
+[INFO] [1716049631.699151819] [az2.cyberdog_audio]: self check request:{"counter":4928}
+[INFO] [1716049632.738859796] [az2.cyberdog_audio]: self check request:{"counter":4929}
+[INFO] [1716049633.772636348] [az2.cyberdog_audio]: self check request:{"counter":4930}
+[INFO] [1716049634.808023428] [az2.cyberdog_audio]: self check request:{"counter":4931}
+[INFO] [1716049634.849934508] [az2.cyberdog_audio]: client receive: cmd[self_check], data[{"status":0,"counter":4932}]
+[INFO] [1716049635.852667758] [az2.cyberdog_audio]: self check request:{"counter":4932}
+[INFO] [1716049636.466427333] [az2.cyberdog_audio]: get volume value:50
+[INFO] [1716049636.520867120] [az2.cyberdog_audio]: uid:empty, activate:true
+[INFO] [1716049636.872647988] [az2.cyberdog_audio]: self check request:{"counter":4933}
+[INFO] [1716049637.895480057] [az2.cyberdog_audio]: self check request:{"counter":4934}
+[INFO] [1716049638.913315230] [az2.cyberdog_audio]: self check request:{"counter":4935}
+[INFO] [1716049639.952494951] [az2.cyberdog_audio]: self check request:{"counter":4936}
+[INFO] [1716049640.048567162] [az2.cyberdog_audio]: client receive: cmd[self_check], data[{"status":0,"counter":4937}]
+[INFO] [1716049641.053733436] [az2.cyberdog_audio]: self check request:{"counter":4937}
+[INFO] [1716049642.091687141] [az2.cyberdog_audio]: self check request:{"counter":4938}
+[INFO] [1716049643.126701997] [az2.cyberdog_audio]: self check request:{"counter":4939}
+[INFO] [1716049644.167015287] [az2.cyberdog_audio]: self check request:{"counter":4940}
+[INFO] [1716049645.207578272] [az2.cyberdog_audio]: self check request:{"counter":4941}
+[INFO] [1716049645.223602723] [az2.cyberdog_audio]: client receive: cmd[self_check], data[{"status":0,"counter":4942}]
+[INFO] [1716049646.226778437] [az2.cyberdog_audio]: self check request:{"counter":4942}
+[INFO] [1716049647.255016012] [az2.cyberdog_audio]: self check request:{"counter":4943}
+[INFO] [1716049648.274882897] [az2.cyberdog_audio]: self check request:{"counter":4944}
+[INFO] [1716049649.297023447] [az2.cyberdog_audio]: self check request:{"counter":4945}
+[INFO] [1716049650.314986396] [az2.cyberdog_audio]: self check request:{"counter":4946}
+[INFO] [1716049650.353728100] [az2.cyberdog_audio]: client receive: cmd[self_check], data[{"status":0,"counter":4947}]
+[INFO] [1716049651.356695942] [az2.cyberdog_audio]: self check request:{"counter":4947}
+[INFO] [1716049652.388176013] [az2.cyberdog_audio]: self check request:{"counter":4948}
+[INFO] [1716049653.425833366] [az2.cyberdog_audio]: self check request:{"counter":4949}
+[INFO] [1716049654.453025245] [az2.cyberdog_audio]: self check request:{"counter":4950}
+[INFO] [1716049655.485612388] [az2.cyberdog_audio]: self check request:{"counter":4951}
+[INFO] [1716049655.520046667] [az2.cyberdog_audio]: client receive: cmd[self_check], data[{"status":0,"counter":4952}]
+[INFO] [1716049656.522852653] [az2.cyberdog_audio]: self check request:{"counter":4952}
+[INFO] [1716049657.547449939] [az2.cyberdog_audio]: self check request:{"counter":4953}
+[INFO] [1716049658.576242362] [az2.cyberdog_audio]: self check request:{"counter":4954}
+[INFO] [1716049659.598134208] [az2.cyberdog_audio]: self check request:{"counter":4955}
+[INFO] [1716049660.625124999] [az2.cyberdog_audio]: self check request:{"counter":4956}
+[INFO] [1716049660.659025485] [az2.cyberdog_audio]: client receive: cmd[self_check], data[{"status":0,"counter":4957}]
+[INFO] [1716049661.660633743] [az2.cyberdog_audio]: self check request:{"counter":4957}
+[INFO] [1716049662.678519572] [az2.cyberdog_audio]: self check request:{"counter":4958}
+[INFO] [1716049663.696988185] [az2.cyberdog_audio]: self check request:{"counter":4959}
+[INFO] [1716049664.715447390] [az2.cyberdog_audio]: self check request:{"counter":4960}
+[INFO] [1716049665.735139011] [az2.cyberdog_audio]: self check request:{"counter":4961}
+[INFO] [1716049665.751066182] [az2.cyberdog_audio]: client receive: cmd[self_check], data[{"status":0,"counter":4962}]
+[INFO] [1716049666.553712802] [az2.cyberdog_audio]: get volume value:50
+[INFO] [1716049666.622198863] [az2.cyberdog_audio]: uid:empty, activate:true
+[INFO] [1716049666.753098472] [az2.cyberdog_audio]: self check request:{"counter":4962}
+[INFO] [1716049667.796417426] [az2.cyberdog_audio]: self check request:{"counter":4963}
+[INFO] [1716049668.824162393] [az2.cyberdog_audio]: self check request:{"counter":4964}
+[INFO] [1716049669.846454783] [az2.cyberdog_audio]: self check request:{"counter":4965}
+[INFO] [1716049670.887192904] [az2.cyberdog_audio]: self check request:{"counter":4966}
+[INFO] [1716049670.904961995] [az2.cyberdog_audio]: client receive: cmd[self_check], data[{"status":0,"counter":4967}]
+[INFO] [1716049671.906878893] [az2.cyberdog_audio]: self check request:{"counter":4967}
+[INFO] [1716049672.930345779] [az2.cyberdog_audio]: self check request:{"counter":4968}
+[INFO] [1716049673.949213304] [az2.cyberdog_audio]: self check request:{"counter":4969}
+[INFO] [1716049674.972323070] [az2.cyberdog_audio]: self check request:{"counter":4970}
+[INFO] [1716049675.991082115] [az2.cyberdog_audio]: self check request:{"counter":4971}
+[INFO] [1716049676.013393992] [az2.cyberdog_audio]: client receive: cmd[self_check], data[{"status":0,"counter":4972}]
+[INFO] [1716049677.016184906] [az2.cyberdog_audio]: self check request:{"counter":4972}
+[INFO] [1716049678.053597586] [az2.cyberdog_audio]: self check request:{"counter":4973}
+[INFO] [1716049679.082345913] [az2.cyberdog_audio]: self check request:{"counter":4974}
+[INFO] [1716049680.118453570] [az2.cyberdog_audio]: self check request:{"counter":4975}
+[INFO] [1716049681.138952743] [az2.cyberdog_audio]: self check request:{"counter":4976}
+[INFO] [1716049681.164564940] [az2.cyberdog_audio]: client receive: cmd[self_check], data[{"status":0,"counter":4977}]
+[INFO] [1716049682.169949263] [az2.cyberdog_audio]: self check request:{"counter":4977}
+[INFO] [1716049683.205025239] [az2.cyberdog_audio]: self check request:{"counter":4978}
+[INFO] [1716049684.237474207] [az2.cyberdog_audio]: self check request:{"counter":4979}
+[INFO] [1716049685.255472580] [az2.cyberdog_audio]: self check request:{"counter":4980}
+[INFO] [1716049686.310636720] [az2.cyberdog_audio]: self check request:{"counter":4981}
+[INFO] [1716049686.335529460] [az2.cyberdog_audio]: client receive: cmd[self_check], data[{"status":0,"counter":4982}]
+[INFO] [1716049687.338283318] [az2.cyberdog_audio]: self check request:{"counter":4982}
+[INFO] [1716049688.367187198] [az2.cyberdog_audio]: self check request:{"counter":4983}
+[INFO] [1716049689.387605763] [az2.cyberdog_audio]: self check request:{"counter":4984}
+[INFO] [1716049690.413920585] [az2.cyberdog_audio]: self check request:{"counter":4985}
+[INFO] [1716049691.448301458] [az2.cyberdog_audio]: self check request:{"counter":4986}
+[INFO] [1716049691.465978805] [az2.cyberdog_audio]: client receive: cmd[self_check], data[{"status":0,"counter":4987}]
+[INFO] [1716049692.467819703] [az2.cyberdog_audio]: self check request:{"counter":4987}
+[INFO] [1716049693.484069051] [az2.cyberdog_audio]: self check request:{"counter":4988}
+[INFO] [1716049694.503254817] [az2.cyberdog_audio]: self check request:{"counter":4989}
+[INFO] [1716049695.520791109] [az2.cyberdog_audio]: self check request:{"counter":4990}
+[INFO] [1716049696.546638732] [az2.cyberdog_audio]: self check request:{"counter":4991}
+[INFO] [1716049696.580973363] [az2.cyberdog_audio]: client receive: cmd[self_check], data[{"status":0,"counter":4992}]
+[INFO] [1716049696.655401377] [az2.cyberdog_audio]: get volume value:50
+[INFO] [1716049696.717978861] [az2.cyberdog_audio]: uid:empty, activate:true
+[INFO] [1716049697.582730516] [az2.cyberdog_audio]: self check request:{"counter":4992}
+[INFO] [1716049698.614365596] [az2.cyberdog_audio]: self check request:{"counter":4993}
+[INFO] [1716049699.649268804] [az2.cyberdog_audio]: self check request:{"counter":4994}
+[INFO] [1716049700.680036747] [az2.cyberdog_audio]: self check request:{"counter":4995}
+[INFO] [1716049701.700513329] [az2.cyberdog_audio]: self check request:{"counter":4996}
+[INFO] [1716049701.717164500] [az2.cyberdog_audio]: client receive: cmd[self_check], data[{"status":0,"counter":4997}]
+[INFO] [1716049702.723763927] [az2.cyberdog_audio]: self check request:{"counter":4997}
+[INFO] [1716049703.743139132] [az2.cyberdog_audio]: self check request:{"counter":4998}
+[INFO] [1716049704.769245987] [az2.cyberdog_audio]: self check request:{"counter":4999}
+[INFO] [1716049705.786910663] [az2.cyberdog_audio]: self check request:{"counter":5000}
+[INFO] [1716049706.804601228] [az2.cyberdog_audio]: self check request:{"counter":5001}
+[INFO] [1716049706.820387151] [az2.cyberdog_audio]: client receive: cmd[self_check], data[{"status":0,"counter":5002}]
+[INFO] [1716049707.821824625] [az2.cyberdog_audio]: self check request:{"counter":5002}
+[INFO] [1716049708.840940214] [az2.cyberdog_audio]: self check request:{"counter":5003}
+[INFO] [1716049709.860402491] [az2.cyberdog_audio]: self check request:{"counter":5004}
+[INFO] [1716049710.879539969] [az2.cyberdog_audio]: self check request:{"counter":5005}
+[INFO] [1716049711.899043078] [az2.cyberdog_audio]: self check request:{"counter":5006}
+[INFO] [1716049711.924763211] [az2.cyberdog_audio]: client receive: cmd[self_check], data[{"status":0,"counter":5007}]
+[INFO] [1716049712.926945997] [az2.cyberdog_audio]: self check request:{"counter":5007}
+[INFO] [1716049713.948221202] [az2.cyberdog_audio]: self check request:{"counter":5008}
+[INFO] [1716049714.967357879] [az2.cyberdog_audio]: self check request:{"counter":5009}
+[INFO] [1716049716.003332224] [az2.cyberdog_audio]: self check request:{"counter":5010}
+[INFO] [1716049717.045681258] [az2.cyberdog_audio]: self check request:{"counter":5011}
+[INFO] [1716049717.065638093] [az2.cyberdog_audio]: client receive: cmd[self_check], data[{"status":0,"counter":5012}]
+[INFO] [1716049718.068223087] [az2.cyberdog_audio]: self check request:{"counter":5012}
+[INFO] [1716049719.089563925] [az2.cyberdog_audio]: self check request:{"counter":5013}
+[INFO] [1716049720.120803260] [az2.cyberdog_audio]: self check request:{"counter":5014}
+[INFO] [1716049721.176646377] [az2.cyberdog_audio]: self check request:{"counter":5015}
+[INFO] [1716049722.197163598] [az2.cyberdog_audio]: self check request:{"counter":5016}
+[INFO] [1716049722.235733206] [az2.cyberdog_audio]: client receive: cmd[self_check], data[{"status":0,"counter":5017}]
+[INFO] [1716049723.238831800] [az2.cyberdog_audio]: self check request:{"counter":5017}
+[INFO] [1716049724.292009123] [az2.cyberdog_audio]: self check request:{"counter":5018}
+[INFO] [1716049725.310098216] [az2.cyberdog_audio]: self check request:{"counter":5019}
+[INFO] [1716049726.349925905] [az2.cyberdog_audio]: self check request:{"counter":5020}
+[INFO] [1716049726.772601763] [az2.cyberdog_audio]: get volume value:50
+[INFO] [1716049726.834185455] [az2.cyberdog_audio]: uid:empty, activate:true
+[INFO] [1716049727.387706458] [az2.cyberdog_audio]: self check request:{"counter":5021}
+[INFO] [1716049727.418597824] [az2.cyberdog_audio]: client receive: cmd[self_check], data[{"status":0,"counter":5022}]
+[INFO] [1716049728.420722786] [az2.cyberdog_audio]: self check request:{"counter":5022}
+[INFO] [1716049729.451261641] [az2.cyberdog_audio]: self check request:{"counter":5023}
+[INFO] [1716049730.471049903] [az2.cyberdog_audio]: self check request:{"counter":5024}
+[INFO] [1716049731.495059477] [az2.cyberdog_audio]: self check request:{"counter":5025}
+[INFO] [1716049732.512988026] [az2.cyberdog_audio]: self check request:{"counter":5026}
+[INFO] [1716049732.533381630] [az2.cyberdog_audio]: client receive: cmd[self_check], data[{"status":0,"counter":5027}]
+[INFO] [1716049733.535105536] [az2.cyberdog_audio]: self check request:{"counter":5027}
+[INFO] [1716049734.569645736] [az2.cyberdog_audio]: self check request:{"counter":5028}
+[INFO] [1716049735.595641294] [az2.cyberdog_audio]: self check request:{"counter":5029}
+[INFO] [1716049736.630925750] [az2.cyberdog_audio]: self check request:{"counter":5030}
+[INFO] [1716049737.649631515] [az2.cyberdog_audio]: self check request:{"counter":5031}
+[INFO] [1716049737.672854880] [az2.cyberdog_audio]: client receive: cmd[self_check], data[{"status":0,"counter":5032}]
+[INFO] [1716049738.675367202] [az2.cyberdog_audio]: self check request:{"counter":5032}
+[INFO] [1716049739.701166024] [az2.cyberdog_audio]: self check request:{"counter":5033}
+[INFO] [1716049740.751650260] [az2.cyberdog_audio]: self check request:{"counter":5034}
+[INFO] [1716049741.806644288] [az2.cyberdog_audio]: self check request:{"counter":5035}
+[INFO] [1716049742.840843848] [az2.cyberdog_audio]: self check request:{"counter":5036}
+[INFO] [1716049742.863209516] [az2.cyberdog_audio]: client receive: cmd[self_check], data[{"status":0,"counter":5037}]
+[INFO] [1716049743.866055374] [az2.cyberdog_audio]: self check request:{"counter":5037}
+[INFO] [1716049744.887706324] [az2.cyberdog_audio]: self check request:{"counter":5038}
+[INFO] [1716049745.918864411] [az2.cyberdog_audio]: self check request:{"counter":5039}
+[INFO] [1716049746.952148419] [az2.cyberdog_audio]: self check request:{"counter":5040}
+[INFO] [1716049747.991802220] [az2.cyberdog_audio]: self check request:{"counter":5041}
+[INFO] [1716049748.035768629] [az2.cyberdog_audio]: client receive: cmd[self_check], data[{"status":0,"counter":5042}]
+[INFO] [1716049749.038875095] [az2.cyberdog_audio]: self check request:{"counter":5042}
+[INFO] [1716049750.058074780] [az2.cyberdog_audio]: self check request:{"counter":5043}
+[INFO] [1716049751.079998178] [az2.cyberdog_audio]: self check request:{"counter":5044}
+[INFO] [1716049752.102858632] [az2.cyberdog_audio]: self check request:{"counter":5045}
+[INFO] [1716049753.122803373] [az2.cyberdog_audio]: self check request:{"counter":5046}
+[INFO] [1716049753.141062704] [az2.cyberdog_audio]: client receive: cmd[self_check], data[{"status":0,"counter":5047}]
+[INFO] [1716049754.142719378] [az2.cyberdog_audio]: self check request:{"counter":5047}
+[INFO] [1716049755.164184952] [az2.cyberdog_audio]: self check request:{"counter":5048}
+[INFO] [1716049756.195304511] [az2.cyberdog_audio]: self check request:{"counter":5049}
+[INFO] [1716049756.870481986] [az2.cyberdog_audio]: get volume value:50
+[INFO] [1716049756.930128237] [az2.cyberdog_audio]: uid:empty, activate:true
+[INFO] [1716049757.217549349] [az2.cyberdog_audio]: self check request:{"counter":5050}
+[INFO] [1716049758.245488268] [az2.cyberdog_audio]: self check request:{"counter":5051}
+[INFO] [1716049758.286154740] [az2.cyberdog_audio]: client receive: cmd[self_check], data[{"status":0,"counter":5052}]
+[INFO] [1716049759.288878134] [az2.cyberdog_audio]: self check request:{"counter":5052}
+[INFO] [1716049760.318537149] [az2.cyberdog_audio]: self check request:{"counter":5053}
+[INFO] [1716049761.356001062] [az2.cyberdog_audio]: self check request:{"counter":5054}
+[INFO] [1716049762.398819023] [az2.cyberdog_audio]: self check request:{"counter":5055}
+[INFO] [1716049763.425492790] [az2.cyberdog_audio]: self check request:{"counter":5056}
+[INFO] [1716049763.451208795] [az2.cyberdog_audio]: client receive: cmd[self_check], data[{"status":0,"counter":5057}]
+[INFO] [1716049764.455682877] [az2.cyberdog_audio]: self check request:{"counter":5057}
+[INFO] [1716049765.475702691] [az2.cyberdog_audio]: self check request:{"counter":5058}
+[INFO] [1716049766.511281195] [az2.cyberdog_audio]: self check request:{"counter":5059}
+[INFO] [1716049767.548996244] [az2.cyberdog_audio]: self check request:{"counter":5060}
+[INFO] [1716049768.589781117] [az2.cyberdog_audio]: self check request:{"counter":5061}
+[INFO] [1716049768.624158628] [az2.cyberdog_audio]: client receive: cmd[self_check], data[{"status":0,"counter":5062}]
+[INFO] [1716049769.627122790] [az2.cyberdog_audio]: self check request:{"counter":5062}
+[INFO] [1716049770.652207596] [az2.cyberdog_audio]: self check request:{"counter":5063}
+[INFO] [1716049771.671604209] [az2.cyberdog_audio]: self check request:{"counter":5064}
+[INFO] [1716049772.692654935] [az2.cyberdog_audio]: self check request:{"counter":5065}
+[INFO] [1716049773.712134556] [az2.cyberdog_audio]: self check request:{"counter":5066}
+[INFO] [1716049773.730631360] [az2.cyberdog_audio]: client receive: cmd[self_check], data[{"status":0,"counter":5067}]
+[INFO] [1716049774.736215746] [az2.cyberdog_audio]: self check request:{"counter":5067}
+[INFO] [1716049775.782988589] [az2.cyberdog_audio]: self check request:{"counter":5068}
+[INFO] [1716049776.813130516] [az2.cyberdog_audio]: self check request:{"counter":5069}
+[INFO] [1716049777.840210139] [az2.cyberdog_audio]: self check request:{"counter":5070}
+[INFO] [1716049778.863526881] [az2.cyberdog_audio]: self check request:{"counter":5071}
+[INFO] [1716049778.881714852] [az2.cyberdog_audio]: client receive: cmd[self_check], data[{"status":0,"counter":5072}]
+[INFO] [1716049779.885341990] [az2.cyberdog_audio]: self check request:{"counter":5072}
+[INFO] [1716049780.902546891] [az2.cyberdog_audio]: self check request:{"counter":5073}
+[INFO] [1716049781.922631952] [az2.cyberdog_audio]: self check request:{"counter":5074}
+[INFO] [1716049782.941566805] [az2.cyberdog_audio]: self check request:{"counter":5075}
+[INFO] [1716049783.962575259] [az2.cyberdog_audio]: self check request:{"counter":5076}
+[INFO] [1716049783.979645886] [az2.cyberdog_audio]: client receive: cmd[self_check], data[{"status":0,"counter":5077}]
+[INFO] [1716049784.981693376] [az2.cyberdog_audio]: self check request:{"counter":5077}
+[INFO] [1716049786.003271046] [az2.cyberdog_audio]: self check request:{"counter":5078}
+[INFO] [1716049786.988351268] [az2.cyberdog_audio]: get volume value:50
+[INFO] [1716049787.022010315] [az2.cyberdog_audio]: self check request:{"counter":5079}
+[INFO] [1716049787.044767823] [az2.cyberdog_audio]: uid:empty, activate:true
+[INFO] [1716049788.046647409] [az2.cyberdog_audio]: self check request:{"counter":5080}
+[INFO] [1716049789.066821174] [az2.cyberdog_audio]: self check request:{"counter":5081}
+[INFO] [1716049789.088944827] [az2.cyberdog_audio]: client receive: cmd[self_check], data[{"status":0,"counter":5082}]
+[INFO] [1716049790.090379932] [az2.cyberdog_audio]: self check request:{"counter":5082}
+[INFO] [1716049791.155208586] [az2.cyberdog_audio]: self check request:{"counter":5083}
+[INFO] [1716049792.185341362] [az2.cyberdog_audio]: self check request:{"counter":5084}
+[INFO] [1716049793.252054304] [az2.cyberdog_audio]: self check request:{"counter":5085}
+[INFO] [1716049794.289149449] [az2.cyberdog_audio]: self check request:{"counter":5086}
+[INFO] [1716049794.315249038] [az2.cyberdog_audio]: client receive: cmd[self_check], data[{"status":0,"counter":5087}]
+[INFO] [1716049795.317719280] [az2.cyberdog_audio]: self check request:{"counter":5087}
+[INFO] [1716049796.345669143] [az2.cyberdog_audio]: self check request:{"counter":5088}
+[INFO] [1716049797.370100029] [az2.cyberdog_audio]: self check request:{"counter":5089}
+[INFO] [1716049798.395647651] [az2.cyberdog_audio]: self check request:{"counter":5090}
+[INFO] [1716049799.443520366] [az2.cyberdog_audio]: self check request:{"counter":5091}
+[INFO] [1716049799.461020369] [az2.cyberdog_audio]: client receive: cmd[self_check], data[{"status":0,"counter":5092}]
+[INFO] [1716049800.463530035] [az2.cyberdog_audio]: self check request:{"counter":5092}
+[INFO] [1716049801.486667353] [az2.cyberdog_audio]: self check request:{"counter":5093}
+[INFO] [1716049802.505035998] [az2.cyberdog_audio]: self check request:{"counter":5094}
+[INFO] [1716049803.524820963] [az2.cyberdog_audio]: self check request:{"counter":5095}
+[INFO] [1716049804.545904809] [az2.cyberdog_audio]: self check request:{"counter":5096}
+[INFO] [1716049804.562983980] [az2.cyberdog_audio]: client receive: cmd[self_check], data[{"status":0,"counter":5097}]
+[INFO] [1716049805.565973454] [az2.cyberdog_audio]: self check request:{"counter":5097}
+[INFO] [1716049806.584573555] [az2.cyberdog_audio]: self check request:{"counter":5098}
+[INFO] [1716049807.603849497] [az2.cyberdog_audio]: self check request:{"counter":5099}
+[INFO] [1716049808.622369886] [az2.cyberdog_audio]: self check request:{"counter":5100}
+[INFO] [1716049809.639722818] [az2.cyberdog_audio]: self check request:{"counter":5101}
+[INFO] [1716049809.680270730] [az2.cyberdog_audio]: client receive: cmd[self_check], data[{"status":0,"counter":5102}]
+[INFO] [1716049810.685520301] [az2.cyberdog_audio]: self check request:{"counter":5102}
+[INFO] [1716049811.709841427] [az2.cyberdog_audio]: self check request:{"counter":5103}
+[INFO] [1716049812.767785056] [az2.cyberdog_audio]: self check request:{"counter":5104}
+[INFO] [1716049813.786136165] [az2.cyberdog_audio]: self check request:{"counter":5105}
+[INFO] [1716049814.804535306] [az2.cyberdog_audio]: self check request:{"counter":5106}
+[INFO] [1716049814.820390925] [az2.cyberdog_audio]: client receive: cmd[self_check], data[{"status":0,"counter":5107}]
+[INFO] [1716049815.822366030] [az2.cyberdog_audio]: self check request:{"counter":5107}
+[INFO] [1716049816.842724628] [az2.cyberdog_audio]: self check request:{"counter":5108}
+[INFO] [1716049817.104799559] [az2.cyberdog_audio]: get volume value:50
+[INFO] [1716049817.162667858] [az2.cyberdog_audio]: uid:empty, activate:true
+[INFO] [1716049817.861395513] [az2.cyberdog_audio]: self check request:{"counter":5109}
+[INFO] [1716049818.887540543] [az2.cyberdog_audio]: self check request:{"counter":5110}
+[INFO] [1716049819.908392613] [az2.cyberdog_audio]: self check request:{"counter":5111}
+[INFO] [1716049819.927917513] [az2.cyberdog_audio]: client receive: cmd[self_check], data[{"status":0,"counter":5112}]
+[INFO] [1716049820.929819051] [az2.cyberdog_audio]: self check request:{"counter":5112}
+[INFO] [1716049821.960769650] [az2.cyberdog_audio]: self check request:{"counter":5113}
+[INFO] [1716049822.998727739] [az2.cyberdog_audio]: self check request:{"counter":5114}
+[INFO] [1716049824.038944004] [az2.cyberdog_audio]: self check request:{"counter":5115}
+[INFO] [1716049825.058888137] [az2.cyberdog_audio]: self check request:{"counter":5116}
+[INFO] [1716049825.083613806] [az2.cyberdog_audio]: client receive: cmd[self_check], data[{"status":0,"counter":5117}]
+[INFO] [1716049826.084901328] [az2.cyberdog_audio]: self check request:{"counter":5117}
+[INFO] [1716049827.104890933] [az2.cyberdog_audio]: self check request:{"counter":5118}
+[INFO] [1716049828.145303838] [az2.cyberdog_audio]: self check request:{"counter":5119}
+[INFO] [1716049829.179931559] [az2.cyberdog_audio]: self check request:{"counter":5120}
+[INFO] [1716049830.212432366] [az2.cyberdog_audio]: self check request:{"counter":5121}
+[INFO] [1716049830.239634868] [az2.cyberdog_audio]: client receive: cmd[self_check], data[{"status":0,"counter":5122}]
+[INFO] [1716049831.240993973] [az2.cyberdog_audio]: self check request:{"counter":5122}
+[INFO] [1716049832.259493530] [az2.cyberdog_audio]: self check request:{"counter":5123}
+[INFO] [1716049833.280362848] [az2.cyberdog_audio]: self check request:{"counter":5124}
+[INFO] [1716049834.299298405] [az2.cyberdog_audio]: self check request:{"counter":5125}
+[INFO] [1716049835.318565642] [az2.cyberdog_audio]: self check request:{"counter":5126}
+[INFO] [1716049835.338012686] [az2.cyberdog_audio]: client receive: cmd[self_check], data[{"status":0,"counter":5127}]
+[INFO] [1716049836.352796210] [az2.cyberdog_audio]: self check request:{"counter":5127}
+[INFO] [1716049837.381616121] [az2.cyberdog_audio]: self check request:{"counter":5128}
+[INFO] [1716049838.416673377] [az2.cyberdog_audio]: self check request:{"counter":5129}
+[INFO] [1716049839.452879498] [az2.cyberdog_audio]: self check request:{"counter":5130}
+[INFO] [1716049840.472424111] [az2.cyberdog_audio]: self check request:{"counter":5131}
+[INFO] [1716049840.493966643] [az2.cyberdog_audio]: client receive: cmd[self_check], data[{"status":0,"counter":5132}]
+[INFO] [1716049841.495441429] [az2.cyberdog_audio]: self check request:{"counter":5132}
+[INFO] [1716049842.536596830] [az2.cyberdog_audio]: self check request:{"counter":5133}
+[INFO] [1716049843.570420422] [az2.cyberdog_audio]: self check request:{"counter":5134}
+[INFO] [1716049844.595108941] [az2.cyberdog_audio]: self check request:{"counter":5135}
+[INFO] [1716049845.614592370] [az2.cyberdog_audio]: self check request:{"counter":5136}
+[INFO] [1716049845.631354229] [az2.cyberdog_audio]: client receive: cmd[self_check], data[{"status":0,"counter":5137}]
+[INFO] [1716049846.633437559] [az2.cyberdog_audio]: self check request:{"counter":5137}
+[INFO] [1716049847.201682885] [az2.cyberdog_audio]: get volume value:50
+[INFO] [1716049847.295427831] [az2.cyberdog_audio]: uid:empty, activate:true
+[INFO] [1716049847.692088804] [az2.cyberdog_audio]: self check request:{"counter":5138}
+[INFO] [1716049848.721476491] [az2.cyberdog_audio]: self check request:{"counter":5139}
+[INFO] [1716049849.743799601] [az2.cyberdog_audio]: self check request:{"counter":5140}
+[INFO] [1716049850.772511032] [az2.cyberdog_audio]: self check request:{"counter":5141}
+[INFO] [1716049850.790018779] [az2.cyberdog_audio]: client receive: cmd[self_check], data[{"status":0,"counter":5142}]
+[INFO] [1716049851.791487837] [az2.cyberdog_audio]: self check request:{"counter":5142}
+[INFO] [1716049852.810698690] [az2.cyberdog_audio]: self check request:{"counter":5143}
+[INFO] [1716049853.829399463] [az2.cyberdog_audio]: self check request:{"counter":5144}
+[INFO] [1716049854.848896364] [az2.cyberdog_audio]: self check request:{"counter":5145}
+[INFO] [1716049855.867765009] [az2.cyberdog_audio]: self check request:{"counter":5146}
+[INFO] [1716049855.894801527] [az2.cyberdog_audio]: client receive: cmd[self_check], data[{"status":0,"counter":5147}]
+[INFO] [1716049856.896469976] [az2.cyberdog_audio]: self check request:{"counter":5147}
+[INFO] [1716049857.918154014] [az2.cyberdog_audio]: self check request:{"counter":5148}
+[INFO] [1716049858.946624357] [az2.cyberdog_audio]: self check request:{"counter":5149}
+[INFO] [1716049859.998639921] [az2.cyberdog_audio]: self check request:{"counter":5150}
+[INFO] [1716049861.023198327] [az2.cyberdog_audio]: self check request:{"counter":5151}
+[INFO] [1716049861.050539452] [az2.cyberdog_audio]: client receive: cmd[self_check], data[{"status":0,"counter":5152}]
+[INFO] [1716049862.052467422] [az2.cyberdog_audio]: self check request:{"counter":5152}
+[INFO] [1716049863.071634947] [az2.cyberdog_audio]: self check request:{"counter":5153}
+[INFO] [1716049864.092634953] [az2.cyberdog_audio]: self check request:{"counter":5154}
+[INFO] [1716049865.119086255] [az2.cyberdog_audio]: self check request:{"counter":5155}
+[INFO] [1716049866.150115671] [az2.cyberdog_audio]: self check request:{"counter":5156}
+[INFO] [1716049866.221013092] [az2.cyberdog_audio]: client receive: cmd[self_check], data[{"status":0,"counter":5157}]
+[INFO] [1716049867.222897286] [az2.cyberdog_audio]: self check request:{"counter":5157}
+[INFO] [1716049868.251534733] [az2.cyberdog_audio]: self check request:{"counter":5158}
+[INFO] [1716049869.279093140] [az2.cyberdog_audio]: self check request:{"counter":5159}
+[INFO] [1716049870.298833017] [az2.cyberdog_audio]: self check request:{"counter":5160}
+[INFO] [1716049871.320064831] [az2.cyberdog_audio]: self check request:{"counter":5161}
+[INFO] [1716049871.338387842] [az2.cyberdog_audio]: client receive: cmd[self_check], data[{"status":0,"counter":5162}]
+[INFO] [1716049872.339792548] [az2.cyberdog_audio]: self check request:{"counter":5162}
+[INFO] [1716049873.367837899] [az2.cyberdog_audio]: self check request:{"counter":5163}
+[INFO] [1716049874.386792400] [az2.cyberdog_audio]: self check request:{"counter":5164}
+[INFO] [1716049875.407286230] [az2.cyberdog_audio]: self check request:{"counter":5165}
+[INFO] [1716049876.429747035] [az2.cyberdog_audio]: self check request:{"counter":5166}
+[INFO] [1716049876.453581216] [az2.cyberdog_audio]: client receive: cmd[self_check], data[{"status":0,"counter":5167}]
+[INFO] [1716049877.330860810] [az2.cyberdog_audio]: get volume value:50
+[INFO] [1716049877.388040981] [az2.cyberdog_audio]: uid:empty, activate:true
+[INFO] [1716049877.456956322] [az2.cyberdog_audio]: self check request:{"counter":5167}
+[INFO] [1716049878.480642120] [az2.cyberdog_audio]: self check request:{"counter":5168}
+[INFO] [1716049879.500670445] [az2.cyberdog_audio]: self check request:{"counter":5169}
+[INFO] [1716049880.550993977] [az2.cyberdog_audio]: self check request:{"counter":5170}
+[INFO] [1716049881.592482434] [az2.cyberdog_audio]: self check request:{"counter":5171}
+[INFO] [1716049881.628395593] [az2.cyberdog_audio]: client receive: cmd[self_check], data[{"status":0,"counter":5172}]
+[INFO] [1716049882.630377259] [az2.cyberdog_audio]: self check request:{"counter":5172}
+[INFO] [1716049883.657065681] [az2.cyberdog_audio]: self check request:{"counter":5173}
+[INFO] [1716049884.703256444] [az2.cyberdog_audio]: self check request:{"counter":5174}
+[INFO] [1716049885.732826435] [az2.cyberdog_audio]: self check request:{"counter":5175}
+[INFO] [1716049886.755968425] [az2.cyberdog_audio]: self check request:{"counter":5176}
+[INFO] [1716049886.780146382] [az2.cyberdog_audio]: client receive: cmd[self_check], data[{"status":0,"counter":5177}]
+[INFO] [1716049887.782332048] [az2.cyberdog_audio]: self check request:{"counter":5177}
+[INFO] [1716049888.826025113] [az2.cyberdog_audio]: self check request:{"counter":5178}
+[INFO] [1716049889.851721632] [az2.cyberdog_audio]: self check request:{"counter":5179}
+[INFO] [1716049890.884599080] [az2.cyberdog_audio]: self check request:{"counter":5180}
+[INFO] [1716049891.904366221] [az2.cyberdog_audio]: self check request:{"counter":5181}
+[INFO] [1716049891.922650897] [az2.cyberdog_audio]: client receive: cmd[self_check], data[{"status":0,"counter":5182}]
+[INFO] [1716049892.924373266] [az2.cyberdog_audio]: self check request:{"counter":5182}
+[INFO] [1716049893.942569111] [az2.cyberdog_audio]: self check request:{"counter":5183}
+[INFO] [1716049894.963593117] [az2.cyberdog_audio]: self check request:{"counter":5184}
+[INFO] [1716049895.982324034] [az2.cyberdog_audio]: self check request:{"counter":5185}
+[INFO] [1716049897.018268778] [az2.cyberdog_audio]: self check request:{"counter":5186}
+[INFO] [1716049897.050142992] [az2.cyberdog_audio]: client receive: cmd[self_check], data[{"status":0,"counter":5187}]
+[INFO] [1716049898.052768626] [az2.cyberdog_audio]: self check request:{"counter":5187}
+[INFO] [1716049899.072283384] [az2.cyberdog_audio]: self check request:{"counter":5188}
+[INFO] [1716049900.092634589] [az2.cyberdog_audio]: self check request:{"counter":5189}
+[INFO] [1716049901.111988514] [az2.cyberdog_audio]: self check request:{"counter":5190}
+[INFO] [1716049902.131927848] [az2.cyberdog_audio]: self check request:{"counter":5191}
+[INFO] [1716049902.150155819] [az2.cyberdog_audio]: client receive: cmd[self_check], data[{"status":0,"counter":5192}]
+[INFO] [1716049903.151993261] [az2.cyberdog_audio]: self check request:{"counter":5192}
+[INFO] [1716049904.212138810] [az2.cyberdog_audio]: self check request:{"counter":5193}
+[INFO] [1716049905.246307586] [az2.cyberdog_audio]: self check request:{"counter":5194}
+[INFO] [1716049906.264794951] [az2.cyberdog_audio]: self check request:{"counter":5195}
+[INFO] [1716049907.292061998] [az2.cyberdog_audio]: self check request:{"counter":5196}
+[INFO] [1716049907.309280273] [az2.cyberdog_audio]: client receive: cmd[self_check], data[{"status":0,"counter":5197}]
+[INFO] [1716049907.416570310] [az2.cyberdog_audio]: get volume value:50
+[INFO] [1716049907.477707858] [az2.cyberdog_audio]: uid:empty, activate:true
+[INFO] [1716049908.312346611] [az2.cyberdog_audio]: self check request:{"counter":5197}
+[INFO] [1716049909.354527549] [az2.cyberdog_audio]: self check request:{"counter":5198}
+[INFO] [1716049910.387040325] [az2.cyberdog_audio]: self check request:{"counter":5199}
+[INFO] [1716049911.423660237] [az2.cyberdog_audio]: self check request:{"counter":5200}
+[INFO] [1716049912.449899444] [az2.cyberdog_audio]: self check request:{"counter":5201}
+[INFO] [1716049912.467234711] [az2.cyberdog_audio]: client receive: cmd[self_check], data[{"status":0,"counter":5202}]
+[INFO] [1716049913.470035705] [az2.cyberdog_audio]: self check request:{"counter":5202}
+[INFO] [1716049914.491212159] [az2.cyberdog_audio]: self check request:{"counter":5203}
+[INFO] [1716049915.508995715] [az2.cyberdog_audio]: self check request:{"counter":5204}
+[INFO] [1716049916.531470921] [az2.cyberdog_audio]: self check request:{"counter":5205}
+[INFO] [1716049917.549717678] [az2.cyberdog_audio]: self check request:{"counter":5206}
+[INFO] [1716049917.574584371] [az2.cyberdog_audio]: client receive: cmd[self_check], data[{"status":0,"counter":5207}]
+[INFO] [1716049918.576259189] [az2.cyberdog_audio]: self check request:{"counter":5207}
+[INFO] [1716049919.593943098] [az2.cyberdog_audio]: self check request:{"counter":5208}
+[INFO] [1716049920.623529697] [az2.cyberdog_audio]: self check request:{"counter":5209}
+[INFO] [1716049921.652569672] [az2.cyberdog_audio]: self check request:{"counter":5210}
+[INFO] [1716049922.703835859] [az2.cyberdog_audio]: self check request:{"counter":5211}
+[INFO] [1716049922.753119197] [az2.cyberdog_audio]: client receive: cmd[self_check], data[{"status":0,"counter":5212}]
+[INFO] [1716049923.755973087] [az2.cyberdog_audio]: self check request:{"counter":5212}
+[INFO] [1716049924.790620135] [az2.cyberdog_audio]: self check request:{"counter":5213}
+[INFO] [1716049925.822999503] [az2.cyberdog_audio]: self check request:{"counter":5214}
+[INFO] [1716049926.850376789] [az2.cyberdog_audio]: self check request:{"counter":5215}
+[INFO] [1716049927.870452507] [az2.cyberdog_audio]: self check request:{"counter":5216}
+[INFO] [1716049927.893827455] [az2.cyberdog_audio]: client receive: cmd[self_check], data[{"status":0,"counter":5217}]
+[INFO] [1716049928.897173761] [az2.cyberdog_audio]: self check request:{"counter":5217}
+[INFO] [1716049929.915435014] [az2.cyberdog_audio]: self check request:{"counter":5218}
+[INFO] [1716049930.935382476] [az2.cyberdog_audio]: self check request:{"counter":5219}
+[INFO] [1716049931.953471473] [az2.cyberdog_audio]: self check request:{"counter":5220}
+[INFO] [1716049932.973297942] [az2.cyberdog_audio]: self check request:{"counter":5221}
+[INFO] [1716049932.990291737] [az2.cyberdog_audio]: client receive: cmd[self_check], data[{"status":0,"counter":5222}]
+[INFO] [1716049933.992531995] [az2.cyberdog_audio]: self check request:{"counter":5222}
+[INFO] [1716049935.013525025] [az2.cyberdog_audio]: self check request:{"counter":5223}
+[INFO] [1716049936.032585030] [az2.cyberdog_audio]: self check request:{"counter":5224}
+[INFO] [1716049937.065331854] [az2.cyberdog_audio]: self check request:{"counter":5225}
+[INFO] [1716049937.517462949] [az2.cyberdog_audio]: get volume value:50
+[INFO] [1716049937.574631152] [az2.cyberdog_audio]: uid:empty, activate:true
+[INFO] [1716049938.107180663] [az2.cyberdog_audio]: self check request:{"counter":5226}
+[INFO] [1716049938.124356538] [az2.cyberdog_audio]: client receive: cmd[self_check], data[{"status":0,"counter":5227}]
+[INFO] [1716049939.128650397] [az2.cyberdog_audio]: self check request:{"counter":5227}
+[INFO] [1716049940.174909255] [az2.cyberdog_audio]: self check request:{"counter":5228}
+[INFO] [1716049941.199113005] [az2.cyberdog_audio]: self check request:{"counter":5229}
+[INFO] [1716049942.221735251] [az2.cyberdog_audio]: self check request:{"counter":5230}
+[INFO] [1716049943.243531449] [az2.cyberdog_audio]: self check request:{"counter":5231}
+[INFO] [1716049943.269633022] [az2.cyberdog_audio]: client receive: cmd[self_check], data[{"status":0,"counter":5232}]
+[INFO] [1716049944.272726976] [az2.cyberdog_audio]: self check request:{"counter":5232}
+[INFO] [1716049945.304724584] [az2.cyberdog_audio]: self check request:{"counter":5233}
+[INFO] [1716049946.339188944] [az2.cyberdog_audio]: self check request:{"counter":5234}

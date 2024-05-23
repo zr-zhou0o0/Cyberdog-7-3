@@ -1,9 +1,0 @@
-[INFO] [1716044566.869830798] [az2.create_gridmap_node]: create map path /home/mi/mapping/
-[INFO] [1716044566.870654990] [az2.create_gridmap_node]: loop pose path /SDCARD/miloc/maps/default/viusal/
-[INFO] [1716044566.874149742] [az2.create_gridmap_node]: calibration_file /SDCARD/calibrate.yaml
-[INFO] [1716044566.874708878] [az2.create_gridmap_node]: subscribe odom topic odom_slam
-[INFO] [1716044566.874963854] [az2.create_gridmap_node]: subscribe laser topic scan
-[INFO] [1716044566.875245518] [az2.create_gridmap_node]: create map service cyberdog_occmap/create_map_service
-[INFO] [1716044566.875482158] [az2.create_gridmap_node]: finish map service cyberdog_occmap/finish_map_service
-[INFO] [1716044566.885761518] [az2.create_gridmap_node]: start_nav_service cyberdog_occmap/start_nav_service
-[INFO] [1716044566.886164078] [az2.create_gridmap_node]: stop_nav_service cyberdog_occmap/stop_nav_service

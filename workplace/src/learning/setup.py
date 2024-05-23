@@ -21,10 +21,11 @@ setup(
     entry_points={
         'console_scripts': [
             'stand = learning.stand:main',
-            'move_x = learning.move_x:main',
+            'move_horizontal = learning.move_horizontal:main',
             'keeper = learning.keeper:main',
             'track = learning.track:main',
             'data_receive = learning.data_receive:main',
+            'get_data = learning.get_data',
             'camera = learning.camera:main'
         ],
     },

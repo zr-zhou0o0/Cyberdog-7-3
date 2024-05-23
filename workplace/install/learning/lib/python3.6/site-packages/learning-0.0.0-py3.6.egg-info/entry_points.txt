@@ -1,8 +1,9 @@
 [console_scripts]
 camera = learning.camera:main
 data_receive = learning.data_receive:main
+get_data = learning.get_data
 keeper = learning.keeper:main
-move_x = learning.move_x:main
+move_horizontal = learning.move_horizontal:main
 stand = learning.stand:main
 track = learning.track:main
 

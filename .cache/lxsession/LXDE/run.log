@@ -1,177 +1,147 @@
-** Message: 23:02:02.507: environement.vala:58: Exporting primary_variable
-** Message: 23:02:02.507: environement.vala:59: desktop_environnement XDG_CURRENT_DESKTOP
-** Message: 23:02:02.507: environement.vala:177: custom_config :
-** Message: 23:02:02.507: environement.vala:178: config_dirs :/etc/xdg/xdg-ux-LXDE:/etc/xdg
-** Message: 23:02:02.507: environement.vala:179: confir_dirs not null, export : /etc/xdg/xdg-ux-LXDE:/etc/xdg
-** Message: 23:02:02.507: environement.vala:184: Exporting XDG_CONFIG_DIRS
-** Message: 23:02:02.507: environement.vala:218: custom_data :/usr/local/share:/usr/share:/usr/share/gdm:/var/lib/menu-xdg:
-** Message: 23:02:02.507: environement.vala:219: data_dirs :/usr/local/share/:/usr/share/:/usr/share/gdm/:/var/lib/menu-xdg/
-** Message: 23:02:02.508: environement.vala:220: data_dirs not null, export : /usr/local/share:/usr/share:/usr/share/gdm:/var/lib/menu-xdg:/usr/local/share/:/usr/share/:/usr/share/gdm/:/var/lib/menu-xdg/
-** Message: 23:02:02.508: environement.vala:225: Exporting XDG_DATA_DIRS
-** Message: 23:02:02.509: utils.vala:68: User config used : /home/mi/.config/lxsession/LXDE/desktop.conf
-** Message: 23:02:02.509: utils.vala:89: Final file used : /home/mi/.config/lxsession/LXDE/desktop.conf
-** Message: 23:02:02.510: settings.vala:540: Key file does not have key “iGtk/ColorScheme” in group “GTK”
-** Message: 23:02:02.510: settings.vala:540: Key file does not have key “windows_manager/command” in group “Session”
-** Message: 23:02:02.510: settings.vala:540: Key file does not have key “panel/command” in group “Session”
-** Message: 23:02:02.510: settings.vala:540: Key file does not have key “dock/command” in group “Session”
-** Message: 23:02:02.510: settings.vala:540: Key file does not have key “file_manager/command” in group “Session”
-** Message: 23:02:02.510: settings.vala:540: Key file does not have key “desktop_manager/command” in group “Session”
-** Message: 23:02:02.510: settings.vala:540: Key file does not have key “launcher_manager/command” in group “Session”
-** Message: 23:02:02.510: settings.vala:540: Key file does not have key “composite_manager/command” in group “Session”
-** Message: 23:02:02.510: settings.vala:540: Key file does not have key “im1/command” in group “Session”
-** Message: 23:02:02.510: settings.vala:540: Key file does not have key “im2/command” in group “Session”
-** Message: 23:02:02.510: settings.vala:540: Key file does not have key “widget1/command” in group “Session”
-** Message: 23:02:02.510: settings.vala:540: Key file does not have key “notification/command” in group “Session”
-** Message: 23:02:02.511: settings.vala:540: Key file does not have key “keybindings/command” in group “Session”
-** Message: 23:02:02.511: settings.vala:540: Key file does not have key “im_manager/command” in group “Session”
-** Message: 23:02:02.511: settings.vala:540: Key file does not have key “screensaver/command” in group “Session”
-** Message: 23:02:02.511: settings.vala:540: Key file does not have key “power_manager/command” in group “Session”
-** Message: 23:02:02.511: settings.vala:540: Key file does not have key “audio_manager/command” in group “Session”
-** Message: 23:02:02.511: settings.vala:540: Key file does not have key “workspace_manager/command” in group “Session”
-** Message: 23:02:02.511: settings.vala:540: Key file does not have key “screenshot_manager/command” in group “Session”
-** Message: 23:02:02.511: settings.vala:540: Key file does not have key “message_manager/command” in group “Session”
-** Message: 23:02:02.511: settings.vala:540: Key file does not have key “upgrade_manager/command” in group “Session”
-** Message: 23:02:02.511: settings.vala:540: Key file does not have key “updates_manager/command” in group “Session”
-** Message: 23:02:02.512: settings.vala:540: Key file does not have key “updates_manager/timeout” in group “Session”
-** Message: 23:02:02.512: settings.vala:540: Key file does not have key “crash_manager/command” in group “Session”
-** Message: 23:02:02.512: settings.vala:540: Key file does not have key “crash_manager/dev_mode” in group “Session”
-** Message: 23:02:02.512: settings.vala:540: Key file does not have key “crash_manager/timeout” in group “Session”
-** Message: 23:02:02.512: settings.vala:540: Key file does not have key “upstart_user_session” in group “Session”
-** Message: 23:02:02.512: settings.vala:540: Key file does not have key “proxy_manager/http” in group “Session”
-** Message: 23:02:02.512: settings.vala:540: Key file does not have key “a11y/command” in group “Session”
-** Message: 23:02:02.512: settings.vala:540: Key file does not have key “xrandr/command” in group “Session”
-** Message: 23:02:02.512: settings.vala:540: Key file does not have key “network_gui/command” in group “Session”
-** Message: 23:02:02.512: settings.vala:540: Key file does not have key “webbrowser/command” in group “Session”
-** Message: 23:02:02.512: settings.vala:540: Key file does not have key “email/command” in group “Session”
-** Message: 23:02:02.513: settings.vala:540: Key file does not have key “pdf_reader/command” in group “Session”
-** Message: 23:02:02.513: settings.vala:540: Key file does not have key “video_player/command” in group “Session”
-** Message: 23:02:02.513: settings.vala:540: Key file does not have key “audio_player/command” in group “Session”
-** Message: 23:02:02.513: settings.vala:540: Key file does not have key “images_display/command” in group “Session”
-** Message: 23:02:02.513: settings.vala:540: Key file does not have key “text_editor/command” in group “Session”
-** Message: 23:02:02.513: settings.vala:540: Key file does not have key “archive/command” in group “Session”
-** Message: 23:02:02.513: settings.vala:540: Key file does not have key “charmap/command” in group “Session”
-** Message: 23:02:02.513: settings.vala:540: Key file does not have key “calculator/command” in group “Session”
-** Message: 23:02:02.513: settings.vala:540: Key file does not have key “spreadsheet/command” in group “Session”
-** Message: 23:02:02.513: settings.vala:540: Key file does not have key “bittorent/command” in group “Session”
-** Message: 23:02:02.513: settings.vala:540: Key file does not have key “document/command” in group “Session”
-** Message: 23:02:02.513: settings.vala:540: Key file does not have key “webcam/command” in group “Session”
-** Message: 23:02:02.514: settings.vala:540: Key file does not have key “burn/command” in group “Session”
-** Message: 23:02:02.514: settings.vala:540: Key file does not have key “notes/command” in group “Session”
-** Message: 23:02:02.514: settings.vala:540: Key file does not have key “disk_utility/command” in group “Session”
-** Message: 23:02:02.514: settings.vala:540: Key file does not have key “tasks/command” in group “Session”
-** Message: 23:02:02.514: settings.vala:540: Key file does not have group “Keymap”
-** Message: 23:02:02.514: settings.vala:540: Key file does not have key “laptop_mode” in group “State”
-** Message: 23:02:02.514: settings.vala:540: Key file does not have key “gnome” in group “Dbus”
-** Message: 23:02:02.514: settings.vala:540: Key file does not have key “type” in group “Environment”
-** Message: 23:02:02.514: settings.vala:540: Key file does not have key “ubuntu_menuproxy” in group “Environment”
-** Message: 23:02:02.514: settings.vala:540: Key file does not have key “toolkit_integration” in group “Environment”
-** Message: 23:02:02.514: settings.vala:540: Key file does not have key “gtk/overlay_scrollbar_disable” in group “Environment”
-** Message: 23:02:02.514: settings.vala:540: Key file does not have key “qt/force_theme” in group “Environment”
-** Message: 23:02:02.515: settings.vala:540: Key file does not have key “qt/platform” in group “Environment”
-** Message: 23:02:02.515: settings.vala:462: Monitoring: /home/mi/.config/lxsession/LXDE/desktop.conf
-** Message: 23:02:02.515: settings.vala:466: Desktop file is already in config home, do nothing
-** Message: 23:02:02.515: settings.vala:373: Settings default for Session, windows_manager, command : openbox
-** Message: 23:02:02.516: settings.vala:373: Settings default for Session, windows_manager, session : LXDE
-** Message: 23:02:02.516: settings.vala:373: Settings default for Session, launcher_manager, command : lxpanelctl
-** Message: 23:02:02.516: environement.vala:79: Exporting variable
-** Message: 23:02:02.516: environement.vala:80: desktop_environnement XDG_CURRENT_DESKTOP
-** Message: 23:02:02.516: environement.vala:177: custom_config :
-** Message: 23:02:02.516: environement.vala:178: config_dirs :/etc/xdg/xdg-ux-LXDE:/etc/xdg
-** Message: 23:02:02.516: environement.vala:179: confir_dirs not null, export : /etc/xdg/xdg-ux-LXDE:/etc/xdg
-** Message: 23:02:02.516: environement.vala:184: Exporting XDG_CONFIG_DIRS
-** Message: 23:02:02.516: environement.vala:218: custom_data :
-** Message: 23:02:02.516: environement.vala:219: data_dirs :/usr/local/share:/usr/share:/usr/share/gdm:/var/lib/menu-xdg:/usr/local/share/:/usr/share/:/usr/share/gdm/:/var/lib/menu-xdg/
-** Message: 23:02:02.516: environement.vala:220: data_dirs not null, export : /usr/local/share:/usr/share:/usr/share/gdm:/var/lib/menu-xdg:/usr/local/share/:/usr/share/:/usr/share/gdm/:/var/lib/menu-xdg/
-** Message: 23:02:02.516: environement.vala:225: Exporting XDG_DATA_DIRS
-** Message: 23:02:02.517: utils.vala:68: User config used : /home/mi/.config/lxsession/LXDE/desktop.conf
-** Message: 23:02:02.517: utils.vala:89: Final file used : /home/mi/.config/lxsession/LXDE/desktop.conf
-** Message: 23:02:02.517: environement.vala:254: No entry in [Environment_variable]. Key file does not have group “Environment_variable”
-** Message: 23:02:02.521: utils.vala:79: Config system location : /etc/xdg/xdg-ux-LXDE/lxsession/LXDE
-** Message: 23:02:02.521: utils.vala:79: Config system location : /etc/xdg/lxsession/LXDE
-** Message: 23:02:02.522: utils.vala:85: System system path location : /etc/xdg/lxsession/LXDE/conffiles.conf
-** Message: 23:02:02.522: utils.vala:89: Final file used : /etc/xdg/lxsession/LXDE/conffiles.conf
-** Message: 23:02:02.523: options.vala:164: Activate xsettings_manager build-in
-** Message: 23:02:02.523: utils.vala:68: User config used : /home/mi/.config/lxsession/LXDE/desktop.conf
-** Message: 23:02:02.523: utils.vala:89: Final file used : /home/mi/.config/lxsession/LXDE/desktop.conf
+** Message: 22:08:18.423: environement.vala:58: Exporting primary_variable
+** Message: 22:08:18.423: environement.vala:59: desktop_environnement XDG_CURRENT_DESKTOP
+** Message: 22:08:18.423: environement.vala:177: custom_config :
+** Message: 22:08:18.423: environement.vala:178: config_dirs :/etc/xdg/xdg-ux-LXDE:/etc/xdg
+** Message: 22:08:18.423: environement.vala:179: confir_dirs not null, export : /etc/xdg/xdg-ux-LXDE:/etc/xdg
+** Message: 22:08:18.423: environement.vala:184: Exporting XDG_CONFIG_DIRS
+** Message: 22:08:18.423: environement.vala:218: custom_data :/usr/local/share:/usr/share:/usr/share/gdm:/var/lib/menu-xdg:
+** Message: 22:08:18.423: environement.vala:219: data_dirs :/usr/local/share/:/usr/share/:/usr/share/gdm/:/var/lib/menu-xdg/
+** Message: 22:08:18.423: environement.vala:220: data_dirs not null, export : /usr/local/share:/usr/share:/usr/share/gdm:/var/lib/menu-xdg:/usr/local/share/:/usr/share/:/usr/share/gdm/:/var/lib/menu-xdg/
+** Message: 22:08:18.423: environement.vala:225: Exporting XDG_DATA_DIRS
+** Message: 22:08:18.425: utils.vala:68: User config used : /home/mi/.config/lxsession/LXDE/desktop.conf
+** Message: 22:08:18.425: utils.vala:89: Final file used : /home/mi/.config/lxsession/LXDE/desktop.conf
+** Message: 22:08:18.426: settings.vala:540: Key file does not have key “iGtk/ColorScheme” in group “GTK”
+** Message: 22:08:18.426: settings.vala:540: Key file does not have key “windows_manager/command” in group “Session”
+** Message: 22:08:18.426: settings.vala:540: Key file does not have key “panel/command” in group “Session”
+** Message: 22:08:18.426: settings.vala:540: Key file does not have key “dock/command” in group “Session”
+** Message: 22:08:18.426: settings.vala:540: Key file does not have key “file_manager/command” in group “Session”
+** Message: 22:08:18.426: settings.vala:540: Key file does not have key “desktop_manager/command” in group “Session”
+** Message: 22:08:18.426: settings.vala:540: Key file does not have key “launcher_manager/command” in group “Session”
+** Message: 22:08:18.426: settings.vala:540: Key file does not have key “composite_manager/command” in group “Session”
+** Message: 22:08:18.426: settings.vala:540: Key file does not have key “im1/command” in group “Session”
+** Message: 22:08:18.426: settings.vala:540: Key file does not have key “im2/command” in group “Session”
+** Message: 22:08:18.426: settings.vala:540: Key file does not have key “widget1/command” in group “Session”
+** Message: 22:08:18.427: settings.vala:540: Key file does not have key “notification/command” in group “Session”
+** Message: 22:08:18.427: settings.vala:540: Key file does not have key “keybindings/command” in group “Session”
+** Message: 22:08:18.427: settings.vala:540: Key file does not have key “im_manager/command” in group “Session”
+** Message: 22:08:18.427: settings.vala:540: Key file does not have key “screensaver/command” in group “Session”
+** Message: 22:08:18.427: settings.vala:540: Key file does not have key “power_manager/command” in group “Session”
+** Message: 22:08:18.427: settings.vala:540: Key file does not have key “audio_manager/command” in group “Session”
+** Message: 22:08:18.427: settings.vala:540: Key file does not have key “workspace_manager/command” in group “Session”
+** Message: 22:08:18.427: settings.vala:540: Key file does not have key “screenshot_manager/command” in group “Session”
+** Message: 22:08:18.427: settings.vala:540: Key file does not have key “message_manager/command” in group “Session”
+** Message: 22:08:18.427: settings.vala:540: Key file does not have key “upgrade_manager/command” in group “Session”
+** Message: 22:08:18.427: settings.vala:540: Key file does not have key “updates_manager/command” in group “Session”
+** Message: 22:08:18.428: settings.vala:540: Key file does not have key “updates_manager/timeout” in group “Session”
+** Message: 22:08:18.428: settings.vala:540: Key file does not have key “crash_manager/command” in group “Session”
+** Message: 22:08:18.428: settings.vala:540: Key file does not have key “crash_manager/dev_mode” in group “Session”
+** Message: 22:08:18.428: settings.vala:540: Key file does not have key “crash_manager/timeout” in group “Session”
+** Message: 22:08:18.428: settings.vala:540: Key file does not have key “upstart_user_session” in group “Session”
+** Message: 22:08:18.428: settings.vala:540: Key file does not have key “proxy_manager/http” in group “Session”
+** Message: 22:08:18.428: settings.vala:540: Key file does not have key “a11y/command” in group “Session”
+** Message: 22:08:18.428: settings.vala:540: Key file does not have key “xrandr/command” in group “Session”
+** Message: 22:08:18.428: settings.vala:540: Key file does not have key “network_gui/command” in group “Session”
+** Message: 22:08:18.428: settings.vala:540: Key file does not have key “webbrowser/command” in group “Session”
+** Message: 22:08:18.428: settings.vala:540: Key file does not have key “email/command” in group “Session”
+** Message: 22:08:18.428: settings.vala:540: Key file does not have key “pdf_reader/command” in group “Session”
+** Message: 22:08:18.429: settings.vala:540: Key file does not have key “video_player/command” in group “Session”
+** Message: 22:08:18.429: settings.vala:540: Key file does not have key “audio_player/command” in group “Session”
+** Message: 22:08:18.429: settings.vala:540: Key file does not have key “images_display/command” in group “Session”
+** Message: 22:08:18.429: settings.vala:540: Key file does not have key “text_editor/command” in group “Session”
+** Message: 22:08:18.429: settings.vala:540: Key file does not have key “archive/command” in group “Session”
+** Message: 22:08:18.429: settings.vala:540: Key file does not have key “charmap/command” in group “Session”
+** Message: 22:08:18.429: settings.vala:540: Key file does not have key “calculator/command” in group “Session”
+** Message: 22:08:18.429: settings.vala:540: Key file does not have key “spreadsheet/command” in group “Session”
+** Message: 22:08:18.429: settings.vala:540: Key file does not have key “bittorent/command” in group “Session”
+** Message: 22:08:18.429: settings.vala:540: Key file does not have key “document/command” in group “Session”
+** Message: 22:08:18.429: settings.vala:540: Key file does not have key “webcam/command” in group “Session”
+** Message: 22:08:18.429: settings.vala:540: Key file does not have key “burn/command” in group “Session”
+** Message: 22:08:18.429: settings.vala:540: Key file does not have key “notes/command” in group “Session”
+** Message: 22:08:18.430: settings.vala:540: Key file does not have key “disk_utility/command” in group “Session”
+** Message: 22:08:18.430: settings.vala:540: Key file does not have key “tasks/command” in group “Session”
+** Message: 22:08:18.430: settings.vala:540: Key file does not have group “Keymap”
+** Message: 22:08:18.430: settings.vala:540: Key file does not have key “laptop_mode” in group “State”
+** Message: 22:08:18.430: settings.vala:540: Key file does not have key “gnome” in group “Dbus”
+** Message: 22:08:18.430: settings.vala:540: Key file does not have key “type” in group “Environment”
+** Message: 22:08:18.430: settings.vala:540: Key file does not have key “ubuntu_menuproxy” in group “Environment”
+** Message: 22:08:18.430: settings.vala:540: Key file does not have key “toolkit_integration” in group “Environment”
+** Message: 22:08:18.430: settings.vala:540: Key file does not have key “gtk/overlay_scrollbar_disable” in group “Environment”
+** Message: 22:08:18.430: settings.vala:540: Key file does not have key “qt/force_theme” in group “Environment”
+** Message: 22:08:18.430: settings.vala:540: Key file does not have key “qt/platform” in group “Environment”
+** Message: 22:08:18.431: settings.vala:462: Monitoring: /home/mi/.config/lxsession/LXDE/desktop.conf
+** Message: 22:08:18.431: settings.vala:466: Desktop file is already in config home, do nothing
+** Message: 22:08:18.431: settings.vala:373: Settings default for Session, windows_manager, command : openbox
+** Message: 22:08:18.431: settings.vala:373: Settings default for Session, windows_manager, session : LXDE
+** Message: 22:08:18.431: settings.vala:373: Settings default for Session, launcher_manager, command : lxpanelctl
+** Message: 22:08:18.432: environement.vala:79: Exporting variable
+** Message: 22:08:18.432: environement.vala:80: desktop_environnement XDG_CURRENT_DESKTOP
+** Message: 22:08:18.432: environement.vala:177: custom_config :
+** Message: 22:08:18.432: environement.vala:178: config_dirs :/etc/xdg/xdg-ux-LXDE:/etc/xdg
+** Message: 22:08:18.432: environement.vala:179: confir_dirs not null, export : /etc/xdg/xdg-ux-LXDE:/etc/xdg
+** Message: 22:08:18.432: environement.vala:184: Exporting XDG_CONFIG_DIRS
+** Message: 22:08:18.432: environement.vala:218: custom_data :
+** Message: 22:08:18.432: environement.vala:219: data_dirs :/usr/local/share:/usr/share:/usr/share/gdm:/var/lib/menu-xdg:/usr/local/share/:/usr/share/:/usr/share/gdm/:/var/lib/menu-xdg/
+** Message: 22:08:18.432: environement.vala:220: data_dirs not null, export : /usr/local/share:/usr/share:/usr/share/gdm:/var/lib/menu-xdg:/usr/local/share/:/usr/share/:/usr/share/gdm/:/var/lib/menu-xdg/
+** Message: 22:08:18.432: environement.vala:225: Exporting XDG_DATA_DIRS
+** Message: 22:08:18.432: utils.vala:68: User config used : /home/mi/.config/lxsession/LXDE/desktop.conf
+** Message: 22:08:18.432: utils.vala:89: Final file used : /home/mi/.config/lxsession/LXDE/desktop.conf
+** Message: 22:08:18.433: environement.vala:254: No entry in [Environment_variable]. Key file does not have group “Environment_variable”
+** Message: 22:08:18.436: utils.vala:79: Config system location : /etc/xdg/xdg-ux-LXDE/lxsession/LXDE
+** Message: 22:08:18.436: utils.vala:79: Config system location : /etc/xdg/lxsession/LXDE
+** Message: 22:08:18.437: utils.vala:85: System system path location : /etc/xdg/lxsession/LXDE/conffiles.conf
+** Message: 22:08:18.437: utils.vala:89: Final file used : /etc/xdg/lxsession/LXDE/conffiles.conf
+** Message: 22:08:18.438: options.vala:164: Activate xsettings_manager build-in
+** Message: 22:08:18.438: utils.vala:68: User config used : /home/mi/.config/lxsession/LXDE/desktop.conf
+** Message: 22:08:18.438: utils.vala:89: Final file used : /home/mi/.config/lxsession/LXDE/desktop.conf
 xprop:  no such property "_NET_NUMBER_OF_DESKTOPS"
 xprop:  no such property "_NET_DESKTOP_NAMES"
-** Message: 23:02:02.537: app.vala:721: polkit separate
-** Message: 23:02:02.537: app.vala:721: polkit separate
-** Message: 23:02:02.542: app.vala:76: Launching lxpolkit 
-** Message: 23:02:02.542: utils.vala:68: User config used : /home/mi/.config/lxsession/LXDE/autostart
-** Message: 23:02:02.542: utils.vala:89: Final file used : /home/mi/.config/lxsession/LXDE/autostart
-** Message: 23:02:02.542: autostart.vala:42: Autostart path : /home/mi/.config/lxsession/LXDE/autostart
-** Message: 23:02:02.548: app.vala:76: Launching lxpanel 
-** Message: 23:02:02.554: app.vala:76: Launching pcmanfm 
-** Message: 23:02:02.561: app.vala:76: Launching xscreensaver 
-** Message: 23:02:02.568: options.vala:107: Create build-in Clipboard
-** Message: 23:02:02.572: main.vala:442: Check keymap_mode (null)
-** Message: 23:02:02.577: app.vala:76: Launching /usr/bin/ssh-agent 
-SSH_AUTH_SOCK=/tmp/ssh-K00qPkle8zRo/agent.8280; export SSH_AUTH_SOCK;
-SSH_AGENT_PID=8283; export SSH_AGENT_PID;
-echo Agent pid 8283;
+** Message: 22:08:18.451: app.vala:721: polkit separate
+** Message: 22:08:18.451: app.vala:721: polkit separate
+** Message: 22:08:18.455: app.vala:76: Launching lxpolkit 
+** Message: 22:08:18.456: utils.vala:68: User config used : /home/mi/.config/lxsession/LXDE/autostart
+** Message: 22:08:18.456: utils.vala:89: Final file used : /home/mi/.config/lxsession/LXDE/autostart
+** Message: 22:08:18.456: autostart.vala:42: Autostart path : /home/mi/.config/lxsession/LXDE/autostart
+** Message: 22:08:18.461: app.vala:76: Launching lxpanel 
+** Message: 22:08:18.468: app.vala:76: Launching pcmanfm 
+** Message: 22:08:18.475: app.vala:76: Launching xscreensaver 
+** Message: 22:08:18.479: options.vala:107: Create build-in Clipboard
+** Message: 22:08:18.482: main.vala:442: Check keymap_mode (null)
+** Message: 22:08:18.485: app.vala:76: Launching /usr/bin/ssh-agent 
+SSH_AUTH_SOCK=/tmp/ssh-AjW3KVRFvfQP/agent.8001; export SSH_AUTH_SOCK;
+SSH_AGENT_PID=8007; export SSH_AGENT_PID;
+echo Agent pid 8007;
+** Message: 22:08:18.509: app.vala:130: /usr/bin/ssh-agent exit with this type of exit: 0
 Obt-Message: Xinerama extension is not present on the server
-** Message: 23:02:02.606: app.vala:130: /usr/bin/ssh-agent exit with this type of exit: 0
-** Message: 23:02:02.768: x-terminal-emulator has very limited support, consider choose another terminal
-** Message: 23:02:02.768: x-terminal-emulator has very limited support, consider choose another terminal
+** Message: 22:08:18.612: x-terminal-emulator has very limited support, consider choose another terminal
+** Message: 22:08:18.645: x-terminal-emulator has very limited support, consider choose another terminal
 Openbox-Message: Unable to find a valid menu file "/usr/share/lxde/openbox/menu.xml"
 
-(nm-applet:8294): Gtk-WARNING **: 23:02:04.405: Can't set a parent on widget which has a parent
+(nm-applet:8016): Gtk-WARNING **: 22:08:20.367: Can't set a parent on widget which has a parent
 
-(nm-applet:8294): Gdk-CRITICAL **: 23:02:04.549: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+(nvpmodel_indicator.py:8034): Gdk-CRITICAL **: 22:08:20.516: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
 
-(nvpmodel_indicator.py:8314): Gdk-CRITICAL **: 23:02:04.583: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+(nm-applet:8016): Gtk-CRITICAL **: 22:08:20.587: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
 
-(nm-applet:8294): Gtk-CRITICAL **: 23:02:04.896: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+(nm-applet:8016): Gtk-CRITICAL **: 22:08:20.587: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
 
-(nm-applet:8294): Gtk-CRITICAL **: 23:02:04.896: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+(nm-applet:8016): Gtk-WARNING **: 22:08:20.680: Can't set a parent on widget which has a parent
 
-(nm-applet:8294): Gtk-WARNING **: 23:02:04.933: Can't set a parent on widget which has a parent
+(nm-applet:8016): Gdk-CRITICAL **: 22:08:20.691: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
 
-(nm-applet:8294): Gtk-CRITICAL **: 23:02:04.976: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+(nm-applet:8016): Gtk-CRITICAL **: 22:08:21.557: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
 
-(nm-applet:8294): Gtk-CRITICAL **: 23:02:04.976: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+(nm-applet:8016): Gtk-CRITICAL **: 22:08:21.558: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
 
-(nm-applet:8294): Gtk-WARNING **: 23:02:05.059: Can't set a parent on widget which has a parent
+(nm-applet:8016): Gtk-WARNING **: 22:08:21.643: Can't set a parent on widget which has a parent
 
-(nm-applet:8294): Gtk-CRITICAL **: 23:02:05.196: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+(nm-applet:8016): Gtk-CRITICAL **: 22:12:37.354: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
 
-(nm-applet:8294): Gtk-CRITICAL **: 23:02:05.196: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+(nm-applet:8016): Gtk-CRITICAL **: 22:12:37.355: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
 
-(nm-applet:8294): Gtk-WARNING **: 23:02:05.316: Can't set a parent on widget which has a parent
+(nm-applet:8016): Gtk-WARNING **: 22:12:37.413: Can't set a parent on widget which has a parent
 
-(nm-applet:8294): Gtk-CRITICAL **: 23:02:05.441: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+(nm-applet:8016): Gtk-CRITICAL **: 22:12:37.455: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
 
-(nm-applet:8294): Gtk-CRITICAL **: 23:02:05.441: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+(nm-applet:8016): Gtk-CRITICAL **: 22:12:37.455: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
 
-(nm-applet:8294): Gtk-WARNING **: 23:02:05.550: Can't set a parent on widget which has a parent
-
-(nm-applet:8294): Gtk-CRITICAL **: 23:02:05.658: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:8294): Gtk-CRITICAL **: 23:02:05.658: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:8294): Gtk-WARNING **: 23:02:05.756: Can't set a parent on widget which has a parent
-
-(nm-applet:8294): Gtk-CRITICAL **: 23:02:06.088: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:8294): Gtk-CRITICAL **: 23:02:06.088: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:8294): Gtk-WARNING **: 23:02:06.177: Can't set a parent on widget which has a parent
-
-(nm-applet:8294): Gtk-CRITICAL **: 23:02:07.271: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:8294): Gtk-CRITICAL **: 23:02:07.272: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:8294): Gtk-WARNING **: 23:02:07.352: Can't set a parent on widget which has a parent
-
-(nm-applet:8294): Gtk-CRITICAL **: 23:06:22.111: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:8294): Gtk-CRITICAL **: 23:06:22.111: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:8294): Gtk-WARNING **: 23:06:22.170: Can't set a parent on widget which has a parent
-
-(nm-applet:8294): Gtk-CRITICAL **: 23:06:22.220: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:8294): Gtk-CRITICAL **: 23:06:22.220: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
-
-(nm-applet:8294): Gtk-WARNING **: 23:06:22.235: Can't set a parent on widget which has a parent
+(nm-applet:8016): Gtk-WARNING **: 22:12:37.471: Can't set a parent on widget which has a parent

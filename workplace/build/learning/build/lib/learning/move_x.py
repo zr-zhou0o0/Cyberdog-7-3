@@ -1,10 +1,10 @@
 '''
-守门狗
-让狗沿x轴运动，直到球处于视野中心
-mode=0：球处于中心，停止，返回True
-mode=1:持续动态跟随，直到KeyBoardInterrupt，返回True
-speed.y > 0 时往左走
+> move_horizontal
+> make the dog move horizontal aiming at the ball
+> note: if speed.y > 0 the dog move left,if speed.y < 0 the dog move right
+
 '''
+
 import cv2
 import numpy as np
 from cv_bridge import CvBridge
@@ -48,7 +48,7 @@ class rgb_cam_suber(Node):
             ((x, y), radius) = cv2.minEnclosingCircle(largest_contour)
             self.size = cv2.contourArea(largest_contour)
             self.ball_position = (x, y)
-            cv2.circle(cv_image, (int(x), int(y)), int(radius), (0, 255, 255), 2)
+            cv2.circle(cv2_image, (int(x), int(y)), int(radius), (0, 255, 255), 2)
         if self.size <100:
             x,y = 0, 0
             self.ball_position = (x, y)

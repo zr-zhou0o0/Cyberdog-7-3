@@ -1,3 +1,4 @@
+/home/mi/workplace/install/learning/lib/python3.6/site-packages/learning/realsense_cam_suber.py
 /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning/stand.py
 /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning/data_receive.py
 /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning/get_data.py
@@ -7,6 +8,7 @@
 /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning/track.py
 /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning/keeper.py
 /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning/__init__.py
+/home/mi/workplace/install/learning/lib/python3.6/site-packages/learning/__pycache__/realsense_cam_suber.cpython-36.pyc
 /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning/__pycache__/stand.cpython-36.pyc
 /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning/__pycache__/data_receive.cpython-36.pyc
 /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning/__pycache__/get_data.cpython-36.pyc
@@ -30,5 +32,7 @@
 /home/mi/workplace/install/learning/lib/learning/get_data
 /home/mi/workplace/install/learning/lib/learning/keeper
 /home/mi/workplace/install/learning/lib/learning/move_horizontal
+/home/mi/workplace/install/learning/lib/learning/realsense_cam_suber
+/home/mi/workplace/install/learning/lib/learning/rgb_cam_suber
 /home/mi/workplace/install/learning/lib/learning/stand
 /home/mi/workplace/install/learning/lib/learning/track

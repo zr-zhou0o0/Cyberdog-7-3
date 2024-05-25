@@ -20,17 +20,25 @@ The keeper (white dog)
     w_right: 500  
 
 # TODO
-+ 尝试打开左右相机和深度相机
-+ 在movex中添加一个display相机的功能用来调试
-+ 防止狗越界：  
-Plan A：改变规则，利用两侧的红点判断狗的左右位置和前后位置
-Plan B：利用深度相机/sensor/前面的rgb相机判断狗的左右移动和前后移动，防止越界（误差大）
-+ 射门之后球不在视野范围内时调整狗的位置（回到中心）
-+ 校准狗的角度
-+ 提高狗的灵敏度
-+ 判断射门意图（？
-+ 判断球的路径（？
-+ 打开激光雷达
+* 自定位系统的若干尝试：
+    * 激光雷达：范围在前半部分的3m内 x
+    * TOF：范围在1.5mm到0.66m内 x
+    * 深度相机+opencv
+        * 动态定位：通过球的两次坐标信息+距离球的两次距离信息计算白狗坐标
+        * 静态定位
+    * 左右眼相机+电视位置 判断左右是否出界
+    * 左右rgb相机 判断前后位置
+    * 前置rgb相机
+* 自定位系统的应用：
+    * 保证比赛过程中不会因为误差而不断出界：校准狗的位置和角度
+    * 射门之后（球不在视野范围内）白狗应回到原点
+    * 辅助守门判断
+* 其他任务：
+    * 在movex中添加一个display相机的功能用来调试  
+* 判断射门意图（？
+* 预测球的路径（？
+* 横过来
+
 
 ### 提醒
 + build之前要先在终端输入`cd workplace`,否则无法更新所做的修改!
@@ -50,10 +58,21 @@ Plan B：利用深度相机/sensor/前面的rgb相机判断狗的左右移动和
 2. [代码托管](https://git.tsinghua.edu.cn/cyberdog_competition/2024)
 
 ### 常用命令行
-<!-- 1. 打开深度相机： 
+ 1. 打开深度相机： 
     + ros2 launch realsense2_camera on_dog.py
-    + ros2 lifecycle set /camera/camera configure
-    + ros2 lifecycle set /camera/camera activate -->
+    + ros2 lifecycle set /az2/camera/camera configure
+    + ros2 lifecycle set /az2/camera/camera activate  
+
+    + ros2 lifecycle set /az2/camera/camera deactivate
+    + ros2 lifecycle set /az2/camera/camera cleanup 
+
+    + /az2/camera/depth/image_rect_raw 深度图 480*640 16UC1
+    + /az2/camera/infra1/image_rect_raw 左目 480*640 mono8
+    + /az2/camera/infra2/image_rect_raw 右目
+
+ <!--   + ros2 launch realsense2_camera realsense_align_node.launch.py
+    + ros2 lifecycle set /az2/camera/camera_align configure
+    + ros2 lifecycle set /az2/camera/camera_align activate-->
 
 2. 运行
     + cd workplace
@@ -65,13 +84,17 @@ Plan B：利用深度相机/sensor/前面的rgb相机判断狗的左右移动和
     + ros2 lifecycle set /az2/camera/camera configure 
     + ros2 lifecycle set /az2/camera/camera activate 
     + ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 1}}" 
-    + ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 3}}"
+    + ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 3}}" 
+
+    + /image_rgb 400*500 bgr8
+    
 4. 连接Xming
     + export DISPLAY=local ip:0.0
         + xhost +
 5. 检查是否连接成功
     + ros2 topic list
     + ros2 topic echo /<名称>
+    + note：开深度相机时echo要加上/az2/
 
 
 #### 如何配置Xming实现远程主机（Windows）屏显
@@ -87,15 +110,28 @@ Plan B：利用深度相机/sensor/前面的rgb相机判断狗的左右移动和
 + xstart（只需执行一次，之后重启狗子无需再执行，下面其余命令在重启后要重新执行）
 + export DISPLAY={远程IP}:0.0
 + xhost +
-\* 切换rgb相机传回图像类别：/opt/ros2/cyberdog/share/camera_test/config（注意**不在**/home/mi目录下，要在open folder那边直接复制上面路径）下yaml文件，修改format_rgb参数（改为rgb对应选项）
++ 切换rgb相机传回图像类别：/opt/ros2/cyberdog/share/camera_test/config（注意**不在**/home/mi目录下，要在open folder那边直接复制上面路径）下yaml文件，修改format_rgb参数（改为rgb对应选项）
 
 #### 更新
 + sudo apt update
 + sudo apt upgrade
 
-#### 安装openCV
-
 ### 进度  
-0523 zzr:
+0523 zzr:  
 + upgrade了白狗
-+ 成功display
++ 成功display  
+
+0524 zzr wmy：
++ 校准狗的姿势
++ 修改data receive的方式
++ 成功运行keeper
+
+0525
++ topic list:  
++ cannot open display:  
+rebuild
+export display
+xhost+
+restart xming
+cd workplace
+change the state of cam in the config yaml

@@ -235,3 +235,128 @@ export DISPLAY=10.0.0.200:0.0
 xhost +
 ros2 run learning track
 ros2 run learning keeper
+ros2 run move_X
+cd workplace
+ros2 run learning track
+ros2 topic echo /rgb_image
+ros2 lifecycle set /az2/camera/camera activate
+ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 1}}"
+ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 3}}"
+ros2 run learning move_x
+ros2 run learning track
+ros2 topic echo /rgb_image
+ros2 topic list
+ros2 topic echo /image_rgb
+export DISPLAY=10.0.0.182:0.0
+xhost +
+colcon build
+ros2 run learning track
+ros2 run learning move_x
+ros2 run data_receive
+ros2 run learning data_receive
+sudo systemctl disable nvgetty.service
+colcon build
+ros2 run learning get_data
+colcon build
+ros2 run learning get_data
+colcon build
+ros2 run learning get_data
+ros2 run learning keeper
+colcon build
+ros2 run learning keeper
+colcon build
+ros2 run learning keeper
+colcon build
+ros2 run learning keeper
+colcon build
+ros2 run learning keeper
+colcon build
+ros2 run learning keeper
+colcon build
+ros2 run learning keeper
+colcon build
+ros2 run learning keeper
+colcon build
+ros2 run learning keeper
+colcon build
+ros2 run learning keeper
+colcon build
+ros2 run learning keeper
+git add -u
+git commit -m "zzr0524"
+git push
+ros2 lifecycle set /az2/camera/camera configure
+export DISPLAY=10.0.0.182:0.0
+xhost +
+ros2 lifecycle set /az2/camera/camera configure
+ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 1}}"
+ros2 lifecycle set /az2/camera/camera configure
+ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 1}}"
+ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 3}}"
+ros2 launch camera_test stereo_camera.py
+ros2 launch realsense2_camera realsense_align_node.launch.py
+ros2 lifecycle set /az2/camera/camera configure
+ros2 lifecycle set /az2/camera/camera activate
+ros2 lifecycle set /az2/camera/camera_align configure
+ros2 lifecycle set /az2/camera/camera_align activate
+ros2 topic list
+ros2 topic echo /camera/infra1/image_rect_raw
+ros2 topic echo 
+ros2 service call /on_dog/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 1}}"
+ros2 lifecycle set /az2/camera/camera deactivate
+ros2 lifecycle set /az2/camera/camera activate
+ros2 lifecycle set /az2/camera/camera cleanup
+ros2 topic list
+ros2 lifecycle set /az2/camera/camera configure
+ros2 lifecycle set /az2/camera/camera activate
+ros2 service call /realsense2_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 1}}"
+ros2 service call /on_dog/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 1}}"
+ros2 topic list
+ros2 topic echo /camera/depth/image_rect_raw
+ros2 topic echo /camera/camera/transition_event
+ros2 topic c echo /camera/infra1/image_rect_raw
+ros2 topic echo /az2/camera/infra1/image_rect_raw
+ros2 topic list | grep head_tof_payload
+ros2 topic list
+ros2 launch realsense2_camera on_dog.py
+ros2 lifecycle set /az2/camera/camera configure
+ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 1}}"
+ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 3}}"
+ros2 topic echo
+ros2 topic list
+cd workplace
+colcon build
+ros2 run learning track
+export DISPLAY=10.0.0.182:0.0
+xhost +
+ros2 run learning track
+ros2 launch camera_test stereo_camera.py
+ros2 lifecycle set /az2/camera/camera configure
+ros2 topic echo /az2/camera/depth/image_rect_raw
+*
+ros2 launch realsense2_camera on_dog.py
+ros2 lifecycle set /az2/camera/camera configure
+ros2 topic echo /az2/camera/depth/image_rect_raw
+ros2 topic echo /az2/camera/infra1/image_rect_raw
+ros2 topic echo /az2/camera/depth/image_rect_raw
+ros2 topic echo /az2/camera/infra1/image_rect_raw
+cd workplace
+colcon build
+ros2 run learning realsense_cam_suber
+colcon build
+ros2 run learning realsense_cam_suber
+colcon build
+ros2 run learning realsense_cam_suber
+colcon build
+ros2 run learning realsense_cam_suber
+colcon build
+ros2 run learning realsense_cam_suber
+colcon build
+ros2 run learning realsense_cam_suber
+export DISPLAY=10.0.0.182:0.0
+xhost +
+xstart
+ros2 run learning realsense_cam_suber
+xstart
+colcon build
+ros2 run learning realsense_cam_suber

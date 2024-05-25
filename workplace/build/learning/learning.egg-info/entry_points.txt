@@ -4,6 +4,8 @@ data_receive = learning.data_receive:main
 get_data = learning.get_data
 keeper = learning.keeper:main
 move_horizontal = learning.move_horizontal:main
+realsense_cam_suber = learning.realsense_cam_suber:main
+rgb_cam_suber = learning.rgb_cam_suber
 stand = learning.stand:main
 track = learning.track:main
 

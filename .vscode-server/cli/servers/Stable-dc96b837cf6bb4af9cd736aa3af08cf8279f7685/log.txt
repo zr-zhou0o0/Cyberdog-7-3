@@ -5,21 +5,60 @@
 * the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
 * the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
 *
-Server bound to /tmp/code-350642f0-03d5-4ec8-b9ac-627674db303f
-Extension host agent listening on /tmp/code-350642f0-03d5-4ec8-b9ac-627674db303f
+Server bound to /tmp/code-dca852ee-5d5a-4e00-b330-6b9e8d4f1ac5
+Extension host agent listening on /tmp/code-dca852ee-5d5a-4e00-b330-6b9e8d4f1ac5
 
-[22:09:13] 
-
-
+[21:47:05] 
 
 
-[22:09:13] Extension host agent started.
-[22:09:14] [<unknown>][a7e43c78][ExtensionHostConnection] New connection established.
-[22:09:14] [<unknown>][cce0538a][ManagementConnection] New connection established.
-[22:09:21] [<unknown>][a7e43c78][ExtensionHostConnection] <10838> Launched Extension Host Process.
-[22:09:59] [<unknown>][9efe453b][ExtensionHostConnection] New connection established.
-[22:09:59] [<unknown>][dd71ef97][ManagementConnection] New connection established.
-[22:09:59] [<unknown>][9efe453b][ExtensionHostConnection] <11478> Launched Extension Host Process.
+
+
+[21:47:05] Extension host agent started.
+[21:47:05] [<unknown>][45370697][ExtensionHostConnection] New connection established.
+[21:47:05] [<unknown>][5e3a37e6][ManagementConnection] New connection established.
+[21:47:12] [<unknown>][45370697][ExtensionHostConnection] <11951> Launched Extension Host Process.
+[21:47:20] Getting Manifest... github.copilot
+[21:47:20] Installing extension: github.copilot
+[21:47:28] Extension signature verification result for github.copilot: Success. Duration: 5568ms.
+[21:47:32] Extracted extension to file:///home/mi/.vscode-server/extensions/github.copilot-1.195.0: github.copilot
+[21:47:32] Renamed to /home/mi/.vscode-server/extensions/github.copilot-1.195.0
+[21:47:32] Extracting extension completed. github.copilot
+[21:47:32] Extension installed successfully: github.copilot
+[21:47:32] Marked extension as uninstalled github.copilot-1.194.0
+New EH opened, aborting shutdown
+[21:52:05] New EH opened, aborting shutdown
+[00:00:07] [<unknown>][46a90e54][ManagementConnection] New connection established.
+[00:00:07] [<unknown>][cd524803][ExtensionHostConnection] New connection established.
+[00:00:07] [<unknown>][cd524803][ExtensionHostConnection] <32479> Launched Extension Host Process.
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at b.U (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:32991)
+    at b.updateIcon (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:28203)
+    at A.<computed> (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:23406)
+    at Object.call (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5112)
+    at a.s (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5118)
+    at a.q (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4636)
+    at n.value (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
+    at i.y (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:29:670)
+    at i.fire (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:29:889)
+    at process.$e (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10159)
+    at process.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[00:00:11] Error [CodeExpectedError]: Could not find pty on pty host
+    at b.U (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:32991)
+    at b.updateIcon (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:28203)
+    at A.<computed> (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:23406)
+    at Object.call (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5112)
+    at a.s (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5118)
+    at a.q (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4636)
+    at n.value (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4045)
+    at i.y (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:29:670)
+    at i.fire (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:29:889)
+    at process.$e (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10159)
+    at process.emit (node:events:517:28)
+    at emit (node:internal/child_process:944:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
 rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
 stack trace: CodeExpectedError: Could not find pty on pty host
     at b.U (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:32991)
@@ -35,7 +74,7 @@ stack trace: CodeExpectedError: Could not find pty on pty host
     at process.emit (node:events:517:28)
     at emit (node:internal/child_process:944:14)
     at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
-[22:10:02] Error [CodeExpectedError]: Could not find pty on pty host
+[00:00:12] Error [CodeExpectedError]: Could not find pty on pty host
     at b.U (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:32991)
     at b.updateTitle (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:28152)
     at A.<computed> (/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/platform/terminal/node/ptyHostMain.js:52:23406)
@@ -49,3 +88,6 @@ stack trace: CodeExpectedError: Could not find pty on pty host
     at process.emit (node:events:517:28)
     at emit (node:internal/child_process:944:14)
     at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[00:01:20] [<unknown>][2193d299][ExtensionHostConnection] New connection established.
+[00:01:20] [<unknown>][2193d299][ExtensionHostConnection] <877> Launched Extension Host Process.
+[00:01:20] [<unknown>][c433bf5f][ManagementConnection] New connection established.

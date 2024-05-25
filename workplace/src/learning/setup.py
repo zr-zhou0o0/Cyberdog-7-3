@@ -21,12 +21,14 @@ setup(
     entry_points={
         'console_scripts': [
             'stand = learning.stand:main',
-            'move_horizontal = learning.move_horizontal:main',
-            'keeper = learning.keeper:main',
-            'track = learning.track:main',
             'data_receive = learning.data_receive:main',
             'get_data = learning.get_data',
-            'camera = learning.camera:main'
+            'camera = learning.camera:main',
+            'rgb_cam_suber = learning.rgb_cam_suber',
+            'realsense_cam_suber = learning.realsense_cam_suber:main',
+            'track = learning.track:main',
+            'move_horizontal = learning.move_horizontal:main',
+            'keeper = learning.keeper:main'
         ],
     },
 )

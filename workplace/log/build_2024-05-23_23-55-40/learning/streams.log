@@ -1,0 +1,37 @@
+[4.439s] Invoking command in '/home/mi/workplace/src/learning': PYTHONPATH=/home/mi/workplace/install/learning/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/learning build --build-base /home/mi/workplace/build/learning/build install --prefix /home/mi/workplace/install/learning --record /home/mi/workplace/build/learning/install.log --single-version-externally-managed
+[6.360s] running egg_info
+[6.364s] writing ../../build/learning/learning.egg-info/PKG-INFO
+[6.364s] writing dependency_links to ../../build/learning/learning.egg-info/dependency_links.txt
+[6.365s] writing entry points to ../../build/learning/learning.egg-info/entry_points.txt
+[6.366s] writing requirements to ../../build/learning/learning.egg-info/requires.txt
+[6.366s] writing top-level names to ../../build/learning/learning.egg-info/top_level.txt
+[6.384s] reading manifest file '../../build/learning/learning.egg-info/SOURCES.txt'
+[6.392s] writing manifest file '../../build/learning/learning.egg-info/SOURCES.txt'
+[6.392s] running build
+[6.393s] running build_py
+[6.394s] copying learning/keeper.py -> /home/mi/workplace/build/learning/build/lib/learning
+[6.397s] /usr/local/lib/python3.6/dist-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[6.399s]   setuptools.SetuptoolsDeprecationWarning,
+[6.399s] running install
+[6.400s] running install_lib
+[6.409s] copying /home/mi/workplace/build/learning/build/lib/learning/keeper.py -> /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning
+[6.411s] byte-compiling /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning/keeper.py to keeper.cpython-36.pyc
+[6.412s]   File "/home/mi/workplace/install/learning/lib/python3.6/site-packages/learning/keeper.py", line 12
+[6.413s]     import .get_data
+[6.413s]            ^
+[6.414s] SyntaxError: invalid syntax
+[6.414s] 
+[6.415s] running install_data
+[6.415s] running install_egg_info
+[6.420s] removing '/home/mi/workplace/install/learning/lib/python3.6/site-packages/learning-0.0.0-py3.6.egg-info' (and everything under it)
+[6.423s] Copying ../../build/learning/learning.egg-info to /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning-0.0.0-py3.6.egg-info
+[6.427s] running install_scripts
+[6.525s] Installing camera script to /home/mi/workplace/install/learning/lib/learning
+[6.528s] Installing data_receive script to /home/mi/workplace/install/learning/lib/learning
+[6.529s] Installing get_data script to /home/mi/workplace/install/learning/lib/learning
+[6.530s] Installing keeper script to /home/mi/workplace/install/learning/lib/learning
+[6.531s] Installing move_x script to /home/mi/workplace/install/learning/lib/learning
+[6.532s] Installing stand script to /home/mi/workplace/install/learning/lib/learning
+[6.532s] Installing track script to /home/mi/workplace/install/learning/lib/learning
+[6.533s] writing list of installed files to '/home/mi/workplace/build/learning/install.log'
+[6.657s] Invoked command in '/home/mi/workplace/src/learning' returned '0': PYTHONPATH=/home/mi/workplace/install/learning/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/learning build --build-base /home/mi/workplace/build/learning/build install --prefix /home/mi/workplace/install/learning --record /home/mi/workplace/build/learning/install.log --single-version-externally-managed

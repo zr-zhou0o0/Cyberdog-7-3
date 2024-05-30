@@ -1,0 +1,106 @@
+[0.000000] (-) TimerEvent: {}
+[0.000917] (learning) JobQueued: {'identifier': 'learning', 'dependencies': OrderedDict()}
+[0.005652] (learning) JobStarted: {'identifier': 'learning'}
+[0.101120] (-) TimerEvent: {}
+[0.204070] (-) TimerEvent: {}
+[0.306439] (-) TimerEvent: {}
+[0.407425] (-) TimerEvent: {}
+[0.508506] (-) TimerEvent: {}
+[0.609458] (-) TimerEvent: {}
+[0.710471] (-) TimerEvent: {}
+[0.811458] (-) TimerEvent: {}
+[0.912479] (-) TimerEvent: {}
+[1.013481] (-) TimerEvent: {}
+[1.114519] (-) TimerEvent: {}
+[1.215412] (-) TimerEvent: {}
+[1.316328] (-) TimerEvent: {}
+[1.417784] (-) TimerEvent: {}
+[1.518790] (-) TimerEvent: {}
+[1.619818] (-) TimerEvent: {}
+[1.720769] (-) TimerEvent: {}
+[1.821682] (-) TimerEvent: {}
+[1.922868] (-) TimerEvent: {}
+[2.025701] (-) TimerEvent: {}
+[2.127119] (-) TimerEvent: {}
+[2.229921] (-) TimerEvent: {}
+[2.331539] (-) TimerEvent: {}
+[2.433588] (-) TimerEvent: {}
+[2.535761] (-) TimerEvent: {}
+[2.638511] (-) TimerEvent: {}
+[2.739919] (-) TimerEvent: {}
+[2.842514] (-) TimerEvent: {}
+[2.944901] (-) TimerEvent: {}
+[3.045949] (-) TimerEvent: {}
+[3.146832] (-) TimerEvent: {}
+[3.248042] (-) TimerEvent: {}
+[3.349450] (-) TimerEvent: {}
+[3.453243] (-) TimerEvent: {}
+[3.557948] (-) TimerEvent: {}
+[3.662526] (-) TimerEvent: {}
+[3.763650] (-) TimerEvent: {}
+[3.864625] (-) TimerEvent: {}
+[3.968311] (-) TimerEvent: {}
+[4.071023] (-) TimerEvent: {}
+[4.171955] (-) TimerEvent: {}
+[4.274506] (-) TimerEvent: {}
+[4.375549] (-) TimerEvent: {}
+[4.476620] (-) TimerEvent: {}
+[4.578014] (-) TimerEvent: {}
+[4.580791] (learning) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/learning', 'build', '--build-base', '/home/mi/workplace/build/learning/build', 'install', '--prefix', '/home/mi/workplace/install/learning', '--record', '/home/mi/workplace/build/learning/install.log', '--single-version-externally-managed'], 'cwd': '/home/mi/workplace/src/learning', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'MAIL': '/var/mail/mi', 'USER': 'mi', 'SSH_CLIENT': '10.0.0.200 58038 22', 'GIT_ASKPASS': '/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass.sh', 'LD_LIBRARY_PATH': '/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros2/galactic/opt/yaml_cpp_vendor/lib:/opt/ros2/galactic/opt/rviz_ogre_vendor/lib:/opt/ros2/galactic/lib:/opt/ros2/cyberdog/lib', 'BROWSER': '/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/helpers/browser.sh', 'SHLVL': '4', 'OLDPWD': '/home/mi', 'CYCLONEDDS_URI': 'file:///etc/mi/cyclonedds.xml', 'HOME': '/home/mi', 'TERM_PROGRAM_VERSION': '1.89.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-2d01cc35-ea4b-4cfc-8ec7-21bfafb14aca.sock', 'VSCODE_GIT_ASKPASS_MAIN': '/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass-main.js', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_NODE': '/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/mi/workplace/install:/opt/ros2/cyberdog:/opt/ros2/galactic', 'ROS_DISTRO': 'galactic', 'LOGNAME': 'mi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/opt/ros2/galactic/lib/aarch64-linux-gnu/pkgconfig:/opt/ros2/galactic/lib/pkgconfig', 'XDG_SESSION_ID': '3', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/mi/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/remote-cli:/opt/ros2/cyberdog/bin:/opt/ros2/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': '10.0.0.182:0.0', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'TERM_PROGRAM': 'vscode', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-30469d7a2e.sock', 'AMENT_PREFIX_PATH': '/home/mi/workplace/install/learning:/opt/ros2/cyberdog:/opt/ros2/galactic', 'ROS_DOMAIN_ID': '42', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CMAKE_MODULE_PATH': '/opt/ros2/cyberdog/share/cyberdog_parameter/cmake', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/mi/workplace/build/learning', 'SSH_CONNECTION': '10.0.0.200 58038 10.0.0.252 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mi/workplace/install/learning/lib/python3.6/site-packages:/home/mi/workplace/install/learning/lib/python3.6/site-packages:/opt/ros2/cyberdog/lib/python3.6/site-packages:/opt/ros2/galactic/lib/python3.6/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros2/cyberdog:/opt/ros2/galactic'}, 'shell': False}
+[4.678728] (-) TimerEvent: {}
+[4.781424] (-) TimerEvent: {}
+[4.882469] (-) TimerEvent: {}
+[4.983644] (-) TimerEvent: {}
+[5.084805] (-) TimerEvent: {}
+[5.185954] (-) TimerEvent: {}
+[5.287675] (-) TimerEvent: {}
+[5.389504] (-) TimerEvent: {}
+[5.490914] (-) TimerEvent: {}
+[5.591835] (-) TimerEvent: {}
+[5.694733] (-) TimerEvent: {}
+[5.796391] (-) TimerEvent: {}
+[5.902683] (-) TimerEvent: {}
+[6.003598] (-) TimerEvent: {}
+[6.104627] (-) TimerEvent: {}
+[6.205537] (-) TimerEvent: {}
+[6.306727] (-) TimerEvent: {}
+[6.343159] (learning) StdoutLine: {'line': b'running egg_info\n'}
+[6.347576] (learning) StdoutLine: {'line': b'writing ../../build/learning/learning.egg-info/PKG-INFO\n'}
+[6.349149] (learning) StdoutLine: {'line': b'writing dependency_links to ../../build/learning/learning.egg-info/dependency_links.txt\n'}
+[6.350687] (learning) StdoutLine: {'line': b'writing entry points to ../../build/learning/learning.egg-info/entry_points.txt\n'}
+[6.351500] (learning) StdoutLine: {'line': b'writing requirements to ../../build/learning/learning.egg-info/requires.txt\n'}
+[6.352253] (learning) StdoutLine: {'line': b'writing top-level names to ../../build/learning/learning.egg-info/top_level.txt\n'}
+[6.373610] (learning) StdoutLine: {'line': b"reading manifest file '../../build/learning/learning.egg-info/SOURCES.txt'\n"}
+[6.381066] (learning) StdoutLine: {'line': b"writing manifest file '../../build/learning/learning.egg-info/SOURCES.txt'\n"}
+[6.382129] (learning) StdoutLine: {'line': b'running build\n'}
+[6.382687] (learning) StdoutLine: {'line': b'running build_py\n'}
+[6.386234] (learning) StdoutLine: {'line': b'running install\n'}
+[6.388004] (learning) StderrLine: {'line': b'/usr/local/lib/python3.6/dist-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[6.388973] (learning) StderrLine: {'line': b'  setuptools.SetuptoolsDeprecationWarning,\n'}
+[6.392381] (learning) StdoutLine: {'line': b'running install_lib\n'}
+[6.399542] (learning) StdoutLine: {'line': b'byte-compiling /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning/keeper.py to keeper.cpython-36.pyc\n'}
+[6.401498] (learning) StderrLine: {'line': b'  File "/home/mi/workplace/install/learning/lib/python3.6/site-packages/learning/keeper.py", line 12\n'}
+[6.402261] (learning) StderrLine: {'line': b'    import .get_data\n'}
+[6.402775] (learning) StderrLine: {'line': b'           ^\n'}
+[6.403222] (learning) StderrLine: {'line': b'SyntaxError: invalid syntax\n'}
+[6.403671] (learning) StderrLine: {'line': b'\n'}
+[6.411814] (-) TimerEvent: {}
+[6.412384] (learning) StdoutLine: {'line': b'running install_data\n'}
+[6.413053] (learning) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.413863] (learning) StdoutLine: {'line': b"removing '/home/mi/workplace/install/learning/lib/python3.6/site-packages/learning-0.0.0-py3.6.egg-info' (and everything under it)\n"}
+[6.415703] (learning) StdoutLine: {'line': b'Copying ../../build/learning/learning.egg-info to /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning-0.0.0-py3.6.egg-info\n'}
+[6.420375] (learning) StdoutLine: {'line': b'running install_scripts\n'}
+[6.512407] (-) TimerEvent: {}
+[6.540215] (learning) StdoutLine: {'line': b'Installing camera script to /home/mi/workplace/install/learning/lib/learning\n'}
+[6.542057] (learning) StdoutLine: {'line': b'Installing data_receive script to /home/mi/workplace/install/learning/lib/learning\n'}
+[6.542936] (learning) StdoutLine: {'line': b'Installing get_data script to /home/mi/workplace/install/learning/lib/learning\n'}
+[6.543607] (learning) StdoutLine: {'line': b'Installing keeper script to /home/mi/workplace/install/learning/lib/learning\n'}
+[6.544445] (learning) StdoutLine: {'line': b'Installing move_x script to /home/mi/workplace/install/learning/lib/learning\n'}
+[6.545057] (learning) StdoutLine: {'line': b'Installing stand script to /home/mi/workplace/install/learning/lib/learning\n'}
+[6.545567] (learning) StdoutLine: {'line': b'Installing track script to /home/mi/workplace/install/learning/lib/learning\n'}
+[6.546023] (learning) StdoutLine: {'line': b"writing list of installed files to '/home/mi/workplace/build/learning/install.log'\n"}
+[6.612660] (-) TimerEvent: {}
+[6.666378] (learning) CommandEnded: {'returncode': 0}
+[6.713993] (-) TimerEvent: {}
+[6.763140] (learning) JobEnded: {'identifier': 'learning', 'rc': 0}
+[6.772934] (-) EventReactorShutdown: {}

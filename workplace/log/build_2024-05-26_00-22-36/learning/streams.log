@@ -1,0 +1,39 @@
+[4.157s] Invoking command in '/home/mi/workplace/src/learning': PYTHONPATH=/home/mi/workplace/install/learning/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/learning build --build-base /home/mi/workplace/build/learning/build install --prefix /home/mi/workplace/install/learning --record /home/mi/workplace/build/learning/install.log --single-version-externally-managed
+[5.784s] running egg_info
+[5.788s] writing ../../build/learning/learning.egg-info/PKG-INFO
+[5.789s] writing dependency_links to ../../build/learning/learning.egg-info/dependency_links.txt
+[5.790s] writing entry points to ../../build/learning/learning.egg-info/entry_points.txt
+[5.791s] writing requirements to ../../build/learning/learning.egg-info/requires.txt
+[5.793s] writing top-level names to ../../build/learning/learning.egg-info/top_level.txt
+[5.807s] reading manifest file '../../build/learning/learning.egg-info/SOURCES.txt'
+[5.815s] writing manifest file '../../build/learning/learning.egg-info/SOURCES.txt'
+[5.815s] running build
+[5.816s] running build_py
+[5.817s] copying learning/realsense_cam_suber.py -> /home/mi/workplace/build/learning/build/lib/learning
+[5.822s] running install
+[5.823s] /usr/local/lib/python3.6/dist-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.825s]   setuptools.SetuptoolsDeprecationWarning,
+[5.826s] running install_lib
+[5.827s] copying /home/mi/workplace/build/learning/build/lib/learning/realsense_cam_suber.py -> /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning
+[5.832s] byte-compiling /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning/realsense_cam_suber.py to realsense_cam_suber.cpython-36.pyc
+[5.833s]   File "/home/mi/workplace/install/learning/lib/python3.6/site-packages/learning/realsense_cam_suber.py", line 61
+[5.834s]     def main(args==None):
+[5.834s]                   ^
+[5.835s] SyntaxError: invalid syntax
+[5.835s] 
+[5.836s] running install_data
+[5.836s] running install_egg_info
+[5.844s] removing '/home/mi/workplace/install/learning/lib/python3.6/site-packages/learning-0.0.0-py3.6.egg-info' (and everything under it)
+[5.846s] Copying ../../build/learning/learning.egg-info to /home/mi/workplace/install/learning/lib/python3.6/site-packages/learning-0.0.0-py3.6.egg-info
+[5.853s] running install_scripts
+[5.943s] Installing camera script to /home/mi/workplace/install/learning/lib/learning
+[5.945s] Installing data_receive script to /home/mi/workplace/install/learning/lib/learning
+[5.948s] Installing get_data script to /home/mi/workplace/install/learning/lib/learning
+[5.949s] Installing keeper script to /home/mi/workplace/install/learning/lib/learning
+[5.949s] Installing move_horizontal script to /home/mi/workplace/install/learning/lib/learning
+[5.950s] Installing realsense_cam_suber script to /home/mi/workplace/install/learning/lib/learning
+[5.951s] Installing rgb_cam_suber script to /home/mi/workplace/install/learning/lib/learning
+[5.953s] Installing stand script to /home/mi/workplace/install/learning/lib/learning
+[5.954s] Installing track script to /home/mi/workplace/install/learning/lib/learning
+[5.955s] writing list of installed files to '/home/mi/workplace/build/learning/install.log'
+[6.086s] Invoked command in '/home/mi/workplace/src/learning' returned '0': PYTHONPATH=/home/mi/workplace/install/learning/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/learning build --build-base /home/mi/workplace/build/learning/build install --prefix /home/mi/workplace/install/learning --record /home/mi/workplace/build/learning/install.log --single-version-externally-managed

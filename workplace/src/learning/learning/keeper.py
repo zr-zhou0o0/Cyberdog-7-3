@@ -14,7 +14,5 @@ from .move_horizontal import move_horizontal_aim_ball
 
 def main():
     move_horizontal_aim_ball()
-    location = Location()
-    location.get_data()
-    print(location.ball)
+
 

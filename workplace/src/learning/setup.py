@@ -25,7 +25,7 @@ setup(
             'get_data = learning.get_data',
             'camera = learning.camera:main',
             'rgb_cam_suber = learning.rgb_cam_suber',
-            'realsense_cam_suber = learning.realsense_cam_suber:main',
+            'line_left = learning.line_left:main',
             'track = learning.track:main',
             'move_horizontal = learning.move_horizontal:main',
             'keeper = learning.keeper:main'

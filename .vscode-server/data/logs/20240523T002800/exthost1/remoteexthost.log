@@ -1,0 +1,18 @@
+2024-05-23 00:28:10.919 [info] Extension host with pid 10766 started
+2024-05-23 00:28:11.063 [info] Lock '/home/mi/.vscode-server/data/User/workspaceStorage/67fc42d1dbadc6747a3191e9616b6a1f/vscode.lock': Lock acquired.
+2024-05-23 00:28:11.115 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2024-05-23 00:28:11.122 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-05-23 00:28:11.389 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-05-23 00:28:11.474 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-05-23 00:28:11.475 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-05-23 00:28:12.796 [info] Eager extensions activated
+2024-05-23 00:28:12.798 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-05-23 00:28:12.801 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-05-23 00:28:12.802 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2024-05-23 00:28:12.804 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2024-05-23 00:28:15.757 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2024-05-23 00:28:15.760 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2024-05-23 00:28:21.792 [warning] [Decorations] CAPPING events from decorations provider vscode.git 412
+2024-05-23 00:28:22.838 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2024-05-23 00:28:24.395 [warning] [Decorations] CAPPING events from decorations provider vscode.git 412
+2024-05-23 00:28:24.824 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'

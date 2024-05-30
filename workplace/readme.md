@@ -3,7 +3,8 @@ The keeper (white dog)
 
 # Config
 + name：az2
-+ ip：10.0.0.252
++ ip：10.0.0.254
++ bluetooth name:035
 + camera: 400 * 500
 + stereo_camera:  
   ros__parameters:  
@@ -20,24 +21,30 @@ The keeper (white dog)
     w_right: 500  
 
 # TODO
-* 自定位系统的若干尝试：
+* keeper整合所有模块和逻辑
+* 提高系统鲁棒性 意外状况应对措施 初始化细则
+* 优化守门精准度
+* 防出前后界  
+
+* 各种小模块：自定位系统的若干尝试
     * 激光雷达：范围在前半部分的3m内 x
     * TOF：范围在1.5mm到0.66m内 x
-    * 深度相机+opencv
+    * 深度相机+opencv x
         * 动态定位：通过球的两次坐标信息+距离球的两次距离信息计算白狗坐标
-        * 静态定位
-    * 左右眼相机+电视位置 判断左右是否出界
-    * 左右rgb相机 判断前后位置
+    * 左右眼相机 x
+    * 左右rgb相机 判断前后位置 判断旋转角度
     * 前置rgb相机
+        * 电视位置 判断左右位置
 * 自定位系统的应用：
     * 保证比赛过程中不会因为误差而不断出界：校准狗的位置和角度
     * 射门之后（球不在视野范围内）白狗应回到原点
     * 辅助守门判断
 * 其他任务：
-    * 在movex中添加一个display相机的功能用来调试  
-* 判断射门意图（？
-* 预测球的路径（？
-* 横过来
+    * 去掉上位机 不让用。。。 √
+    * 在movex中添加一个display相机的功能用来调试 √
+    * 判断射门意图（？
+    * 预测球的路径（？
+    * 横过来 x
 
 
 ### 提醒
@@ -86,10 +93,11 @@ The keeper (white dog)
     + ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 1}}" 
     + ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 3}}" 
 
-    + /image_rgb 400*500 bgr8
+    + ros2 topic echo /image_rgb 400*500 bgr8
     
 4. 连接Xming
-    + export DISPLAY=local ip:0.0
+    + xming host 文件中的ip需要是狗子ip
+    + export DISPLAY=10.0.0.182:0.0
         + xhost +
 5. 检查是否连接成功
     + ros2 topic list
@@ -100,7 +108,7 @@ The keeper (white dog)
 #### 如何配置Xming实现远程主机（Windows）屏显
 ##### 远程主机（自己的电脑，此处用的是Windows）
 + 下载Xming[下载网址](https://sourceforge.net/projects/xming/?source=typ_redirect)
-+ 打开Xming安装目录，目录下x0.hosts文件，在localhost下另起一行粘贴入{本机IP}（10.0.0.252），保存
++ 打开Xming安装目录，目录下x0.hosts文件，在localhost下另起一行粘贴入{本机IP}（10.0.0.254），保存
 + 如果在上一步之前打开过Xming，要关闭后重启
 + 远程配置完毕
 + 查看【远程IP】：WindowsPowershell输入ipconfig查看局域网IPv4 ip地址（10.0.0.xxx）
@@ -126,12 +134,31 @@ The keeper (white dog)
 + 修改data receive的方式
 + 成功运行keeper
 
-0525
-+ topic list:  
-+ cannot open display:  
-rebuild
-export display
-xhost+
-restart xming
-cd workplace
-change the state of cam in the config yaml
+0525 zzr:
++ pass掉了激光雷达和TOF方案
++ 打开了深度相机
++ realsense_cam_suber实现了打开深度图像（但发现清晰度太低）
++ 下一步：利用电视的位置识别狗的横向坐标
+
+0526 zzr:
++ 阅读了opencv tutorial
++ new class: realsense cam suber which can recognize the black television（未测试）
++ move horizontal终于可以运行了 加了一个display 但是ballyabs还是0
+
+0528 zzr：
++ 
+
+### 常见报错
++ cannot open display, try:
+...(useless)...  
+rebuild  
+export display  
+xhost+  
+restart xming 
+change xming hosts 
+cd workplace  
+change the state of cam in the config yaml  
+uncharge the dog  
+...  
+input the command with hand, don't copy it, and it works!!!!!  
+**reopen the dog and the camera**

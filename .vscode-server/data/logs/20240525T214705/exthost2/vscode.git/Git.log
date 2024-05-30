@@ -1,0 +1,9 @@
+2024-05-26 00:00:20.139 [info] Log level: Info
+2024-05-26 00:00:20.139 [info] Validating found git in: "D:\app2\git\Git\cmd\git.exe"
+2024-05-26 00:00:20.140 [info] Unable to find git on the PATH: "D:\app2\git\Git\cmd\git.exe". Error: spawn D:\app2\git\Git\cmd\git.exe ENOENT
+2024-05-26 00:00:20.140 [info] Validating found git in: "git"
+2024-05-26 00:00:20.140 [info] Using git "2.17.1" from "git"
+2024-05-26 00:00:20.140 [info] > git rev-parse --show-toplevel [1017ms]
+2024-05-26 00:00:20.140 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-26 00:00:20.140 [info] > git rev-parse --show-toplevel [775ms]
+2024-05-26 00:00:20.140 [info] fatal: not a git repository (or any of the parent directories): .git

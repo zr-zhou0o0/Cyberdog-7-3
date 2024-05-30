@@ -1,11 +1,11 @@
 
 [wifi]
 
-[wifi.ssid]
-type = "type"
-provider = "ip"
-
 [wifi.Cyberdog]
-type = "wifi"
 provider = "10.0.0.154"
+type = "wifi"
+
+[wifi.ssid]
+provider = "ip"
+type = "type"
 

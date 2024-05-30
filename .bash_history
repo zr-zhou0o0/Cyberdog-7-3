@@ -360,3 +360,135 @@ ros2 run learning realsense_cam_suber
 xstart
 colcon build
 ros2 run learning realsense_cam_suber
+git add -u
+git commit -m "zzr0526"
+git push
+colcon build
+ros2 run learning realsense_cam_suber
+ros2 run learning track
+git add -u
+git commit -m "zzr0526"
+git push
+git config --global --get http.proxy
+git config --globa
+git config --global
+git push
+git config --list
+git config --global --unset http.proxy
+git config --global --unset http.psroxy
+git push
+export DISPLAY=10.0.0.182:0.0
+xhost +
+ros2 topic list /az2/camera/infra1/image_rect_raw
+ros2 topic echo /az2/camera/infra1/image_rect_raw
+xstart
+export DISPLAY=10.0.0.182:0.0
+xhost +
+ros2 launch realsense2_camera on_dog.py
+ros2 launch camera_test stereo_camera.py
+ros2 topic list
+ros2 topic echo /az2/camera/infra1/image_rect_raw
+export DISPLAY=10.0.0.182:0.0
+xhost +
+cd workplace
+colcon build
+ros2 run learning track
+colcon build
+ros2 run learning keeper
+colcon build
+ros2 run learning keeper
+colcon build
+ros2 run learning keeper
+colcon build
+ros2 run learning keeper
+colcon build
+ros2 run learning keeper
+ros2 lifecycle set /az2/camera/camera configure
+ros2 lifecycle set /az2/camera/camera activate
+ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 1}}"
+ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 3}}"
+ros2 launch camera_test stereo_camera.py
+cd workplace
+colcon build
+ros2 run learning track
+ros2 lifecycle set /az2/camera/camera configure
+ros2 lifecycle set /az2/camera/camera activate
+ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 1}}"
+ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 3}}"
+ros2 topic echo /image_rgb
+ros2 topic list
+ros2 topic echo /image_rgb
+export DISPLAY=10.0.0.182:0.0
+xhost +
+export DISPLAY=10.0.0.182:0.0
+xhost +
+ros2 run learning track
+ros2 run learning stand
+ros2 run learning track
+
+cd workplace
+colcon build
+ros2 run learning track
+export DISPLAY=10.0.0.182:0.0
+xhost +
+ros2 run learning track
+ros2 run learning realsense_cam_suber
+colcon build
+ros2 run learning location_x
+colcon build
+ros2 run learning location_x
+colcon build
+ros2 run learning location_x
+colcon build
+ros2 run learning location_x
+colcon build
+ros2 run learning location_x
+colcon build
+ros2 run learning location_x
+colcon build
+ros2 run learning location_x
+colcon build
+ros2 run learning location_x
+colcon build
+ros2 run learning location_x
+colcon build
+ros2 run learning location_x
+colcon build
+ros2 run learning location_x
+colcon build
+ros2 run learning location_x
+colcon build
+ros2 run learning location_x
+colcon build
+ros2 run learning stand
+ros2 run learning location_x
+colcon build
+ros2 run learning location_x
+colcon build
+ros2 run learning location_x
+colcon build
+ros2 run learning location_x
+colcon build
+ros2 run learning location_x
+colcon build
+ros2 run learning location_x
+colcon build
+ros2 run learning location_x
+colcon build
+ros2 run learning location_x
+colcon build
+ros2 run learning location_x
+colcon build
+ros2 run learning location_x
+colcon build
+ros2 run learning location_x
+ros2 launch camera_test stereo_camera.py
+ros2 lifecycle set /az2/camera/camera configure
+ros2 lifecycle set /az2/camera/camera activate
+ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 1}}"
+ros2 service call /stereo_camera/change_state lifecycle_msgs/srv/ChangeState "{transition: {id: 3}}"
+ros2 topic echo /image_rgb
+export DISPLAY=10.0.0.182:0.0
+xhost +
+export DISPLAY=10.0.0.182:0.0
+xhost +

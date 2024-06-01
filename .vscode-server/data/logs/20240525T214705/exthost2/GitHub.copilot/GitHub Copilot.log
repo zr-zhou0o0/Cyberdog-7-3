@@ -1,6 +1,0 @@
-2024-05-26 00:00:23.126 [info] [fetcher] Using Helix fetcher, Electron fetcher is not available.
-2024-05-26 00:00:23.127 [info] [code-referencing] Public code references are enabled.
-2024-05-26 00:00:23.128 [info] [auth] Sucessfully authenticated
-2024-05-26 00:00:32.241 [info] [fetchCompletions] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 1134 ms
-2024-05-26 00:00:32.267 [info] [streamChoices] solution 0 returned. finish reason: [stop]
-2024-05-26 00:00:32.275 [info] [streamChoices] request done: headerRequestId: [592966fb-0b5d-40eb-a2bc-0cd7b3b86eca] model deployment ID: [x915af6f21301]

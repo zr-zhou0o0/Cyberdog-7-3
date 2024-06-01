@@ -2,7 +2,7 @@
 [wifi]
 
 [wifi.Cyberdog]
-provider = "10.0.0.154"
+provider = "10.0.0.217"
 type = "wifi"
 
 [wifi.ssid]

@@ -5,18 +5,18 @@
 * the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
 * the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
 *
-Server bound to /tmp/code-0c0fdab8-d289-4d64-b86d-fa371574409a
-Extension host agent listening on /tmp/code-0c0fdab8-d289-4d64-b86d-fa371574409a
+Server bound to /tmp/code-5feba426-d22d-4207-a568-eabe861cc1a2
+Extension host agent listening on /tmp/code-5feba426-d22d-4207-a568-eabe861cc1a2
 
-[21:57:32] 
-
-
+[19:02:43] 
 
 
-[21:57:32] Extension host agent started.
-[21:57:33] [<unknown>][65e8aef7][ExtensionHostConnection] New connection established.
-[21:57:33] [<unknown>][d7cddd34][ManagementConnection] New connection established.
-[21:57:38] [<unknown>][65e8aef7][ExtensionHostConnection] <13378> Launched Extension Host Process.
-[21:57:52] [<unknown>][9c6d5fed][ManagementConnection] New connection established.
-[21:57:52] [<unknown>][95e913b7][ExtensionHostConnection] New connection established.
-[21:57:52] [<unknown>][95e913b7][ExtensionHostConnection] <13656> Launched Extension Host Process.
+
+
+[19:02:43] Extension host agent started.
+[19:02:44] [<unknown>][7a0968c6][ExtensionHostConnection] New connection established.
+[19:02:44] [<unknown>][54d5f602][ManagementConnection] New connection established.
+[19:02:51] [<unknown>][7a0968c6][ExtensionHostConnection] <10666> Launched Extension Host Process.
+New EH opened, aborting shutdown
+[19:07:42] New EH opened, aborting shutdown
+[19:29:34] [<unknown>][54d5f602][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.

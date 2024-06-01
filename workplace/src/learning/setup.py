@@ -24,11 +24,12 @@ setup(
             'data_receive = learning.data_receive:main',
             'get_data = learning.get_data',
             'camera = learning.camera:main',
-            'rgb_cam_suber = learning.rgb_cam_suber',
-            'line_left = learning.line_left:main',
+            'rgb_cam_suber = learning.rgb_cam_suber:main',
+            'side_cam = learning.side_cam:main',
             'track = learning.track:main',
             'move_horizontal = learning.move_horizontal:main',
-            'keeper = learning.keeper:main'
+            'keeper = learning.keeper:main',
+            'classifier = learning.classifier:main'
         ],
     },
 )

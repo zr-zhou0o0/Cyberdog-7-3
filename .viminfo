@@ -28,22 +28,40 @@ $
 # Registers:
 
 # File marks:
-'0  264  0  /etc/nvpmodel.conf
-|4,48,264,0,1640340315,"/etc/nvpmodel.conf"
-'1  20  0  /etc/nvpmodel
-|4,49,20,0,1640340192,"/etc/nvpmodel"
+'0  267  0  ~/.git/COMMIT_EDITMSG
+|4,48,267,0,1717102317,"~/.git/COMMIT_EDITMSG"
+'1  264  0  /etc/nvpmodel.conf
+|4,49,264,0,1640340315,"/etc/nvpmodel.conf"
+'2  20  0  /etc/nvpmodel
+|4,50,20,0,1640340192,"/etc/nvpmodel"
 
 # Jumplist (newest first):
+-'  267  0  ~/.git/COMMIT_EDITMSG
+|4,39,267,0,1717102317,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1717090006,"~/.git/COMMIT_EDITMSG"
 -'  264  0  /etc/nvpmodel.conf
 |4,39,264,0,1640340315,"/etc/nvpmodel.conf"
+-'  264  0  /etc/nvpmodel.conf
+|4,39,264,0,1640340315,"/etc/nvpmodel.conf"
+-'  1  0  /etc/nvpmodel.conf
+|4,39,1,0,1640340197,"/etc/nvpmodel.conf"
 -'  1  0  /etc/nvpmodel.conf
 |4,39,1,0,1640340197,"/etc/nvpmodel.conf"
 -'  20  0  /etc/nvpmodel
 |4,39,20,0,1640340192,"/etc/nvpmodel"
 -'  20  0  /etc/nvpmodel
 |4,39,20,0,1640340192,"/etc/nvpmodel"
+-'  20  0  /etc/nvpmodel
+|4,39,20,0,1640340192,"/etc/nvpmodel"
+-'  20  0  /etc/nvpmodel
+|4,39,20,0,1640340192,"/etc/nvpmodel"
 
 # History of marks within files (newest to oldest):
+
+> ~/.git/COMMIT_EDITMSG
+	*	1717090012	0
+	"	267	0
 
 > /etc/nvpmodel.conf
 	*	1640340307	0

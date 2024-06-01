@@ -1,11 +1,11 @@
 
 [wifi]
 
-[wifi.ssid]
-password = "password"
-provider = "provider"
-
 [wifi.Cyberdog]
+provider = "10.0.0.156"
 password = ""
-provider = "10.0.0.154"
+
+[wifi.ssid]
+provider = "provider"
+password = "password"
 

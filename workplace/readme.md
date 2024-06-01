@@ -99,6 +99,7 @@ The keeper (white dog)
     + xming host 文件中的ip需要是狗子ip
     + export DISPLAY=10.0.0.182:0.0
         + xhost +
+    + **要在每个terminal都手打一遍！！**
 5. 检查是否连接成功
     + ros2 topic list
     + ros2 topic echo /<名称>

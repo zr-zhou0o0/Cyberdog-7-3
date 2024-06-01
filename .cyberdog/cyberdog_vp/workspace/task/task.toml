@@ -1,25 +1,25 @@
 
 [task]
 
-[task.terminal_default]
-file = "file"
-dependent = []
-mode = "cycle"
-style = "style"
-operate = []
-condition = "now"
-state = "run_wait"
-be_depended = []
-describe = "Terminal default abilityset task."
-
 [task.visual_default]
-file = "file"
+describe = "Visual default abilityset task."
+be_depended = []
+state = "run_wait"
 dependent = []
+file = "file"
 mode = "cycle"
 style = "style"
 operate = []
 condition = "now"
-state = "run_wait"
+
+[task.terminal_default]
+describe = "Terminal default abilityset task."
 be_depended = []
-describe = "Visual default abilityset task."
+state = "run_wait"
+dependent = []
+file = "file"
+mode = "cycle"
+style = "style"
+operate = []
+condition = "now"
 

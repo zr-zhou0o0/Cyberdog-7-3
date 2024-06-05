@@ -86,7 +86,11 @@ workplace/src/learning/learning
     h_right: 400  
     w_left: 500  
     w_rgb: 640  
-    w_right: 500  
+    w_right: 500
++ opencv的相机坐标系，y轴从上到下，x轴从左到右！！！
++ 左右相机要算平均x需要反转一个
++ rectangle得到的点是左上角而不是左下角！！！
++ 这里写的清清楚楚，sidecam是400x500而前置rgb是480x640，怎么没注意到。。。
 
 # TODO
 * keeper整合所有模块和逻辑

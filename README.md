@@ -1,5 +1,6 @@
 # Cyberdog-7-3
 The keeper (white dog)
+清华大学第三届机器狗大赛 特等奖
 
 # 路径
 workplace/src/learning/learning
